@@ -1,0 +1,491 @@
+http get https://www.google.com
+http get https://www.google.com | get head
+ls
+ls | where type = dir
+ls | where type = "dir"
+ls | where type == "dir"
+n
+ps
+nvim test.txt
+curl -sS https://starship.rs/install.sh | sh
+$nu.env-path
+$nu.config-path
+cd ./Source/
+ls
+cd ./Mechanica
+ls
+cd ./VTess/
+brew install carapace
+cd ./.config/nushell/
+ls
+nvim env.nu
+nvim config.nu
+nnn
+cd ../..
+ls
+ls -a
+nnn
+cd ./.config/nushell/
+http get https://raw.githubusercontent.com/jarun/nnn/refs/heads/master/misc/quitcd/quitcd.nu > quitcd.nu
+http get https://raw.githubusercontent.com/jarun/nnn/refs/heads/master/misc/quitcd/quitcd.nu  | save quitcd.nu
+nvim quitcd.nu
+nvim config.nu
+n
+which nu
+which nu | get path
+$env.EDITOR
+nu config
+config nu
+echo Desktop/
+kitty
+git
+brew help
+config nu 
+kitty
+$nu.env-path
+env nu
+config env 
+config nu
+path add ($env.HOME | path join ".local" "bin")
+config env
+echo $env.path
+carapce
+carapace
+n
+config env
+nvim config.nu
+$env.path
+$env.path | split row (char esep)
+$env.path | split row (char esep) | prepend 'something/else'
+$env.path | prepend 'something/else'
+nvim config.nu
+$env.path
+nvim config.nu
+ls
+kitty
+config nu 
+n
+nvim config.nu 
+nvim env.nu
+config nu 
+n
+nvim aliases.nu
+restart-audio
+n
+nvim config.nu 
+restart-audio
+.
+n
+nvim .bashrc 
+nvim config.nu 
+nvim aliases.nu
+restart-audio
+n
+jj status
+jj diff --tool=idea
+jj diffedit --tool=idea
+jj diffedit --help
+jj diffedit --tool idea
+jj diffedit
+jj config edit 
+jj config edit --user
+jj config edit --repo
+jj diffedit --tool idea
+jj diffedit --tool idea --debug
+idea
+jj config edit --repo
+nvim .bashrc 
+config env
+n
+nvim env.nu 
+n
+jj diffedit --tool idea
+jj status
+jj new --help
+jj commit --help
+jj commit --tool idea
+n
+jj commit --tool idea
+jj log
+jj undo
+jj status
+jj commit --tool idea
+jj status
+jj describe --help
+jj log
+jj describe k -m "CHanged the color theme and added a new settings panel"
+jj log
+jj diffedit --tool idea
+jj log
+jj edit wur
+jj edit wur --ignore-immutable 
+jj edit wuo
+jj status
+jj describe -m "Made the new settings panel functional"
+jj commit --tool idea
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/fbd2e8e001e16ea0d76efdea56a214fd497e0760/null/2/the.lord.of.the.rings.the.rings.of.power.s02e07.hdr.2160p.web.h265-successfulcrab.mkv
+http --help
+http get --help
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id = VFS454MRUOBAG
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id = 'VFS454MRUOBAG'
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id == 'VFS454MRUOBAG'
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id == 'VFS454MRUOBAG' | get links
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id == 'VFS454MRUOBAG' | get links | get 0
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id == 'VFS454MRUOBAG' | get links | get 0 | get 0
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id == 'VFS454MRUOBAG' | get links | get 0 | get 0 | mpv
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where id == 'VFS454MRUOBAG' | get links | get 0 | get 0 | echo
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents
+http get --headers [Authorization 'Bearer 7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'] https://api.real-debrid.com/rest/1.0/torrents | where filename =~ 'Rings' | get links | get 0 | get 0
+let rd = https://api.real-debrid.com/rest/1.0/torrents?auth_token=7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ
+let rd = 'https://api.real-debrid.com/rest/1.0/torrents?auth_token=7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'
+http get $rd | where filename =~ 'Rings' | get links | get 0 | get 0
+$env.NU_LIB_DIRS
+n
+$env.XDG_CONFIG_HOME
+config nu
+config env
+nvim .
+http get $rd | where filename =~ 'Rings' | get links | get 0 | get 0
+http get $rd | where filename =~ 'Rings' | get links | get 0 | get 0 | mpv $in
+$rd
+let rd = 'https://api.real-debrid.com/rest/1.0/downloads?auth_token=7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'
+http get $rd | where filename =~ 'Rings' | get links | get 0 | get 0 | mpv $in
+http get $rd | where filename =~ 'Rings'
+http get $rd | where filename =~ 'Rings' | get link
+http get 'https://api.real-debrid.com/rest/1.0/streaming/transcode/QNWTZGERVOOTC?auth_token=7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ'
+http get 'https://api.real-debrid.com/rest/1.0/streaming/transcode/QNWTZGERVOOTC?auth_token=7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ' | get liveMP4
+http get 'https://api.real-debrid.com/rest/1.0/streaming/transcode/QNWTZGERVOOTC?auth_token=7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ' | get liveMP4 | get full
+http get 'https://api.real-debrid.com/rest/1.0/streaming/transcode/QNWTZGERVOOTC?auth_token=7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ' | get liveMP4 | get full | mpv $in
+http get $rd | where filename =~ 'Rings' | columns
+http get $rd | where filename =~ 'Rings' | get download
+http get $rd | where filename =~ 'Rings' | get download | get 0 | mpv $in
+n
+jj status
+jj diff
+jj describe -m "Added a MenuAssets file"
+jj status 
+jj new
+jj status
+jj describe -m "Started fixing up the level select screen" 
+$env.NU_VERSION
+$env.NU_VERSION | describe 
+jj status
+jj diffedit 
+jj diffedit --tool idea
+jj new
+jj branch --help
+jj branch set develop
+jj bookmark set develop
+jj git push
+jj bookmark set develop @-
+jj bookmark set develop -r @-
+jj bookmark set develop -r @- --allow-backwards
+jj git push
+jj git push -r @-
+n
+cat 0.Tutorial/1.jump-tutorial.svg 
+cat 0.Tutorial/1.jump-tutorial.svg | str replace 'color' 'colour'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace 'color(' 'colour('
+cat 0.Tutorial/1.jump-tutorial.svg | str replace 'color(0x52' 'colour('
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all 'color(0x52' 'colour('
+keybindings list 
+cat 0.Tutorial/1.jump-tutorial.svg | grep 'color'
+let section1Color = '0x521F6DFF'
+$section1Color
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all 'color('+$section1Color+'' 'color(0x1234567FF)'
+'s' + $section1Color + 'e'
+'s'+$section1Color+'e'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all 'color(' + $section1Color + '' 'color(0x1234567FF)'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color((0x\d+))' 'color(0x1234567FF)'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color\((0x\d+)\)' 'color(0x1234567FF)'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color\(0x[0-9A-F]+)\)' 'color(0x1234567FF)'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color\(0[xX][0-9a-fA-F])\)' 'color(0x1234567FF)'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace -r 'color\(0[xX][0-9a-fA-F])\)' 'color(0x1234567FF)'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace -r '0[xX][0-9a-fA-F]' '0x1234567FF'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace -r '0[xX][0-9a-fA-F]' '0x1234567FF' | grep 12345
+cat 0.Tutorial/1.jump-tutorial.svg | str replace -r '0[xX][0-9a-fA-F]+' '0x1234567FF' | grep 12345
+cat 0.Tutorial/1.jump-tutorial.svg | str replace -r 'color(0[xX][0-9a-fA-F]+)' '0x1234567FF' | grep 12345
+cat 0.Tutorial/1.jump-tutorial.svg | str replace -r 'color\(0[xX][0-9a-fA-F]+\)' '0x1234567FF' | grep 12345
+cat 0.Tutorial/1.jump-tutorial.svg | str replace -r 'color\(0[xX][0-9a-fA-F]+\)' 'color(0x1234567FF)' | grep 12345
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\)' 'color(0x1234567FF)'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x1234567FF);'
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x1234567FF);' | save 0.Tutorial/1.jump-tutorial.svg
+cat 0.Tutorial/1.jump-tutorial.svg | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x1234567FF);' | save 0.Tutorial/1.jump-tutorial.svg -f
+ls 0.Tutorial/
+ls 0.Tutorial/ | get name
+ls 0.Tutorial/ | get name | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x1234567FF);'
+ls 0.Tutorial/ | get name | cat | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x1234567FF);'
+ls 0.Tutorial/ | get name | cat $in | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x1234567FF);'
+ls 0.Tutorial/ | get name | cat ...$in | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x1234567FF);'
+ls 0.Tutorial/ | get name | each {|f| cat $f}
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | save 0.Tutorial/$f -f }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | save '0.Tutorial/' + $f -f }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | save $'0.Tutorial/$(f)' -f }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | save $'0.Tutorial/($f)' -f }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | $'0.Tutorial/($f)' }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | $f }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | save $f }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x654321FF);' | save $f -f }
+ls 0.Tutorial/ | get name | each {|f| cat $f | str replace --all -r 'color\(0[xX][0-9a-fA-F]+\);' 'color(0x388E3CFF);' | save $f -f }
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/a886f1e7613a9d47a6a05568b85ec03b5960c4ab/null/8/S02E08.mkv
+n
+jj status
+jj diffedit --tool idea
+jj describe -m "Fixed the colours of the sections"
+jj edit @
+jj edit @+
+jj bookmark set develop
+jj status
+jj git push
+jj new
+jj undo
+n -p
+nnn -p
+nnn -p .
+nnn -p -
+config nu
+n
+nvim quitcd.nu 
+n
+nvim quitcd.nu 
+n
+nvim ./.config/nushell/scripts/quitcd.nu 
+n
+n | ls $in
+n | ls
+n | split /
+Hello | split l
+Hello | split 'l'
+split --help
+Hello | split row l
+echo Hello | split row l
+n | split row /
+$(n) | split row /
+ls -l $(nnn -p -)
+n | split row /
+n | cd
+pwd
+n
+jj status
+jj describe -m "Added a pause menu"
+n
+jj status
+jj diffedit --tool idea
+jj status
+git -v
+jj status
+jj new
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/d4f5905dcfc17097aa9bc58bc9436ced6d199ca6/null/0/Eighth.Grade.2018.2160p.WEB-DL.DD5.1.DV.MP4.x265-DVSUX.mp4
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/e1ecc5ffba5a9db9c8e48716f0ddfc1a21ff0258/null/0/Eighth.Grade.2018.2160p.WEB-DL.DTS-HD.MA.5.1.DV.MKV.x265-DVSUX.mkv
+n
+jj status
+n
+jj status
+jj describe -m "Made the pause menu pause the game"
+jj diffedit --tool idea
+jj status
+jj diffedit --tool idea
+jj new
+jj bookmark set @-
+jj log
+jj bookmark delete @-
+jj bookmark delete @-*
+jj log
+jj bookmark set develop -r @-
+jj log
+jj git push
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/2ce5a192f33a5b07547e763831a763a4e2220fbe/null/2/the.penguin.s01e02.dv.hdr.2160p.web.h265-successfulcrab.mkv
+n
+jj status
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/00057d83ca18e61762d88f730209e5b23d7ac302/null/2/The.Penguin.S01E03.Bliss.2160p.MAX.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+jj help file 
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/1454002c40c1292a70e798d021eedff8b5e8eba1/null/3/The.Penguin.S01E04.Centanni.2160p.MAX.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+n
+n | cd 
+n
+./What-a-Legend.sh
+n
+jj git clone https://github.com/DominicDolan/DukeUI.git
+n
+mv ./DukeUI/* .
+n
+mpv https://74-4.download.real-debrid.com/d/SZKY756GUS2EA/The.Penguin.S01E05.2160p.WEB-DL.DV.HDR.ENG.LATINO.HINDI.DDP5.1.Atmos.H265.MKV-BEN.THE.MEN.mkv
+http get 'https://watchsomuch.to/Movies/smith'
+http get 'https://watchsomuch.to/Movies/smith' | open
+http get 'https://watchsomuch.to/Movies/smith' | into xml
+http get 'https://watchsomuch.to/Movies/smith' | from xml
+http get 'https://watchsomuch.to/Movies/smith' | from html
+ps
+ps | grep idea
+ps | grep intellij
+kill -15 5113
+kill -9 5113
+ps | where name =~ idea
+ps | where name =~ kitty
+ps | where name =~ kitty | get pid
+n
+jj status
+jj diff
+ps | where name =~ idea | get pid
+ps | where name =~ idea | get 1
+ps | where name =~ idea | get 0
+ps | where name =~ idea | get first
+ps | where name =~ idea | first
+ps | where name =~ idea | first | get pid
+ps | where name =~ idea | first | get pid | kill -9 $it
+ps | where name =~ idea | first | get pid | kill -9
+ps | where name =~ idea | select pid
+ps | where name =~ idea | get pid
+ps | where name =~ idea | first | get pid
+ps | where name =~ idea | first | get pid | kill -9 $in
+idea
+toolbox
+jetbrains-toolbox 
+jj status
+n
+jj status
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/5f470556173e43d0d75bbbf25dc03321a53ffb33/null/5/The.Penguin.S01E06.Gold.Summit.2160p.MAX.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+nginx
+sudo apt-get install nginx 
+nginx --help
+nginx -help
+nginx -h
+jetbrains-toolbox 
+sudo apt-get install postgresql
+sudo apt-get install rabbitmq-server
+n
+bun init
+curl -fsSL https://bun.sh/install | bash
+n
+bun init
+bun -v
+curl -fsSL https://bun.sh/install | bash
+n
+nvim env.nu 
+$env.BUN_INSTALL
+$env
+$env | grep bun
+$env | grep BUN
+$env.PATH
+$env.HOME
+$'($env.HOME)/.bun'
+nvim env.nu 
+bun -v
+jetbrains-toolbox 
+n
+bun init
+n
+bun init
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+nvm -h
+n
+nu env
+nu config
+config env
+nvm -h
+config nu
+$env.NVM_DIR
+config env
+nvm -h
+curl -fsSL https://fnm.vercel.app/install | bash
+fnm list-remote
+fnm install 23.2.0
+node -v
+fnm use 23
+fnm env
+config nu
+fnm env
+fnm use 23
+n
+config env
+config nu
+fnm use 23
+node -v
+config nu
+fnm use 23
+node -v
+node -h
+$env | grep NODE
+which node
+n
+bun create tauri@latest
+cargo
+config env
+cargo
+sudo apt update
+sudo apt install libwebkit2gtk-4.1-dev \<\n>  build-essential \<\n>  curl \<\n>  wget \<\n>  file \<\n>  libxdo-dev \<\n>  libssl-dev \<\n>  libayatana-appindicator3-dev \<\n>  librsvg2-dev
+sudo apt install libwebkit2gtk-4.1-dev \<\n>  build-essential <\n>  curl <\n>  wget <\n>  file <\n>  libxdo-dev <\n>  libssl-dev <\n>  libayatana-appindicator3-dev <\n>  librsvg2-dev
+sudo apt install libwebkit2gtk-4.1-dev <\n>  build-essential <\n>  curl <\n>  wget <\n>  file <\n>  libxdo-dev <\n>  libssl-dev <\n>  libayatana-appindicator3-dev <\n>  librsvg2-dev
+n
+bun install
+n
+./What-a-Legend.sh
+sudo apt-get install nginx-extras
+onlyoffice-documentserver onlyoffice/ds-port
+bun run tauri dev
+n
+nvim install.sh 
+nvim .bashrc
+cd ~
+nvim .bashrc
+n
+config env
+sudo bun
+bun
+nvim .bashrc
+nvim /etc/sudoers 
+sudo nvim /etc/sudoers 
+sudo nano /etc/sudoers 
+sudo nvim /etc/sudoers 
+n
+sudo bun run tauri dev
+nvim .bashrc
+n
+sudo bun run tauri dev
+n
+sudo bun run tauri dev
+sudo cargo
+sudo systemctl start ds-example
+echo onlyoffice-documentserver onlyoffice/ds-port select 80 | sudo debconf-set-selections
+nvim /etc/apt/sources.list.d/onlyoffice.list 
+onlyoffice-documentserver
+n
+bun run tauri dev
+sudo systemctl start ds-example
+systemctl restart ds-converter ds-docservice ds-metrics ds-example
+sudo netstat -tulpn
+n
+which node
+node -v
+fnm use 23
+node -v
+which noe
+which node
+which jj | nvim
+which jj | get path | vim
+which jj | get path | nvim
+which jj | get path | first | nvim
+which jj | get path | first | open nvim
+jj status
+n
+jj status
+open --help
+config env 
+config nu
+n
+nvim aliases.nu 
+play
+nvim .bashrc 
+nvim .bash_aliases 
+sudo apt install xclip
+xclip --hrlp
+xclip --help
+xclip -selection clipboard
+xclip -selection clipboard -o -t
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/582440f66cc4d475ea4e8267cd063c16f9477519/null/0/Arcane%20S02E04%20Paint%20the%20Town%20Blue%201080p%20NF%20WEB-DL%20DDP5%201%20Atmos%20DV%20HDR%20H%20265-FLUX.mkv
+sudo apt-get update 
+sudo apt-get install timeshift
+timeshift-launcher 
+dotfiles add ./.config/nushell/
