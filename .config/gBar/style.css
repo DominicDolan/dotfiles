@@ -1,0 +1,407 @@
+* {
+  all: unset;
+  font-family: "CaskaydiaCove NF";
+}
+
+.popup {
+  background-color: #282a36;
+  color: #50fa7b;
+  border-radius: 16px;
+}
+
+.reboot-button *,
+.sleep-button *,
+.lock-button *,
+.exit-button *,
+.power-button *,
+.bt-button *,
+.bt-button *,
+.bt-button *,
+.bt-button *,
+.audio-icon *,
+.mic-icon *,
+.bt-label-on *,
+.bt-label-off *,
+.bt-label-connected * {
+  font-family: "Material Symbols Outlined";
+}
+
+menu {
+  padding: 8px 8px 8px 8px;
+}
+
+.bar, tooltip {
+  background-color: #282a36;
+  border-radius: 0px;
+}
+
+.right {
+  border-radius: 16px;
+}
+
+.right * {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.time-text {
+  font-size: 16px;
+}
+
+.title-text {
+  font-size: 14px;
+  color: #a7aabe;
+}
+
+.reboot-button {
+  color: #6272a4;
+}
+
+.sleep-button {
+  color: #6272a4;
+}
+
+.lock-button {
+  color: #6272a4;
+}
+
+.exit-button {
+  color: #6272a4;
+}
+
+.power-button {
+  color: #ff5555;
+}
+
+.system-confirm {
+  color: #50fa7b;
+}
+
+trough {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: none;
+  background-color: #44475a;
+  min-width: 4px;
+  min-height: 4px;
+}
+
+slider {
+  border-radius: 0%;
+  border-width: 1px;
+  border-style: none;
+  margin: -9px -9px -9px -9px;
+  min-width: 16px;
+  min-height: 16px;
+  background-color: transparent;
+}
+
+highlight {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: none;
+  min-width: 6px;
+  min-height: 6px;
+}
+
+.audio-icon {
+  font-family: "Material Symbols Outlined";
+  color: #ffb86c;
+}
+
+.audio-volume {
+  color: #ffb86c;
+}
+.audio-volume trough {
+  background-color: #44475a;
+}
+.audio-volume slider {
+  background-color: transparent;
+}
+.audio-volume highlight {
+  background-color: #ffb86c;
+}
+
+.mic-icon {
+  color: #bd93f9;
+}
+
+.mic-volume {
+  color: #bd93f9;
+}
+.mic-volume trough {
+  background-color: #44475a;
+}
+.mic-volume slider {
+  background-color: transparent;
+}
+.mic-volume highlight {
+  background-color: #bd93f9;
+}
+
+.package-outofdate {
+  margin: -5px -5px -5px -5px;
+  color: #ff5555;
+}
+
+.bt-num {
+  color: #1793D1;
+}
+
+.bt-label-on {
+  color: #1793D1;
+}
+
+.bt-label-off {
+  color: #1793D1;
+}
+
+.bt-label-connected {
+  color: #1793D1;
+}
+
+.disk-widget * {
+  color: #bd93f9;
+}
+
+.disk-util-progress {
+  background-color: #44475a;
+}
+
+.vram-widget * {
+  color: #ffb86c;
+}
+
+.vram-util-progress {
+  background-color: #44475a;
+}
+
+.ram-widget * {
+  color: #f1fa8c;
+}
+
+.ram-util-progress {
+  background-color: #44475a;
+}
+
+.gpu-widget * {
+  color: #8be9fd;
+}
+
+.gpu-util-progress {
+  background-color: #44475a;
+}
+
+.cpu-widget * {
+  color: #50fa7b;
+}
+
+.cpu-util-progress {
+  background-color: #44475a;
+}
+
+.battery-widget *, .cpu-widget * {
+  font-family: "CaskaydiaCove NF";
+  font-size: 16px;
+}
+
+.battery-widget {
+  color: #ff79c6;
+}
+
+.battery-util-progress {
+  background-color: #44475a;
+}
+
+.battery-charging {
+  color: #ffb86c;
+}
+
+.battery-warning {
+  color: #ff5555;
+}
+
+.network-data-text {
+  color: #50fa7b;
+}
+
+.network-up-under {
+  color: #44475a;
+}
+
+.network-up-low {
+  color: #50fa7b;
+}
+
+.network-up-mid-low {
+  color: #f1fa8c;
+}
+
+.network-up-mid-high {
+  color: #ffb86c;
+}
+
+.network-up-high {
+  color: #bd93f9;
+}
+
+.network-up-over {
+  color: #ff5555;
+}
+
+.network-down-under {
+  color: #44475a;
+}
+
+.network-down-low {
+  color: #50fa7b;
+}
+
+.network-down-mid-low {
+  color: #f1fa8c;
+}
+
+.network-down-mid-high {
+  color: #ffb86c;
+}
+
+.network-down-high {
+  color: #bd93f9;
+}
+
+.network-down-over {
+  color: #ff5555;
+}
+
+.ws-dead {
+  color: #44475a;
+}
+
+.ws-inactive {
+  color: #6272a4;
+}
+
+.ws-visible {
+  color: #8be9fd;
+}
+
+.ws-current {
+  color: #f1fa8c;
+}
+
+.ws-active {
+  color: #50fa7b;
+}
+
+@keyframes connectanim {
+  from {
+    background-image: radial-gradient(circle farthest-side at center, #1793D1 0%, transparent 0%, transparent 100%);
+  }
+  to {
+    background-image: radial-gradient(circle farthest-side at center, #1793D1 0%, #1793D1 100%, transparent 100%);
+  }
+}
+@keyframes disconnectanim {
+  from {
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, #1793D1 0%, #1793D1 100%);
+  }
+  to {
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, transparent 100%, #1793D1 100%);
+  }
+}
+@keyframes scanonanim {
+  from {
+    color: #f1fa8c;
+  }
+  to {
+    color: #50fa7b;
+  }
+}
+@keyframes scanoffanim {
+  from {
+    color: #50fa7b;
+  }
+  to {
+    color: #f1fa8c;
+  }
+}
+.bt-bg {
+  background-color: #282a36;
+  border-radius: 16px;
+}
+
+.bt-header-box {
+  font-family: "Material Symbols Outlined";
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 8px;
+  font-size: 24px;
+  color: #1793D1;
+}
+
+.bt-body-box {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.bt-body-box * {
+  font-family: "CaskaydiaCove NF";
+}
+
+.bt-button {
+  border-radius: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.bt-button.active {
+  animation-name: connectanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.bt-button.inactive {
+  animation-name: disconnectanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.bt-button.failed {
+  color: #ff5555;
+}
+
+.bt-close {
+  color: #ff5555;
+  background-color: #44475a;
+  border-radius: 16px;
+  padding: 0px 8px 0px 7px;
+  margin: 0px 0px 0px 8px;
+}
+
+.bt-scan {
+  color: #f1fa8c;
+  background-color: #44475a;
+  border-radius: 16px;
+  padding: 2px 11px 0px 7px;
+  margin: 0px 0px 0px 10px;
+  font-size: 18px;
+}
+.bt-scan.active {
+  animation-name: scanonanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.bt-scan.inactive {
+  animation-name: scanoffanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/*# sourceMappingURL=style.css.map */
