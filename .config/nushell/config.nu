@@ -901,6 +901,7 @@ use ~/.cache/starship/init.nu
 source ~/.cache/carapace/init.nu
 use quitcd.nu n
 source aliases.nu
+use task.nu
 
 if ($env.NVM_DIR | path exists) and ($"($env.NVM_DIR)/nvm.sh" | path exists) {
     ^bash -c $"source ($env.NVM_DIR)/nvm.sh"

@@ -5,7 +5,11 @@
 
 spawn-at-startup "~/.config/niri/startup/bing-wallpaper"
 spawn-at-startup "bash" "-c" "cat /proc/acpi/button/lid/LID0/state | grep closed | awk 'END { if(index($0, \"closed\") != 0) {print \"off\"} else {print \"on\"}}' | xargs niri msg output eDP-1"
+spawn-at-startup "/usr/local/bin/gBar bar DP-7 eDP-1"
 
+environment {
+    DISPLAY ":0"
+}
 
 // Input device configuration.
 // Find the full list of options on the wiki:
@@ -44,7 +48,7 @@ input {
     // warp-mouse-to-focus
 
     // Focus windows and outputs automatically when moving the mouse into them.
-    // focus-follows-mouse
+    focus-follows-mouse max-scroll-amount="25%"
 }
 
 // You can configure outputs by their name, which you can find
@@ -84,6 +88,15 @@ output "eDP-1" {
     //position x=1280 y=0
 }
 
+output "LG Electronics LG TV SSCR2 0x01010101" {
+    scale 2.5
+}
+
+output "Dell Inc. AW3423DWF 3TB42S3" {
+    scale 0.9
+    mode "3440x1440@99.982"
+}
+
 output "DP-7" {
     position x=0 y=0
 }
@@ -96,7 +109,7 @@ output "DP-6" {
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 6
+    gaps 12
 
     // - "never", default behavior, focusing an off-screen column will keep at the left
     //   or right edge of the screen.
@@ -111,7 +124,7 @@ layout {
         // For example, you can perfectly fit four windows sized "proportion 0.25" on an output.
         // The default preset widths are 1/3, 1/2 and 2/3 of the output.
         proportion 0.5
-        proportion 0.66667
+        proportion 0.75
         proportion 0.25
 
         // Fixed sets the width in logical pixels exactly.
@@ -148,7 +161,7 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#d0d0d0"
+        active-color "#30C030"
 
         // Color of the ring on inactive monitors.
         inactive-color "#505050"
@@ -172,11 +185,11 @@ layout {
     border {
         // The settings are the same as for the focus ring.
         // If you enable the border, you probably want to disable the focus ring.
-        off
+        // off
 
-        width 4
-        active-color "#ffc87f"
-        inactive-color "#505050"
+        width 3
+        active-color "#30C03070"
+        inactive-color "#50505070"
 
         // active-gradient from="#ffbb66" to="#ffc880" angle=45 relative-to="workspace-view"
         // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
@@ -188,8 +201,8 @@ layout {
     // Top and bottom struts will simply add outer gaps in addition to the area occupied by
     // layer-shell panels and regular gaps.
     struts {
-        // left 64
-        // right 64
+        left 64
+        right 64
         // top 64
         // bottom 64
     }
@@ -242,7 +255,29 @@ window-rule {
     match app-id=r#"^org\.wezfurlong\.wezterm$"#
     default-column-width {}
 }
+window-rule {
+    match app-id="kitty"
+    default-column-width { 
+        proportion 0.25; 
+    }
+}
 
+
+window-rule {
+    match app-id="pavucontrol"
+    open-floating true
+    default-floating-position x=10 y=10 relative-to="top-right"
+    default-window-height { proportion 0.75; }
+    default-column-width { proportion 0.25; }
+}
+
+window-rule {
+    match is-floating=true
+
+    focus-ring {
+        off
+    }
+}
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
@@ -285,7 +320,7 @@ binds {
     XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
     XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 
-    Mod+Q { close-window; }
+    Mod+Backspace { close-window; }
 
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
@@ -352,6 +387,9 @@ binds {
     Mod+Ctrl+U         { move-column-to-workspace-down; }
     Mod+Ctrl+I         { move-column-to-workspace-up; }
 
+    Mod+V { toggle-window-floating; }
+    Mod+Shift+V { switch-focus-between-floating-and-tiling; }
+
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+Page_Down { move-window-to-workspace-down; }
     // ...
@@ -401,25 +439,33 @@ binds {
     //
     // For example, with 2 workspaces + 1 empty, indices 3, 4, 5 and so on
     // will all refer to the 3rd workspace.
-    Mod+1 { focus-workspace 1; }
-    Mod+2 { focus-workspace 2; }
-    Mod+3 { focus-workspace 3; }
-    Mod+4 { focus-workspace 4; }
-    Mod+5 { focus-workspace 5; }
-    Mod+6 { focus-workspace 6; }
-    Mod+7 { focus-workspace 7; }
-    Mod+8 { focus-workspace 8; }
-    Mod+9 { focus-workspace 9; }
-    Mod+Ctrl+1 { move-column-to-workspace 1; }
-    Mod+Ctrl+2 { move-column-to-workspace 2; }
-    Mod+Ctrl+3 { move-column-to-workspace 3; }
-    Mod+Ctrl+4 { move-column-to-workspace 4; }
-    Mod+Ctrl+5 { move-column-to-workspace 5; }
-    Mod+Ctrl+6 { move-column-to-workspace 6; }
-    Mod+Ctrl+7 { move-column-to-workspace 7; }
-    Mod+Ctrl+8 { move-column-to-workspace 8; }
-    Mod+Ctrl+9 { move-column-to-workspace 9; }
+    Mod+Shift+1 { focus-workspace 1; }
+    Mod+Shift+2 { focus-workspace 2; }
+    Mod+Shift+3 { focus-workspace 3; }
+    Mod+Shift+4 { focus-workspace 4; }
+    Mod+Shift+5 { focus-workspace 5; }
+    Mod+Shift+6 { focus-workspace 6; }
+    Mod+Shift+7 { focus-workspace 7; }
+    Mod+Shift+8 { focus-workspace 8; }
+    Mod+Shift+9 { focus-workspace 9; }
+    Mod+Shift+Ctrl+1 { move-column-to-workspace 1; }
+    Mod+Shift+Ctrl+2 { move-column-to-workspace 2; }
+    Mod+Shift+Ctrl+3 { move-column-to-workspace 3; }
+    Mod+Shift+Ctrl+4 { move-column-to-workspace 4; }
+    Mod+Shift+Ctrl+5 { move-column-to-workspace 5; }
+    Mod+Shift+Ctrl+6 { move-column-to-workspace 6; }
+    Mod+Shift+Ctrl+7 { move-column-to-workspace 7; }
+    Mod+Shift+Ctrl+8 { move-column-to-workspace 8; }
+    Mod+Shift+Ctrl+9 { move-column-to-workspace 9; }
+    
+    Mod+1 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "google-chrome"; }
+    Mod+Ctrl+1 { spawn "google-chrome";}
 
+    Mod+2 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "idea"; }
+    Mod+Ctrl+2 { spawn "idea";}
+
+    Mod+4 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "pavucontrol"; }
+    Mod+3 { spawn "nu" "/home/doghouse/.config/niri/scripts/open-mpv-from-clipboard.nu"; }
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+1 { move-window-to-workspace 1; }
 

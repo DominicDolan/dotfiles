@@ -489,3 +489,1460 @@ sudo apt-get update
 sudo apt-get install timeshift
 timeshift-launcher 
 dotfiles add ./.config/nushell/
+n
+jj staus
+jj status
+jj new -m "Started implementing a new version of Duke UI"
+jj describe -m "Started implementing a new version of Duke UI" -r @-
+jj bookmark set dukeui
+jj git push
+jj status
+jj status
+jj diff
+n
+jj status
+jj diff
+jj describe -m "Removed print statements"
+jj new
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/c1c890f5c9b7a6ecca2b29a55cbf738012c36b51/null/2/the.penguin.s01e06.dv.hdr.2160p.web.h265-successfulcrab.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/2c3f88fc16a5e9f3e7101caaadbcad7c4daf8361/null/2/the.penguin.s01e07.dv.hdr.2160p.web.h265-successfulcrab.mkv
+n
+./What-a-Legend.sh
+vi .
+n
+./What-a-Legend.py
+./What-a-Legend.sh
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/b4081ac273bda467df42ccf911117d49c52eb058/null/0/silo.s02e02.dual-audio.spa-eng.2160p.web-dl.dv.ddp5.1.atmos.hdr10plus.h.265-dem3nt3.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/edb996824ac7360ed323c3b743ae1942f5e7f5be/null/4/Arcane.S02E05.Blisters.and.Bedrock.NF.DV.HDR.WEB-DL.1080p.by.AKTEP.mkv
+vi .
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/0ab91cb0b11f1ea7aaf21d4d5cdbf5ec80c54cae/null/7/The.Penguin.S01E08.A.Great.Or.Little.Thing.2160p.MAX.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/edb996824ac7360ed323c3b743ae1942f5e7f5be/null/5/Arcane.S02E06.The.Message.Hidden.Within.the.Pattern.NF.DV.HDR.WEB-DL.1080p.by.AKTEP.mkv
+sudo apt-get install -y gcc clang libudev-dev libgbm-dev libxkbcommon-dev libegl1-mesa-dev libwayland-dev libinput-dev libdbus-1-dev libsystemd-dev libseat-dev libpipewire-0.3-dev libpango1.0-dev libdisplay-info-dev
+cargo --verison
+cargo -v
+cargo -V
+rustup update 
+n
+git clone https://github.com/YaLTeR/niri.git
+n
+cargo build --release
+n
+nvim put_files.nushell
+config nu
+n
+n | nvim
+n | nvim $in
+n
+nvim init.lua 
+n
+nvim neo-tree.lua 
+n
+nvim .
+n
+nvim put_files.nu
+./put_files.nu
+nu ./put_files.nu 
+nvim put_files.nu 
+nu ./put_files.nu 
+sudo nu ./put_files.nu 
+n
+nvim put_files.nu 
+sudo nu ./put_files.nu 
+nvim put_files.nu 
+sudo nu ./put_files.nu 
+vi text.txt
+sudo init 3
+n
+q
+CROME
+CHROME
+CHORME
+CHROME
+chorme
+chrome
+toobox:qnvim .
+nvim .
+:q!
+systemctl startgdm3
+systemctl start gdm3
+n
+sudo apt-get install fuzzel
+fuzzel
+sudo apt-get install waybar
+jetbrains-toolbox 
+n
+git -v
+n
+git clone https://github.com/Supreeme/xwayland-satellite.git
+git clone https://github.com/Supreeeme/xwayland-satellite.git
+n
+cargo build
+cargo run
+sudo service gdm3 stop
+sudo apt-get wleave
+sudo apt-get install wleave
+sudo systemctl start gdm3
+systemctl start gdm3
+sudo init 3
+sudo gnome-session
+systemctl start gdm3
+sudo init 3
+systemctl start gdm3
+basj
+sudo init 3
+niri
+niri msg exit
+niri msg exit()
+niri msg --help
+niri msg action --help
+niri msg action quit
+gnome-extensions
+gnome-extensions list
+gnome-extensions list --help
+gnome-extensions list --active
+gnome-extensions list enable paperwm@paperwm.github.com
+gnome-extensions enable paperwm@paperwm.github.com
+gnome-extensions list --active
+gnome-extensions list --inactive
+gnome-extensions prefs
+chrome
+nvim temp
+which google-chrome
+n
+nvim ./google-chrome.desktop 
+sudo nvim ./google-chrome.desktop 
+google-chrome --password-store=gnome-libsecret
+wleave
+n
+nvim config.kdl 
+dotfiles status
+niri msg action quit
+swaybg
+sudo apt-get install swaybg
+n
+./bing-wallpaper
+n
+./bing-wallpaper
+swaybg -m fill -i ~/Pictures/Wallpaper/daily.jpeg 
+wleave
+nvim swaybg.service 
+cd ~
+sudp apt-get install wleave
+sudo apt-get install wleave
+n
+git clone https://github.com/AMNatty/wleave.git
+n
+cargo run --release
+sudo apt-get install gtk-layer-shell
+sudo apt-get install gtk-layer-shell-0
+sudo add-apt-repository ppa:gtk-layer-shell
+sudo add-apt-repository ppa:source/gtk-layer-shell
+sudo add-apt-repository ppa:ubuntu/gtk-layer-shell
+n
+waybar
+sudo apt-get install libgtk-layer-shell0
+cargo build --release
+cargo install dynisland
+sudo apt install libgtk-4-dev
+cargo install dynisland
+sudo apt install libgtk4-layer-shell0
+sudo apt install libgtk4-layer-shell-dev
+sudo apt install libgtk4-layer-shell-sys
+cargo install gtk4_layer_shell_sys
+sudo apt install gtk4-layer-shell
+sudo apt install libgtk4-layer-shell0
+sudo apt update
+sudo apt install libgtk4-layer-shell0
+lsb_release -a
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install libgtk4-layer-shell0
+lsb_release -a
+sudo apt install libgtk-4-dev libadwaita-1-dev
+sudo apt install libwayland-dev libxkbcommon-dev
+cargo install dynisland
+sudo apt install libgtk4-layer-shell-dev
+sudo apt install libgtk-4-dev libadwaita-1-dev
+sudo apt install libwayland-dev libxkbcommon-dev
+n
+sudo apt install git build-essential meson libgtk-4-dev<\n>git clone https://gitlab.gnome.org/jadahl/gtk4-layer-shell.git<\n>cd gtk4-layer-shell<\n>meson setup builddir<\n>meson compile -C builddir<\n>sudo meson install -C builddir
+sudo apt install git build-essential meson libgtk-4-dev<\n>git clone https://salsa.debian.org/debian/gtk4-layer-shell.git<\n>cd gtk4-layer-shell<\n>meson setup builddir<\n>meson compile -C builddir<\n>sudo meson install -C builddir
+sudo apt install meson ninja-build libwayland-dev libgtk-4-dev gobject-introspection libgirepository1.0-dev gtk-doc-tools python3 valac<\n>
+meson setup -Dexamples=true -Ddocs=true -Dtests=true build
+sudo ninja -C build install
+sudo ldconfig
+cargo install dynisland
+dynisland
+dynisland restart
+dynisland daemon
+dynisland kill
+dynisland default-config >> ~/.config/dynisland/dynisland.ron<\n>touch ~/.config/dynisland/dynisland.scss
+dynisland default-config | save ~/.config/dynisland/dynisland.ron<\n>touch ~/.config/dynisland/dynisland.scss
+cd ..
+sudo dynisland default-config | save ~/.config/dynisland/dynisland.ron<\n>touch ~/.config/dynisland/dynisland.scss
+save --help
+sudo dynisland default-config | save ~/.config/dynisland/dynisland.ron -f<\n>touch ~/.config/dynisland/dynisland.scss
+sudo dynisland default-config | sudo save ~/.config/dynisland/dynisland.ron -f<\n>touch ~/.config/dynisland/dynisland.scss
+n
+sudo dynisland default-config | sudo save ~/.config/dynisland/dynisland.ron
+dynisland default-config
+dynisland default-config | sudo save ~/.config/dynisland/dynisland.ron
+dynisland default-config | save ~/.config/dynisland/dynisland.ron
+mkdir -p ~/.config/dynisland/{modules,layouts}
+dynisland daemon
+niri msg action quit
+dynisland daemon
+n
+nvim dynisland.ron 
+n
+dynisland default_config
+dynisland default-config
+n
+git clone --recursive https://github.com/cr3eperall/dynisland
+cd dynisland/
+cargo build --release --features completions
+dynisland restart
+dynisland kill
+n
+git clone https://github.com/scorpion-26/gBar
+cd gBar/
+meson setup build
+sudo apt-get install build-essential libgtk-3-dev
+sudo apt-get install --reinstall pkg-config<\n>sudo /usr/share/pkg-config-dpkghook update
+meson setup build
+pkg-config --cflags gtk+-3.0
+sudo apt install --reinstall libgtk-3-dev
+meson setup build
+sudo apt install libgstreamer1.0-dev
+meson setup build
+n
+nvim meson.build 
+meson setup build
+nvim meson.build 
+pkg-config --cflags gtk+-3.0
+pkg-config --cflags gtk+-3.0asd
+pkg-config --cflags gtk-layer-shell-0
+pkg-config --help
+sudo apt install libgtk-layer-shell-0
+sudo apt install libgtk-layer-shell0
+sudo apt reinstall libgtk-layer-shell0
+meson setup build
+nvim meson.build 
+meson setup build
+nvim meson.build 
+sudo apt install libgtk-layer-shell-dev
+meson setup build
+sudo apt install libpulse
+sudo apt install libpulse-dev
+meson setup build
+sudo apt install libsass-dev
+meson setup build
+sudo apt install dbusmenu-gtk3-0.4
+sudo apt install libdbusmenu
+sudo apt install gir1.2-dbusmenu-gtk3-0.4
+meson setup build
+sudo apt install libdbusmenu-gtk3-4
+sudo apt install libdbusmenu-glib-dev
+meson setup build
+sudo apt install gir1.2-dbusmenu-glib-0.4
+sudo apt install gir1.2-dbusmenu-gtk3-0.4
+sudo apt install libdbusmenu-gtk3-4
+sudo apt install libdbusmenu-gtk3-dev
+meson setup build
+ninja -C build && sudo ninja -C build install
+ninja -C build and sudo ninja -C build install
+niri msg outputs
+gBar bar DP-7
+n
+mkdir ~/.config/gBar/
+cp ./css/* ~/.config/gBar/
+cp --recursive ./css/* ~/.config/gBar/
+n
+nvim style.css 
+n
+nvim config.kdl 
+n
+nvim waybar.service 
+n
+waybar
+which gBar
+nvim config.kdl 
+niri msg action exit
+niri msg action quit
+n
+git clone https://github.com/Supreeeme/xwayland-satellite.git
+cd xwayland-satellite/
+cargo build
+cargo install xcb-util-cursor-sys
+sudo apt install xcb-util-cursor-sys
+sudo apt install libxcb-cursor0
+sudo apt install libxcb-cursor-dev
+cargo build --release -F systemd
+cargo run
+cargo install
+n
+./xwayland-satellite
+n
+nvim xwayland-satellite.d 
+n
+nvim libxwayland_satellite.d 
+n
+nvim config.kdl 
+gBar audio DP-7
+n
+nvim config 
+n
+cp ./config ~/.config/gBar/
+n
+nvim config 
+gBar bar DP-7
+niri msg action quit
+which niri
+n
+nvim config.kdl 
+n
+which niri | cd
+which niri
+which niri | get path | cd
+which niri | get path
+which niri | get path | get 0 | cd
+n
+which gBar
+nvim gbar.service
+gBar bar DP-7
+n
+nvim config 
+sudo apt uninstall waybar
+sudo apt remove waybar
+niri msg action quit
+n
+mv gbar.service ../
+n
+ln -s ../gbar.service .
+n
+gBar bar DP-7
+n
+gBar bar DP-7
+nvim style.css 
+nvim style.
+nvim style.scss 
+n
+mv style.css ./style/
+mv style.scss ./style/
+n
+gBar bar DP-7
+nvim style.scss 
+rm style.scss
+gBar bar DP-7
+cp /usr/local/share/gBar/* ~/.config/gBar/
+n
+pavucontrol
+sudo apt install pavucontrol
+gBar bar DP-7 eDP-1
+gBar bar eDP-1
+gBar bar --help
+gBar bar
+n
+nvim config
+gBar bar eDP-1
+n
+nvim style.css 
+gBar bar eDP-1
+nvim .
+gBar bar eDP-1
+nvim style.css 
+nvimconfig
+gBar bar eDP-1
+echo TZ
+$env.TZ
+$env
+date
+date now
+date humanize 
+date humanize now
+date now | date humanize
+date
+date list-timezone 
+locale
+gBar bar eDP-1
+locale --help
+locale -a
+sudo localectl set-locale LANG=en_IE.UTF-8
+locale
+gBar bar eDP-1
+sudo gBar bar eDP-1
+n
+jj status
+jj diff
+jj log
+jj describe -m "Added layouts and added a way to make custom content builders"
+jj set bookmark dukui
+jj bookmark set dukui
+jj log
+jj bookmark --help 
+jj bookmark delete dukui
+jj bookmark set dukeui
+jj log
+jj git push
+gBar bar eDP-1
+n
+nvim config
+n
+cp gbar-edp1.service ./gbar-dp7.service
+n
+nvim gbar-edp1.service 
+ln -s ./gbar-dp7.service ./niri.service.wants/
+ln -s ./gbar-edp1.service  ./niri.service.wants/
+n
+nnn -de
+n
+config nu
+n
+nvim quitcd.nu 
+n
+nnn -de
+nvim quitcd.nu 
+gBar bar eDP-1
+niri nsg outputs
+niri msg outputs
+pavucontrol 
+restart-audio
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/375e4da5270345240ec975eae09874aba6635693/null/2/Silo.S02E03.Solo.2160p.ATVP.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/551ef9a348c63f00a7c6a76688769dc8c6ec9b39/null/6/Arcane.S02E07.MULTi.2160p.HDR.DV.x265.DemonAngeX.mkv
+wc
+wc "Hello"
+wc --help
+wc -w "Hello"
+"Hello" | wc -w
+"So I keep talking about values and how important they are, about how they are the cause of and solution to a lot of heartache. I really really really want you to understand what I'm saying because I think it will let you understand exactly how I am feeling and more importantly make our relationship much stronger. There are a few things I'm not talking about here like going to Italy for Christmas and a few other things that are important to talk about but at another time.␍<\n>You have a very strong set of values. Values about family, values about food, values about being clean and taking good care of the house. There are some less important values you have like how you don't like me walking too far in front of you when we are going somewhere, you feel like I'm not being protective or caring or something. But there are also very important values like how my dad shouldn't invite himself to your parents' house. Or like how the bathroom is seemingly never clean enough for you. Or simply values like how you want to feel chosen, you want someone to be there beside you at the hospital when you need me most.␍<\n>The issue is, I have values too. Some of my values are just different to yours but some of them directly clash with yours. For example, I value my free time, and my own space. I live for the times when I can do what I enjoy doing, especially at the weekend when I'm not tired. So, if you ask me to clean the apartment every weekend, I'm not going to like that because I feel like it has a very high cost. Why clean the house every weekend and then get no chances to enjoy living in it (maybe every second weekend?).␍<\n>Because I value free time, that means I also value speed and efficiency. So, when we're walking somewhere I have it in my head that we should get there fast and efficiently which, of course, leads to me walking in front of you. In my head I just feel like it's a time for movement not affection.␍<\n>I very much value personal choice as well, everyone is free to choose how they want to live (well, adults at least). If you say that you want a beer, I will give you one, I won't say no because you're on a diet or something, you can make that decision. And if you say that I should go home from the hospital, I'll do it.␍<\n>I'm saying all of this because I want you to understand that nearly all our issues are caused by our different belief systems. Our different set of values. I do a lot of things that make you annoyed but I'm not trying to be mean, I don't want to hurt you. I just have a different set of values and beliefs, that's all.␍<\n>So, this leads to a big problem. My values are a part of me. They are my personality. I inherited my values form the life I lived, from my family, from the friends I grew up with, from my culture. These values are ingrained into who I am. But, unfortunately, 'who I am' is conflicting with 'who you are' and causing pain. More often than not, this pain causes you to get frustrated and annoyed. Since you feel pain you want me to have "accountability". I was the one who caused this pain after all. But is it me that is causing the pain or is it that the differences between you and me are hurting both of us? By saying that my values are the ones that caused this, you are more or less implying that my values are just wrong and that your values are universally correct. It feels like your solution to our problems would be for me to abandon my own values and adopt your fully and wholeheartedly.␍<\n>Maybe you might disagree with this but for me it really feels like this is what's happening to me. My values and therefore my personality are being overpowered by yours and are being slowly but surely chipped away. It feels like you think my own values are worthless and just getting in the way. It feels like you are pushing my values down, making them smaller and diminishing me as a person. So what do you think will be left of me after that succeeds?" | wc -w
+"So I keep talking about values and how important they are, about how they are the cause of and solution to a lot of heartache. I really really really want you to understand what I'm saying because I think it will let you understand exactly how I am feeling and more importantly make our relationship much stronger. There are a few things I'm not talking about here like going to Italy for Christmas and a few other things that are important to talk about but at another time.␍<\n>You have a very strong set of values. Values about family, values about food, values about being clean and taking good care of the house. There are some less important values you have like how you don't like me walking too far in front of you when we are going somewhere, you feel like I'm not being protective or caring or something. But there are also very important values like how my dad shouldn't invite himself to your parents' house. Or like how the bathroom is seemingly never clean enough for you. Or simply values like how you want to feel chosen, you want someone to be there beside you at the hospital when you need them the most.␍<\n>" | wc -w
+207/752
+207 / 752
+ls
+ls | explore
+http get "https://api.coindesk.com/v1/bpi/currentprice.json"
+http get "https://api.coindesk.com/v1/bpi/currentprice.json" | explore
+pavucontrol 
+gBar bar DP-7
+cargo install --locked pueue
+pueue status
+$env.NU_LIB_DIRS
+$env.NU_LIB_DIRS | get 0
+$env.NU_LIB_DIRS.0
+save --help
+http get "https://raw.githubusercontent.com/nushell/nu_scripts/refs/heads/main/modules/background_task/task.nu" | save $"($in)/task.nu"
+http get "https://raw.githubusercontent.com/nushell/nu_scripts/refs/heads/main/modules/background_task/task.nu" | save $"($env.NU_LIB_DIRS.0)/task.nu"
+n
+$nu.config-path
+$nu.config-path | nvim
+$nu.config-path | nvim $in
+task status
+n
+cp systemd.pueued.service ~/.config/systemd/user/niri.service.wants/
+n
+which pueued
+which pueued | get path.0  | cd
+which pueued | get path.0
+which pueued | get path.0 | cd $in
+which pueued | get path.0 | enter
+which pueued | get path.0 | cd $it
+n
+cp pueued /usr/bin/
+sudo cp pueued /usr/bin/
+sudo cp pueue /usr/bin/
+n
+niri msg outputs --json
+niri msg --json outputs
+into --help
+niri msg --json outputs | from json 
+niri msg --json outputs | from json | explore
+niri validate
+mpv https://22-4.download.real-debrid.com/d/HMSUVBOYWIUYK/Game.of.Thrones.S07E04.The.Spoils.of.War.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-PB69.mkv
+ls
+sort --help
+ls | sort
+ls | get name
+ls | sortby
+ls | sort-by
+ls | column
+ls | column name
+ls | sort-by name
+ls | sort-by size
+ls | sort-by size -r
+ls | sort-by size -r | get name
+ls | sort-by size -r | get name.0
+ls | sort-by size -r | get name | get
+ls | sort-by size -r | get name | join
+ls | sort-by size -r | get name | str join
+ls | sort-by size -r | get name | str join ", "
+ls | sort-by modified  -r | get name | str join ", "
+http get 'https://dummyjson.com/RESOURCE/?limit=10&skip=5&select=key1,key2,key3'
+http get "https://jsonapi.org/articles?include=author"
+http get "https://jsonapi.org/examples/articles?include=author"
+http get "https://jsonplaceholder.typicode.com/todos/1"
+http get "https://jsonplaceholder.typicode.com/todos/3"
+http get "https://jsonplaceholder.typicode.com/todos"
+http get "https://jsonplaceholder.typicode.com/todos" | to yaml
+http get "https://jsonplaceholder.typicode.com/todos" | to yaml | from yaml
+http get "https://jsonplaceholder.typicode.com/todos" | explore
+http get "https://jsonplaceholder.typicode.com/users" | explore
+http get "https://jsonplaceholder.typicode.com/users" | sort-by name
+http 
+task status 
+n
+cp pueued.service ../
+rm pueued.service
+cd ..
+ln -s ./pueued.service ./niri.service.wants/
+n
+gBar bar DP-7
+task status 
+sleep 3
+sleep --help
+sleep 3sec
+task spawn "gBar bar DP-7"
+task spawn {gBar bar DP-7}
+task status
+task kill 0
+task spawn --help
+task spawn {gBar bar DP-7} -l gBar
+task status
+task status | get status
+task status | get status/0
+task status | get status.0
+task clean
+task status
+task kill gBar
+task kill --help
+task status | get name | find "gBar"
+task status
+task status | get label | find "gBar"
+task status | find "gBar"
+task status | find "gBar" | first
+task status | find "gBar" | first | get id
+task status | find "gBar" | first | get id | task kill
+task spawn {gBar bar DP-7} -l gBar
+task status
+task kill --help
+task kill --all
+task status
+task status | get status
+task status | explore
+task kill 2
+task clean
+task status | explore
+task status
+gBar bar DP-7
+gBar bar DP-8
+task spawn {gBar bar DP-8} -l gBar
+niri msg outputs
+niri msg outputs --json | from json
+niri msg --json outputs | from json
+niri msg --json outputs | from json | filter {|x| $x.current_mode != null}
+niri msg --json outputs | from json | get current_mode
+niri msg --json outputs | from json | get eDP-1
+niri msg --json outputs | from json | get 0
+niri msg --json outputs | from json | items
+niri msg --json outputs | from json | flatten
+niri msg --json outputs | from json | flatten | explore
+niri msg --json outputs | from json | columns
+niri msg --json outputs | from json | split column ' '
+niri msg --json outputs | from json | each {values}
+niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null }
+niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }
+xrandr
+cls
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/71f7ce9a822df267b18090a36d8efc14905663f7/null/2/lioness.2023.s02e07.2160p.web.h265-successfulcrab.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/b787d3fcfc82b194439f5a175c152ff2e608f7d4/null/3/Dune.Prophecy.S01E02.2160p.MAX.WEB-DL.DV.HDR%5BBen%20The%20Men%5D.mp4
+niri msg outputs
+niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }
+task spawn {niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }}
+task status
+task kill --all
+task status
+task clean
+task status
+task spawn {niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }}
+niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }
+nvim .
+$env.NVIM_APPNAME=nvimexample
+env.NVIM_APPNAME=nvimexample
+config env
+env.NVIM_APPNAME = nvimexample
+env.NVIM_APPNAME = "nvimexample"
+$env.NVIM_APPNAME = "nvimexample"
+nvim .
+pavucontrol 
+n
+xeyes
+./xwayland-satellite
+cp ./xwayland-satellite.d ~/.config/systemd/
+n
+mv ./xwayland-satellite.d ./user/
+n
+nvim xwayland-satellite.d 
+rm xwayland-satellite.d
+n
+which niri
+sudo cp ./xwayland-satellite /usr/bin/
+xwayland-satellite 
+n
+cp ./xwayland-satellite.service ~/.config/systemd/user/
+n
+ln -s ./xwayland-satellite.service ./niri.service.wants/
+jetbrains-toolbox 
+$env.JDK_JAVA_OPTIONS = "-Dawt.toolkit.name=WLToolkit"
+ps | grep toolbox
+ps
+ps | grep jetbrains
+kill -9 10678
+kill -9 10684
+jj git init --help
+jj git init --colocate 
+jj status
+jj describe -m "Added module for advent of code day 1"
+jj new
+jj status
+kitty
+jj status
+jj describe -m "Finished Day 1"
+jj new
+niri msg action exit
+gBar bar DP-8
+niri msg outputs
+gBar bar DP-7
+task spawn {niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }}
+nu config
+config nu
+n
+nvim aliases.nu 
+niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }
+niri-gBar 
+niri msg --json outputs; | from json
+niri msg --json outputs | from json
+niri-gBar 
+nu --help
+nu `ls`
+task spawn {nu --execute `niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name }`}
+task status
+task --help
+task log 
+pueue status
+n
+task clean
+task status 
+task spawn {niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name } }
+task stat
+task kill 0
+task spawn { niri-gBar }
+pueue status
+n
+task clean
+task status
+task spawn {niri msg --json outputs | from json | each {values} | filter {|x| $x.current_mode != null } | each {|x| gBar bar $x.name } }
+jj status 
+jj git remote https://github.com/DominicDolan/AdventOfCode24.git
+jj git remote add https://github.com/DominicDolan/AdventOfCode24.git
+jj git remote add origin https://github.com/DominicDolan/AdventOfCode24.git
+jj status 
+jj bookmark set day_01
+jj git pull
+jj git fetch
+jj new --help
+jj log
+jj new @ y
+jj diffedit --tool idea
+jj diffedit --help
+jj resolve --help
+jj resolve --tool idea
+jj log
+jj resolve --tool idea
+jj st
+jj log
+cargo build
+cargo run
+jj status
+jj ci - "Merged day 1 and day 2"
+jj st
+jj ci -m "Merged day 1 and day 2"
+pavu
+jj status
+jj describe -m "Day 01 part 2"
+jj bookmark set master
+jj bookmark --help 
+jj git push
+jj bookmark track master@origin
+jj git push
+jj log
+jj new wo
+jj log
+jj edit o
+jj git push
+jj status
+jj log
+jj edit wo
+jj squash --help
+jj log
+jj edit o
+jj squash --from ll --into wo
+jj log
+jj git push
+jj edit wl
+jj status
+jj squash
+jj log
+jj edit o
+jj log
+jj git push
+gBar bar DP-7
+jj st
+jj desc -m "Day 2 part 2"
+jj bookmark move master
+jj git push
+jj desc -m "Added allow dead code calls"
+jj st
+jj desc -m "Day 3"
+jj bookmark move master
+jj git push
+jj desc -m "Day 03 part 2"
+jj bookmark move master
+jj git push
+gBar bar DP-7
+pavucontrol --help
+pavucontrol --t=3
+pavucontrol -t=3
+pavucontrol -t 3
+pavucontrol
+n
+./What-a-Legend.sh
+gBar bar DP-7
+task spawn { gBar bar DP-7 }
+jj st
+jj co -m "Day 4 part 1"
+jj ci -m "Day 4 part 1"
+jj bookmark move master -r @-
+jj bookmark move --help
+jj bookmark move master --to @-
+jj log
+jj git push
+kitty
+jj st
+jj describe -m "Day 4 part 2"
+jj bookmark move master
+jj git push
+gBar bar DP-7
+task spawn { gBar bar DP-7 }
+jj describe -m "Day 5 part 1"
+jj bookmark move master
+jj git push 
+jj st
+jj desc -m "Day 5 part 2"
+jj bookmark move master
+jj git push
+task status
+task restart 0
+task status
+task restart 1
+task status
+task clean
+task status
+task spawn { gBar bar DP-7 }
+pavu
+flatpak install flathub org.kde.kdenlive
+flatpak install flathub com.obsproject.Studio
+n
+mpv "./2024-12-08 23-40-57.mkv" 
+n
+flatpak install org.gimp.GIMP.flatpakref
+jj st
+jj desc -m "Day 6 setup"
+jj bookmark move master
+jj git push
+kitty
+task clean 
+task spawn { gBar bar DP-7 }
+jj git fetch
+jj log
+jj edit n
+jj new n
+jj st
+jj desc -m "Day 6 part 2 attempt"
+jj bookmark move master
+jj git push
+kitty
+jj st
+jj desc -m "Day 6 part 2 attempt 2"
+jj bookmark move master
+jj git push
+gBar bar DP-7
+gBar bar DP-2
+gBar bar DP-1
+./What-a-Legend.sh
+pavucontrol
+task spawn { gBar bar DP-7 }
+n
+task spawn {pavucontrol}
+n
+./What-a-Legend.sh
+task spawn { gBar bar DP-7 }
+task spawn { gBar bar DP-8 }
+task spawn { gBar bar DP-7 }
+task spawn { niri-gBar }
+n
+./What-a-Legend.sh
+n
+./unetbootin-linux64-702.bin
+chmod +x ./unetbootin-linux64-702.bin 
+./unetbootin-linux64-702.bin
+sudo ./unetbootin-linux64-702.bin
+xwayland-satellite 
+task spawn { xwayland-satellite }
+sudo ./unetbootin-linux64-702.bin
+sudo QT_X11_NO_MITSHM=1 ./Downloads/unetbootin-linux64-702.bin 
+./unetbootin-linux64-702.bin
+sudo QT_X11_NO_MITSHM=1 ./Downloads/unetbootin-linux64-702.bin 
+sudo add-apt-repository ppa:gezakovacs/ppa<\n>sudo apt-get update<\n>sudo apt-get install unetbootin
+unetbootin
+sudo add-apt-repository --remove ppa:gezakovacs/ppa
+unetbootin
+./Downloads/
+chmod +x woeusb-5.2.4.bash 
+./woeusb-5.2.4.bash
+df
+df --help
+df -T
+df -h
+lsblk
+unmount dev/sda
+n
+./unetbootin-linux64-702.bin
+sudo QT_X11_NO_MITSHM=1 /home/doghouse/Downloads/unetbootin-linux64-702.bin
+sudo apt install \<\n>    bash \<\n>    dosfstools \<\n>    findutils \<\n>    grep \<\n>    gawk \<\n>    grub-common \<\n>    grub-pc-bin \<\n>    ntfs-3g \<\n>    p7zip-full \<\n>    parted \<\n>    util-linux \<\n>    wget \<\n>    wimtools
+cd ./Downloads/
+lsblk 
+n
+ls
+n
+ls
+lsblk 
+./woeusb-5.2.4.bash --device X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso /dev/sda
+umount /dev/sda
+umount /dev/sda1
+sudo ./woeusb-5.2.4.bash --device X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso /dev/sda
+lsblk
+unzip
+n
+unzip ./ventoy-1.0.99-linux.tar.gz 
+tar --help
+tar -xzf ventoy-1.0.99-linux.tar.gz 
+n
+niri msg --json outputs | from json
+niri msg --json outputs | from json | explore
+sudo snap install lxd-imagebuilder --classic --edge 
+nb
+n
+ls
+ls X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso
+sudo lxd-imagebuilder repack-windows X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso win11.lxd.iso
+sudo apt-get install -y --no-install-recommends genisoimage libwin-hivex-perl rsync wimtools
+sudo lxd-imagebuilder repack-windows X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso win11.lxd.iso
+n
+lxc --help
+sudo snap install lxd 
+lxc --help
+lxc init --help
+lxc init win11 --vm --empty
+lxd init
+sudo lxd init
+sudo lxc init win11 --vm --empty
+lxc config device override win11 root size=50GiB
+sudo lxc config device override win11 root size=50GiB
+lxc config set win11 limits.cpu=4 limits.memory=8GiB
+sudo lxc config set win11 limits.cpu=4 limits.memory=8GiB
+lxc config device add win11 vtpm tpm path=/dev/tpm0
+sudo lxc config device add win11 vtpm tpm path=/dev/tpm0
+lxc config device add win11 install disk source=/home/doghouse/Downloads/win11.lxd.iso boot.priority=10
+sudo lxc config device add win11 install disk source=/home/doghouse/Downloads/win11.lxd.iso boot.priority=10
+lxc start win11 --console=vga
+sudo lxc start win11 --console=vga
+sudo apt-get install -y --no-install-recommends virt-viewer
+sudo lxc start win11 --console=vga
+lxc --help
+lxc list
+sudo lxc list
+sudo lxc restart win11
+lxc stop --help
+lxc stop win11 -f
+sudo lxc stop win11 -f
+sudo lxc stop win11
+sudo lxc list
+sudo lxc start win11 --console=vga
+sudo lxc stop -f win11
+sudo lxc list
+sudo lxc stop -f win11
+sudo lxc list
+sudo lxc start win11 --console=vga
+gnome-extensions prefs
+gnome-extensions list
+gnome-extensions --help
+gnome-extensions disable paperwm@paperwm.github.com 
+sudo lxc stop -f win11
+sudo lxc list
+sudo lxc start win11 --console=vga
+xterm
+xeyes
+sudo lxc list
+sudo lxc stop -f win11
+sudo lxc list
+sudo lxc start win11 --console=vga
+xeyes
+sudo apt-get install -y xterm
+sudo lxc stop -f win11
+sudo lxc list
+xterm
+gnome-extensions enable paperwm@paperwm.github.com 
+sudo lxc stop -f win11
+sudo -E lxc start win11 --console=vga
+$env.DISPLAY
+sudo echo $env.DISPLAY
+sudo lxc --help
+sudo lxc list
+sudo lxc console win11
+sudo lxc console --help
+sudo lxc console --type=vga
+sudo lxc console --type vga
+sudo lxc console --type="vga"
+sudo lxc console win11 --type="vga"
+lxc console win11 --type="vga"
+sudo xeyes
+xhost local:root
+sudo DISPLAY=$DISPLAY gedit /etc/profile
+sudo xeyes
+lxc console win11 --type="vga"
+N
+sudo lxc console win11 --type="vga"
+n
+sudo lxc config --help
+n
+sudo lxc stop -f win11
+lxc --help
+sudo lxc rename --help
+sudo lxc rename win11 win11old
+sudo lxc list
+n
+cp --help 
+mv ./win11.lxd.iso ./win11old.lxd.iso
+ls
+sudo lxd-imagebuilder repack-windows ./Downloads/Win11_24H2_EnglishInternational_x64.iso win11.lxd.iso
+lxc init win11 --vm --empty
+sudo lxc init win11 --vm --empty
+sudo lxc config device override win11 root size=50GiB
+sudo lxc config set win11 limits.cpu=4 limits.memory=8GiB
+sudo lxc config device add win11 vtpm tpm path=/dev/tpm0
+sudo lxc config device add win11 install disk source=/home/doghouse/Downloads/win11.lxd.iso boot.priority=10
+n
+sudo lxc config device add win11 install disk source=/home/doghouse/win11.lxd.iso boot.priority=10
+lxc start win11 --console=vga
+sudo lxc start win11 --console=vga
+sudo lxc config device override win11 root size=60GiB
+sudo lxc config device override --help
+sudo lxc config device --help
+sudo lxc config device set win11 root size=60GiB
+sudo lxc start win11old --console=vga
+n
+sudo lxc start win11old --console=vga
+sudo lxc list
+sudo lxc stop -f win11
+sudo lxc stop -f win11old
+sudo lxc list
+sudo lxc config device set win11old root size=60GiB
+sudo lxc start win11old --console=vga
+sudo lxc list
+lxc --help
+lxc image --help
+lxc image export --help
+sudo lxc list
+n
+sudo lxc stor --help
+sudo lxc storage --help
+sudo lxc storage list
+n
+ls
+ls -a
+n
+sudo ls
+cd lxd
+sudo ls
+sudo cd disks
+cd disks
+cd -s disks
+sudo ls ./disks
+sudo ls ./virtual-machines
+sudo ls ./virtual-machines/win11old
+pwd
+sudo file /var/snap/lxd/common/lxd/virtual-machines/win11
+sudo file /var/snap/lxd/common/lxd/storage-pools/default/virtual-machines/win11
+sudo ls /var/snap/lxd/common/lxd/storage-pools/default/virtual-machines/win11
+qemu-img
+sudo apt install qemu-utils
+qemu-img
+sudo qemu-img info /var/snap/lxd/common/lxd/storage-pools/default/virtual-machines/win11
+# List contents of the VM directory<\n>sudo ls -la /var/snap/lxd/common/lxd/storage-pools/default/virtual-machines/win11
+lxc storage list
+sudo lxc storage list
+sudo lxc storage show default
+sudo zpool list
+sudo zfs list
+sudo apt-get install zpool
+sudo fdisk -l
+lsblk
+which zfs
+sudo zpool list
+sudo zfs list
+sudo zfs list -t all
+sudo lxc console win11old --type="vga"
+sudo lxc stop -f win11old
+sudo lxc list
+n
+sudo lxc export win11old ./win11.tar.gz
+lxc --help
+lxc publish --help
+sudo tar -tf win11.tar.gz 
+sudo zfs list -t all
+sudo zfs list
+sudo zpool list
+lsblk
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/791341e8adc186e16d0cd47c6aaa404ec8af9236/null/0/Ludwig.S01E01.1080p.HDTV.H264-ORGANiC%5BEZTVx.to%5D.mkv
+n
+./What-a-Legend.sh
+n
+sudo nvim ./google-chrome.desktop 
+sudo zpool list
+sudo zfs list -t all
+sudo ls -l /dev/zvol/default/virtual-machines/win11.block
+lsbulk
+sudo lsblk
+sudo lxc list
+sudo lxc start win11old --console=vga
+xhost local:root
+sudo lxc start win11old --console=vga
+lsblk
+sudo lxc console win11old --type="vga"
+sudo lxc stop win11old
+sudo lxc stop -f win11old
+sudo ls /dev/zd*
+sudo ls /dev/
+lsblk
+sudo lxc start win11old --console=vga
+sudo lxc stop -f win11old
+lsblk
+mpv https://22-4.download.real-debrid.com/d/HCXJZJNRIMENU/The%20Substance%20%282024%29%20%281080p%20BluRay%20x265%20Silence%29.mkv
+task spawn { mpv https://22-4.download.real-debrid.com/d/HCXJZJNRIMENU/The%20Substance%20%282024%29%20%281080p%20BluRay%20x265%20Silence%29.mkv }
+task list
+task --help
+task status 
+task clean
+task status 
+task kill 3
+task status 
+task kill 0
+task remove 3
+task status 
+task log 4 
+task remove 4
+task remove 5
+task remove 6
+task remove 7
+task remove 8
+task remove 9
+task status 
+task spawn { mpv https://22-4.download.real-debrid.com/d/HCXJZJNRIMENU/The%20Substance%20%282024%29%20%281080p%20BluRay%20x265%20Silence%29.mkv }
+task status
+task remove 0
+mpv https://22-4.download.real-debrid.com/d/HCXJZJNRIMENU/The%20Substance%20%282024%29%20%281080p%20BluRay%20x265%20Silence%29.mkv
+task status
+sudo lxc list
+modprobe --help
+sudo modprobe zfs
+zfs --help
+sudo zfs get type default/virtual-machines/win11old.block
+sudo zfs set volmode=dev default/virtual-machines/win11old.block
+ls /dev/zvol/default/virtual-machines/
+sudo journalctl -u snap.lxd.daemon
+sudo lxc config show win11old
+lsblk
+dd --help
+sudo file /dev/zvol/default/virtual-machines/win11old.block
+ls ../../../
+sudo ls ../../../
+sudo ls /dev/
+lsblk
+lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS
+sudo fdisk -l /dev/sda
+mount | grep sda
+mount
+lsblk -o NAME,MOUNTPOINTS /dev/sda
+sudo umount /dev/sda*
+lsblk
+sudo umount /dev/sda*
+sudo wipefs -a /dev/sda
+lsblk
+ls /dev/zvol/default/virtual-machines
+sudo dd if=/dev/zvol/default/virtual-machines/win11old.block of=/dev/sda bs=4M status=progress conv=fsync
+lsblk
+xrandr -q
+xrandr --output eDP-1 --brightness 0.5
+sudo cat /sys/class/backlight/intel_backlight/max_brightness
+echo 400 | sudo tee /sys/class/backlight/intel_backlight/brightness
+n
+./What-a-Legend.sh
+pavucontrol
+n
+./What-a-Legend.sh
+n
+chmod +x Inkscape-e7c3feb-x86_64.AppImage 
+./Inkscape-e7c3feb-x86_64.AppImage
+n
+jj st
+jj diff
+jj log
+jj log @::
+jj log -r @::
+jj log -r ::@
+jj edit rw --ignore-immutable 
+jj edit wur --ignore-immutable 
+jj edit y
+jj diff --from wur --to @
+jj st
+n
+jj st
+jj diff
+jj log
+jj new --from ym
+jj new --r ym
+jj new ym
+jj diff --from v
+jj diff --to v
+jj log
+jj log
+jj edit t
+jj log -r ::@
+jj edit ls --ignore-immutable 
+jj edit t
+jj log
+jj edit tk
+jj git init 
+jj git export
+jj diffedit --tool idea --from ym --to v
+jj log
+jj edit v
+jj log
+jj edit y
+jj st
+./Inkscape-e7c3feb-x86_64.AppImage
+pavucontrol
+n
+mv ./Inkscape-e7c3feb-x86_64.AppImage ~/.local/bin/
+n
+Inkscape-e7c3feb-x86_64.AppImage --help
+Inkscape-e7c3feb-x86_64.AppImage --appimage-extract
+n
+ls
+sudo mv org.inkscape.Inkscape.desktop ~/.local/share/applications/
+mv org.inkscape.Inkscape.png ..
+pwd
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/51e62670e239c7803edd07b859d38a1479c6dd9c/null/0/Rivals.S01E01.Episodio.1.2160p.DSNP.WEB-DL.DDP5.1.DV.HDR.H265-G66.mkv
+n
+`./Screenshot 2024-12-24 11-52-33.png`
+.
+n
+./Bambu_Studio_linux_ubuntu_20.04_v01.10.01.50.AppImage
+mv ./Bambu_Studio_linux_ubuntu_20.04_v01.10.01.50.AppImage ~/.local/bin/
+n
+chmod +x Bambu_Studio_linux_ubuntu_20.04_v01.10.01.50.AppImage 
+./Bambu_Studio_linux_ubuntu_20.04_v01.10.01.50.AppImage
+sudo apt-get install cmake clang git g++ build-essential libgl1-mesa-dev m4 libwayland-dev libxkbcommon-dev wayland-protocols extra-cmake-modules pkgconf libglu1-mesa-dev libcairo2-dev libgtk-3-dev libsoup2.4-dev libwebkit2gtk-4.0-dev libgstreamer1.0-dev libgstreamer-plugins-good1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad libosmesa6-dev nasm yasm libx264-dev
+sudo apt-get install cmake clang git g++ build-essential libgl1-mesa-dev m4 libwayland-dev libxkbcommon-dev wayland-protocols extra-cmake-modules pkgconf libglu1-mesa-dev libcairo2-dev libgtk-3-dev libsoup2.4-dev libwebkit2gtk-4.1-dev libgstreamer1.0-dev libgstreamer-plugins-good1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad libosmesa6-dev nasm yasm libx264-dev
+./Bambu_Studio_linux_ubuntu_20.04_v01.10.01.50.AppImage
+sudo apit-get install libwebkit2gtk-4.0-37
+sudo apt-get install libwebkit2gtk-4.0-37
+sudo apt-get install libwebkit2gtk-4.0
+./Bambu_Studio_linux_ubuntu_20.04_v01.10.01.50.AppImage
+sudo apt-get install libwebkit2gtk-4.0-dev
+n
+sudo nvim ./sources.list 
+n
+sudo nvim ./google-chrome.list 
+sudo apt update
+sudo apt-get install libwebkit2gtk-4.0
+sudo add-apt-repository ppa:kicad/kicad-8.0-releases
+sudo apt update
+sudo apt install kicad
+sudo add-apt-repository --remove ppa:kicad/kicad-8.0-releases
+kicad
+n
+./Practical_Electronics_for_Inventors.pdf
+files .
+spawn task { kicad }
+task spawn { kicad }
+kicad
+n
+./What-a-Legend.sh
+pavucontrol
+n
+./bing-wallpaper
+n
+swaybg -m fill -i ~/Pictures/Wallpaper/daily.jpeg 
+swaybg --help
+systemctl stop swaybg.service
+systemctl --help
+systemctl list-jobs 
+systemctl list-units 
+systemctl list-sockets 
+systemctl
+niri msg --help
+niri msg action --help
+niri --help
+systemctl --type=service
+systemctl
+systemctl --user daemon-reload
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/0/The.Day.of.the.Jackal.S01E01.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mmpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/1/The.Day.of.the.Jackal.S01E02.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/1/The.Day.of.the.Jackal.S01E02.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/2/The.Day.of.the.Jackal.S01E03.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/3/The.Day.of.the.Jackal.S01E04.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+n
+ln -s ./swaybg.service ./niri.service.wants/
+n
+nirir --version
+niri --version
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/6e12a094009e0ad2a62e549ff1cd2a474bbb9577/null/0/The.Day.of.the.Jackal.S01E05.Episodio.5.ITA.ENG.2160p.PCOK.WEB-DL.DDP5.1.DV.HDR.H.265-MeM.GP.mkv
+cd ./Downloads/
+cd ./What-a-Legend-0.7.02-pc/
+./What-a-Legend.sh
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/de5f2d5a241e46243299a0571e37db1dfba1d21f/null/1/the.day.of.the.jackal.s01e06.hdr.2160p.web.h265-successfulcrab.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/6/The.Day.of.the.Jackal.S01E07.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+sudo add-apt-repository ppa:appimagelauncher-team/stable<\n>sudo apt update<\n>sudo apt install appimagelauncher
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:appimagelauncher-team/stable<\n>sudo apt update<\n>sudo apt install appimagelauncher
+n
+dpkg --install ./appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb 
+sudo dpkg --install ./appimagelauncher_2.2.0-travis995.0f91801.bionic_amd64.deb 
+dpkg --help
+sudo apt update
+sudo apt update --allow-unauthenticated
+sudo apt update --allow-insecure-repositories
+sudo apt install appimagelauncher
+sudo apt --fix-broken install
+sudo apt install appimagelauncher
+sudo add-apt-repository --remove ppa:appimagelauncher-team/stable
+appimagelauncherd 
+appimagelauncherd --help
+ail-cli --help
+ail-cli ./Obsidian-1.7.7.AppImage
+chmod +x Obsidian-1.7.7.AppImage 
+./Obsidian-1.7.7.AppImage
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/7/The.Day.of.the.Jackal.S01E08.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/8/The.Day.of.the.Jackal.S01E09.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/39fa6b8116f2f3eb78ba172ee14cc6dddbd5f063/null/9/The.Day.of.the.Jackal.S01E10.2160p.PCOK.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+n
+./What-a-Legend.sh
+niri msg outputs
+sudo add-apt-repository ppa:mutate/ppa<\n>sudo apt-get update<\n>sudo apt-get install mutate
+mutate
+mut
+sudo apt-get install mutate --allow-unauthenticated
+sudo add-apt-repository ppa:mutate/ppa<\n>
+sudo add-apt-repository ppa:mutate/ppa --allow-unauthenticated
+sudo add-apt-repository ppa:mutate/ppa --allow-insecure-repositories
+sudo add-apt-repository --help
+sudo add-apt-repository ppa:mutate/ppa -S [trusted=yes] ppa:mutate/ppa
+wget https://github.com/qdore/Mutate/releases/download/v2.3/Mutate-2.3.deb<\n>sudo apt-get install gdebi<\n>sudo gdebi Mutate-2.3.deb
+mutate
+sudo apt-get install build-essential qt5-qmake qt5-default libgtk2.0-dev libqt5x11extras5-dev libboost-regex-dev
+n
+./What-a-Legend.sh
+n
+git clone https://github.com/YaLTeR/niri.git
+pavucontrol
+lsof
+ps aux
+ps
+ps | grep stremio
+kill -9 26328
+ps | grep stremio
+gBar audio DP-7
+systemctl hibernate
+sudo systemctl hibernate
+sudo systemctl suspend
+gBar audio DP-7
+which gBar
+/usr/local/bin/gBar audio DP-7
+niri msg --help
+niri msg event-stream
+niri msg event-stream --help
+niri msg --json event-stream
+niri msg --json event-stream | from json
+niri msg --json event-stream | to json
+findstr --help
+find --help
+rustrover 
+ps | grep rust
+kill -9 11740
+ps | grep rust
+spawn { pavucontrol }
+task spawn { pavucontrol }
+taask list
+task list
+task kill 1
+task
+n
+cargo build --release
+cd ..
+n
+nu put_files.nu 
+sudo nu put_files.nu 
+fc-list 
+fc-list | grep Material
+n
+fc-list | grep Material
+pavucontrol
+niri msg --version
+niri msg --help
+niri msg version
+n
+sudo nu put_files.nu 
+niri msg version
+niri msg action --help
+niri msg version
+n
+sudo nu put_files.nu 
+niri msg version
+niri msg action --help
+niri msg action switch-focus-between-floating-and-tiling
+niri msg action --help | grep float
+niri msg action toggle-window-floating
+niri msg action --help
+niri msg action --help | grep focus
+niri msg event-stream
+niri msg validate
+niri msg --help
+niri validate
+niri msg action --help | grep focus
+niri msg action --help
+niri msg action focus-window "google-chrome"
+niri msg action focus-window --id "google-chrome"
+niri msg action focus-window --help
+niri msg action focus-window --id 2
+niri msg action focus-window --id 3
+niri msg --help
+niri msg windows
+niri msg windows --json
+niri msg --json windows
+niri msg --json windows | from json
+niri msg --json windows | from json | explore
+n
+nvim ./focus-window.nu 
+nu focus-window.nu 
+nu focus-window.nu "google-chrome"
+n
+nu focus-window.nu 
+nu focus-window.nu "google-chrome"
+nvim focus-window.nu 
+nu focus-window.nu "google-chrome"
+niri msg --json windows | from json | filter {|x| $x}
+niri msg --json windows | from json | explore
+niri msg --json windows | from json | filter {|x| $x.app_id == "google-chrome"}
+niri msg --json windows | from json | filter {|x| $x.app_id == "google-chrome"} | select id
+nu focus-window.nu "google-chrome"
+niri msg --json windows | from json | filter {|x| $x.app_id == "google-chrome"} | first | get id
+nu focus-window.nu "google-chrome"
+nu focus-window.nu "wjerht"
+nu focus-window.nu "google-chrome"
+nu focus-window.nu "rust-rover"
+niri msg action spawn "rust-rover"
+niri msg action spawn --help
+niri msg action spawn -- "rust-rover"
+nu focus-window.nu "rust-rover"
+nu focus-window.nu "rustrover"
+niri validate
+pavucontrol
+niri validate
+nvim focus-window.nu 
+n
+cd ~
+cargo install nu_plugin_clipboard
+plugin add ./.cargo/bin/nu_plugin_clipboard
+brew help
+brew update
+brew upgrade nushell
+n
+cd ./.config/nushell/scripts/
+n
+nnn
+cd ./.config/nushell/
+ls
+nvim aliases.nu 
+nvim env.nu 
+nvim config.nu
+cd ./.config/nushell/
+ls
+cd ./scripts/
+ls
+nvim quitcd.nu 
+n
+plugin add ./.cargo/bin/nu_plugin_clipboard
+clipboard paste | echo $in
+clipboard
+nu_plugin_clipboard
+nu_plugin_clipboard -h
+nu_plugin_clipboard clipboard paste
+plugin add --help
+plugin use nu_plugin_clipboard
+plugin add ./.cargo/bin/nu_plugin_clipboard
+plugin use nu_plugin_clipboard
+plugin use ./.cargo/bin/nu_plugin_clipboard
+clipboard paste
+n
+nu ./open-mpv-from-clipboard.nu 
+clipboard paste
+plugin use clipboard
+clipboard paste
+clipboard paste --help
+sudo apt-get install xsel
+xsel -b
+xsel --help
+xsel
+xsel -p
+xsel -s
+sudo xsel -b
+xsel -b
+"test" | clipboard copy
+xsel -b
+sudo apt install wl-clipboard
+wl-paste
+nu ./open-mpv-from-clipboard.nu 
+n
+./config.kdl
+nu ./open-mpv-from-clipboard.nu 
+nvim ./config.kdl
+n
+cat /proc/acpi/wakeup | grep enabled 
+echo "TDM0" | sudo tee /proc/acpi/wakeup
+cat /proc/acpi/wakeup | grep enabled 
+echo "TDM1" | sudo tee /proc/acpi/wakeup
+echo "TRP0" | sudo tee /proc/acpi/wakeup
+echo "TXHC" | sudo tee /proc/acpi/wakeup
+cat /proc/acpi/wakeup | grep enabled 
+gBar --help
+gBar bar DP-8 eDP-1
+cat /proc/acpi/wakeup | grep enabled 
+echo "TXHC" | sudo tee /proc/acpi/wakeup
+echo "TDM0" | sudo tee /proc/acpi/wakeup
+echo "TDM1" | sudo tee /proc/acpi/wakeup
+cat /proc/acpi/wakeup | grep enabled 
+echo "TRP0" | sudo tee /proc/acpi/wakeup
+echo "TRP2" | sudo tee /proc/acpi/wakeup
+cat /proc/acpi/wakeup | grep enabled 
+echo "XHCI" | sudo tee /proc/acpi/wakeup
+dotfiles status

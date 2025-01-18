@@ -7,7 +7,7 @@
 export def --env n [
 	...args : string # Extra flags to launch nnn with.
 	--selective = false # Change directory only when exiting via ^G.
-] -> nothing {
+]: nothing -> nothing {
 
 	# The behaviour is set to cd on quit (nnn checks if $env.NNN_TMPFILE is set).
 	# Hard-coded to its respective behaviour in `nnn` source-code.
@@ -20,9 +20,9 @@ export def --env n [
 	# Launch nnn. Add desired flags after `^nnn`, ex: `^nnn -eda ...$args`,
 	# or make an alias `alias n = n -eda`.
 	if $selective {
-		^nnn -Ap ...$args
+		^nnn ...$args
 	} else {
-		NNN_TMPFILE=$nnn_tmpfile ^nnn -Ap - ...$args
+		NNN_TMPFILE=$nnn_tmpfile ^nnn ...$args
 	}
 
 	if ($nnn_tmpfile | path exists) {
