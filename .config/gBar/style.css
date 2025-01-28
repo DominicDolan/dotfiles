@@ -1,6 +1,6 @@
 * {
   all: unset;
-  font-family: "CaskaydiaCove NF";
+  font-family: "Material Symbols Outlined";
 }
 
 .popup {
@@ -23,7 +23,7 @@
 .bt-label-on *,
 .bt-label-off *,
 .bt-label-connected * {
-  font-family: "Material Symbols Outlined";
+  font-family: "MesloLGMDZ Nerd Font Mono";
 }
 
 menu {
@@ -166,7 +166,7 @@ highlight {
 
 .disk-util-progress {
   background-color: #44475a;
-}
+}5
 
 .vram-widget * {
   color: #ffb86c;

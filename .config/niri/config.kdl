@@ -6,6 +6,7 @@
 spawn-at-startup "~/.config/niri/startup/bing-wallpaper"
 spawn-at-startup "bash" "-c" "cat /proc/acpi/button/lid/LID0/state | grep closed | awk 'END { if(index($0, \"closed\") != 0) {print \"off\"} else {print \"on\"}}' | xargs niri msg output eDP-1"
 spawn-at-startup "/usr/local/bin/gBar bar DP-7 eDP-1"
+spawn-at-startup "/usr/bin/ulauncher"
 
 environment {
     DISPLAY ":0"
@@ -50,7 +51,9 @@ input {
     // Focus windows and outputs automatically when moving the mouse into them.
     focus-follows-mouse max-scroll-amount="25%"
 }
-
+output "DP-6" {
+    off;
+}
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
 // The built-in laptop monitor is usually called "eDP-1".
@@ -76,7 +79,7 @@ output "eDP-1" {
     // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
     transform "normal"
 
-    // Position of the output in the global coordinate space.
+   // Position of the output in the global coordinate space.
     // This affects directional monitor actions like "focus-monitor-left", and cursor movement.
     // The cursor can only move between directly adjacent outputs.
     // Output scale and rotation has to be taken into account for positioning:
@@ -278,6 +281,19 @@ window-rule {
         off
     }
 }
+
+window-rule {
+    match app-id="^[Uu]launcher$"
+    open-floating true
+
+    focus-ring {
+        off
+    }
+
+    border {
+        off
+    }
+}
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
@@ -308,6 +324,7 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T { spawn "kitty"; }
     Mod+D { spawn "fuzzel"; }
+    Mod+A { spawn "ulauncher-toggle"; }
     Super+Alt+L { spawn "swaylock"; }
 
     // You can also use a shell:
@@ -315,10 +332,12 @@ binds {
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
-    XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-    XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-    XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
+    //XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
+    XF86AudioRaiseVolume allow-when-locked=true { spawn "nu" "~/.config/niri/scripts/audio-volume.nu" "up"; }
+    XF86AudioLowerVolume allow-when-locked=true { spawn "nu" "~/.config/niri/scripts/audio-volume.nu" "down"; }
+    XF86AudioMute        allow-when-locked=true { spawn "nu" "~/.config/niri/scripts/audio-volume.nu" "mute";  }
     XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
+    XF86MonBrightnessUp        allow-when-locked=true { spawn "nu" "~/.config/niri/scripts/audio-volume.nu" "up";  }
 
     Mod+Backspace { close-window; }
 
@@ -466,6 +485,7 @@ binds {
 
     Mod+4 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "pavucontrol"; }
     Mod+3 { spawn "nu" "/home/doghouse/.config/niri/scripts/open-mpv-from-clipboard.nu"; }
+    Mod+0 { spawn "nu" "/home/doghouse/.config/niri/scripts/ags_run.nu"; }
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+1 { move-window-to-workspace 1; }
 

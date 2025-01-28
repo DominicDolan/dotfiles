@@ -106,6 +106,7 @@ $env.PATH = ($env.PATH | split row (char esep)
     | prepend $'($env.BUN_INSTALL)/bin')
     | prepend '/run/user/1000/fnm_multishells/15895_1731712441358/bin'
     | prepend $'/home/doghouse/.cargo/bin'
+    | prepend $'/usr/local/go/bin'
      
 $env.PATH = ($env.PATH | uniq)
 # To load from a custom file you can use:
@@ -128,3 +129,4 @@ $env.FNM_NODE_DIST_MIRROR = "https://nodejs.org/dist"
 $env.FNM_COREPACK_ENABLED = "false"
 $env.FNM_RESOLVE_ENGINES = "true"
 $env.FNM_ARCH = "x64"
+

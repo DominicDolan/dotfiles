@@ -1946,3 +1946,250 @@ echo "TRP2" | sudo tee /proc/acpi/wakeup
 cat /proc/acpi/wakeup | grep enabled 
 echo "XHCI" | sudo tee /proc/acpi/wakeup
 dotfiles status
+n
+sudo touch disable-usb0wake.conf
+sudo nvim ./disable-usb0wake.conf 
+ueli
+n
+niri msg windows
+niri validate
+n
+ueli
+n
+/home/doghouse/Applications/Ueli-9.14.2_67170c854af8e4f6c4e4c63a1f831a95.AppImage --no-sandbox
+/home/doghouse/Applications/Ueli-9.14.2_67170c854af8e4f6c4e4c63a1f831a95.AppImage --toggle
+sudo apt install ueli
+n
+sudo dpkg --install ./ueli_9.14.2_amd64.deb 
+ueli
+sudo chown root:root /opt/Ueli/chrome-sandbox<\n>sudo chmod 4755 /opt/Ueli/chrome-sandbox
+ueli
+n
+ueli --toggle
+ueli --help
+ueli
+ueli --help
+$env.XDG_DATA_DIRS
+which idea
+ueli
+ueli --toggle
+n
+sudo dpkg --install ./ulauncher_5.15.7_all.deb 
+ulauncher 
+sudo dpkg --help
+sudo apt --remove ulauncher
+sudo apt uninstall ulauncher
+sudo apt remove ulauncher
+ulauncher 
+sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update && sudo apt install ulauncher
+ulauncher 
+ulauncher-toggle
+ulauncher 
+n
+which ulauncher
+ulauncher-toggle
+ulauncher-toggle and niri msg windows
+ulauncher-toggle && niri msg windows
+ulauncher-toggle; niri msg windows
+ulauncher; niri msg windows
+niri msg windows
+sudo apt remove ueli
+cat /proc/acpi/wakeup | grep enabled 
+echo "TXHC" | sudo tee /proc/acpi/wakeup
+N
+n
+gBar audio
+wpctl --help
+n
+ls
+n
+nivm ./focus-window.nu
+nvim audio-volume.nu
+niri validate
+~/.config/niri/scripts/audio-volume.nu up
+nu ~/.config/niri/scripts/audio-volume.nu up
+nvim ./focus-window.nu
+nu ~/.config/niri/scripts/audio-volume.nu up
+n
+brightnessctl set -15%
+ls /sys/class/backlight
+niri msg outputs
+task --help
+n
+spawn {gBar DP-7 }
+task spawn {gBar DP-7 }
+gBar DP-7
+gBar bar DP-7
+task spawn {gBar bar DP-7 }
+task spawn { gBar bar DP-7 }
+task list
+task ls
+task
+task log 
+task kill 0
+task kill 1
+task kill 2
+task log
+task kill --all
+task log
+task clean
+task log
+gBar bar DP-7
+echo "TXHC" | sudo tee /proc/acpi/wakeup
+cat /proc/acpi/wakeup | grep enabled 
+n
+stremio
+fc-list
+fc-list | grep Material
+n
+files .
+sudo apt install meson valac valadoc libgtk-3-dev libgtk-layer-shell-dev gobject-introspection libgirepository1.0-dev
+n
+git clone https://github.com/aylur/astal.git /tmp/astal
+n
+cd /tmp/astal/lib/astal/io<\n>meson setup --prefix /usr build<\n>meson install -C build
+cd /tmp/astal/lib/astal/gtk3<\n>meson setup --prefix /usr build<\n>meson install -C build
+git clone https://github.com/aylur/astal
+n
+cd astal/lang/gjs
+meson setup --prefix /usr build<\n>meson install -C build
+n
+git clone https://github.com/aylur/ags.git
+cd ags
+go install -ldflags "\<\n>    -X 'main.gtk4LayerShell=$(pkg-config --variable=libdir gtk4-layer-shell-0)/libgtk4-layer-shell.so' \<\n>    -X 'main.astalGjs=$(pkg-config --variable=srcdir astal-gjs)'"
+go --version
+n
+tar -C /usr/local -xzf go1.23.5.linux-amd64.tar.gz
+mkdir /usr/local/go
+sudo mkdir /usr/local/go
+tar -C /usr/local -xzf go1.23.5.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.23.5.linux-amd64.tar.gz
+config env
+go version
+which go
+n
+mv ags ~/.local/bin/ags
+n
+ags init --gtk 4
+n
+nvim .bashrc 
+nvm -v
+ags run
+n
+git clone https://github.com/Aylur/dotfiles.git
+n
+git reset --hard ec6d3ed616a39385b7b6337da6757d7f1ddbfdce
+n
+git reset --hard ec6d3ed616a39385b7b6337da6757d7f1ddbfdce
+n
+git reset --hard 478a92f1ef6ef813703fb5d048e4ba86b595d9c9
+ags run
+xeyes
+ags run
+ags run | bash
+bash ags run
+n
+nvim ags_run.nu
+nvim audio-volume.nu 
+nvim ags_run.nu
+nu ags_run.nu 
+nvim ags_run.nu
+nu ags_run.nu 
+weston-info
+wlr-randr
+wayland-scanner 
+wayland-info
+n
+git clone https://github.com/aylur/astal
+n
+nvim Popover.tsx 
+rm -rf ~/.config/ags/
+ags init --gtk 3
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/f3145a6f2d90c34862f644e63e94a19af475a4c2/null/2/American.Primeval.S01E03.2025.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-G66.mkv
+ags run
+nvim .bashrc 
+sudo dpkg -i ./libgtk4-layer-shell-dev_1.0.4-1_amd64.deb 
+sudo dpkg -i ./gir1.2-gtk4layershell-1.0_1.0.4-1_amd64.deb 
+sudo dpkg -i ./libgtk4-layer-shell-dev_1.0.4-1_amd64.deb 
+sudo dpkg -i ./libgtk4-layer-shell0_1.0.4-1_amd64.deb 
+sudo dpkg -i ./libgtk4-layer-shell-dev_1.0.4-1_amd64.deb 
+ags run -d ~/.config/ags4
+n
+niri msg action --help
+n
+pactl list sinks
+pactl list sinks --json
+pactl list sinks
+pactl list sinks | split column "Sink #"
+pactl list sinks | split row  "Sink #"
+pactl list sinks | from yaml 
+pactl list sinks | from ssv 
+pactl list sinks --help
+pactl list sinks | split row  "Sink #" | where ($it | str contains "USB PnP Audio Device")
+pactl list sinks | split row  "Sink #" | where ($it | str contains "USB PnP Audio Device") | first
+pactl list sinks | split row  "Sink #" | where ($it | str contains "USB PnP Audio Device") | first | split row "\n"
+pactl list sinks | split row  "Sink #" | where ($it | str contains "State: RUNNING") | first | grep "Volume"
+pactl list sinks
+pactl list sinks | grep default
+pactl list sinks | grep Default
+pactl get-default
+pactl info 
+pactl info | grep "Default Sink"
+pactl info | grep "Default Sink" | split row ":" | get 1
+pactl info | grep "Default Sink" | split row ":" | get 1 | str trim
+pactl list sinks 
+pactl info | grep "Default Sink" | split row ":" | get 1 | str trim
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim))
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume
+n
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | find --regex "/ (\d+)% /"
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | find --regex '/ (\d+)% /'
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n"
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume")
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row ","
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each ($it | str trim)
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | map ($it | str trim)
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | map { |it| $it | str trim }
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim }
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim } | split row "/" | where ($it | str contains "%")
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim } | split row "/" | where ($it | str contains "%") | each {|$it| $it | replace "%" ""}
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim } | split row "/" | where ($it | str contains "%") | each {|$it| $it | str replace "%" ""}
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim } | split row "/" | where ($it | str contains "%") | each {|$it| $it | trim | str replace "%" ""}
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim } | split row "/" | where ($it | str contains "%") | each {|$it| $it | str trim | str replace "%" ""}
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim } | split row "/" | where ($it | str contains "%") | each {|$it| $it | str trim | str replace "%" "" | into int }
+pactl list sinks | split row  "Sink #" | where ($it | str contains (pactl info | grep "Default Sink" | split row ":" | get 1 | str trim)) | first | grep Volume | split row "\n" | where not ($it | str contains "Base Volume") | first | split row "," | each { |it| $it | str trim } | split row "/" | where ($it | str contains "%") | each {|$it| $it | str trim | str replace "%" "" | into int } | math avg 
+n
+nu ~/.config/ags/nu/get-audio-volume.nu 
+atal-tray
+astal-tray
+astal-tray --help
+astal-tray --version
+astal-tray -d
+nvim get-audio-volume.nu
+n
+nvim config 
+ags run
+ps aux
+ps --help
+ps
+ps | grep gbar
+ps | grep gBar
+ps | find gBar
+ps | find gBar | get pid
+ps | find gBar | get pid.0
+ps | find gBar | get pid.0 | kill
+ps | find gBar | get pid.0 | kill $in
+kitten
+kitty themes
+kitten themes
+n
+ags types
+niri msg action --help
+niri msg --help
+niri msg windows
+ulauncher --help
+date
+sudo systemctl poweroff 
+n
+dotfiles status
