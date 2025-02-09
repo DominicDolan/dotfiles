@@ -1,0 +1,281 @@
+@use 'sass:color';
+
+// https://gitlab.gnome.org/GNOME/gtk/-/blob/gtk-3-24/gtk/theme/Adwaita/_colors-public.scss
+
+// Catpuccin latte theme:
+$rosewater: #dc8a78;
+$flamingo: #dd7878;
+$pink: #ea76cb;
+$mauve: #8839ef;
+$red: #d20f39;
+$maroon: #e64553;
+$peach: #fe640b;
+$yellow: #df8e1d;
+$green: #40a02b;
+$teal: #179299;
+$sky: #04a5e5;
+$sapphire: #209fb5;
+$blue: #1e66f5;
+$blue-darken-1: #154ab3;
+$lavender: #7287fd;
+
+// Catpuccin mocha theme:
+$rosewater-text: #f5e0dc;
+$flamingo-text: #f2cdcd;
+$pink-text: #f5c2e7;
+$mauve-text: #cba6f7;
+$red-text: #f38ba8;
+$maroon-text: #eba0ac;
+$peach-text: #fab387;
+$yellow-text: #f9e2af;
+$green-text: #a6e3a1;
+$teal-text: #94e2d5;
+$sky-text: #89dceb;
+$sapphire-text: #74c7ec;
+$blue-text: #89b4fa;
+
+
+$text: #cdd6f4;
+$subtext1: #bac2de;
+$subtext0: #a6adc8;
+$overlay2: #9399b2;
+$overlay1: #7f849c;
+$overlay0: #6c7086;
+$surface2: #585b70;
+$surface1: #45475a;
+$surface0: #313244;
+$base: #1e1e2e;
+$mantle: #181825;
+$crust: #11111b;
+
+$bg-hover-color: rgba(46, 46, 71, 0.15);
+
+
+window {
+    background: transparent;
+    color: white;
+    font-weight: bold;
+
+    .Card {
+        background: $base;
+        color: white;
+        padding: 16px;
+        border-radius: 32px;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+
+        .Card {
+            background: $surface0;
+            box-shadow: none;
+        }
+    }
+
+    .ButtonBar {
+        background: transparent;
+        border-radius: 999px;
+
+        button {
+            border-radius: 999px;
+            border: none;
+            color: #1e66f5;
+            background: transparent;
+
+            &:hover {
+                background: $surface0;
+            }
+
+            label {
+                background: transparent;
+                padding: 4px;
+            }
+        }
+    }
+
+    .ControlPanel {
+        button {
+            border-radius: 999px;
+            //border-color: $blue;
+            border: none;
+            background: $surface1;//$blue-darken-1;
+            padding: 0;
+
+            .md-icon label {
+                color: white;
+                border-radius: 999px;
+                padding: 10px;
+                background: $blue;
+
+            }
+            label {
+                color: $blue-text;
+                padding: 8px;
+            }
+        }
+
+        .ExtraSettings {
+            border-top: 1px solid;
+            border-color: $blue-text;
+            padding-top: 8px;
+
+            button {
+                background: transparent;
+            }
+        }
+    }
+}
+window.Bar {
+    >centerbox {
+        background: transparent;
+    }
+
+    button {
+        border: none;
+        border-radius: 15px;
+        background: transparent;
+    }
+
+    button:hover {
+        background: $bg-hover-color;
+    }
+
+    .SysTray {
+        margin-right: 8px;
+
+        button {
+            padding: 0 4px;
+        }
+    }
+
+    .Battery {
+        padding: 8px;
+    }
+
+    .AppButton {
+        padding: 8px;
+    }
+}
+
+window.Tools {
+    background: transparent;
+}
+
+.md-icon {
+    @extend .text-xl;
+    font-family: "Material Symbols Outlined";
+}
+
+.menu-circle {
+
+}
+
+/* Global Margins (m-{size}) */
+.m-0 { margin: 0; }
+.m-1 { margin: 4px; }
+.m-2 { margin: 8px; }
+.m-3 { margin: 12px; }
+.m-4 { margin: 16px; }
+.m-5 { margin: 20px; }
+.m-6 { margin: 24px; }
+.m-8 { margin: 32px; }
+.m-10 { margin: 40px; }
+.m-12 { margin: 48px; }
+.m-16 { margin: 64px; }
+.m-20 { margin: 80px; }
+
+/* Horizontal Margins (mx-{size}) */
+.mx-0 { margin-left: 0; margin-right: 0; }
+.mx-1 { margin-left: 4px; margin-right: 4px; }
+.mx-2 { margin-left: 8px; margin-right: 8px; }
+.mx-3 { margin-left: 12px; margin-right: 12px; }
+.mx-4 { margin-left: 16px; margin-right: 16px; }
+.mx-5 { margin-left: 20px; margin-right: 20px; }
+.mx-6 { margin-left: 24px; margin-right: 24px; }
+.mx-8 { margin-left: 32px; margin-right: 32px; }
+.mx-10 { margin-left: 40px; margin-right: 40px; }
+.mx-12 { margin-left: 48px; margin-right: 48px; }
+.mx-16 { margin-left: 64px; margin-right: 64px; }
+.mx-20 { margin-left: 80px; margin-right: 80px; }
+
+/* Vertical Margins (my-{size}) */
+.my-0 { margin-top: 0; margin-bottom: 0; }
+.my-1 { margin-top: 4px; margin-bottom: 4px; }
+.my-2 { margin-top: 8px; margin-bottom: 8px; }
+.my-3 { margin-top: 12px; margin-bottom: 12px; }
+.my-4 { margin-top: 16px; margin-bottom: 16px; }
+.my-5 { margin-top: 20px; margin-bottom: 20px; }
+.my-6 { margin-top: 24px; margin-bottom: 24px; }
+.my-8 { margin-top: 32px; margin-bottom: 32px; }
+.my-10 { margin-top: 40px; margin-bottom: 40px; }
+.my-12 { margin-top: 48px; margin-bottom: 48px; }
+.my-16 { margin-top: 64px; margin-bottom: 64px; }
+.my-20 { margin-top: 80px; margin-bottom: 80px; }
+
+/* Top Margins (mt-{size}) */
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 4px; }
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 12px; }
+.mt-4 { margin-top: 16px; }
+.mt-5 { margin-top: 20px; }
+.mt-6 { margin-top: 24px; }
+.mt-8 { margin-top: 32px; }
+.mt-10 { margin-top: 40px; }
+.mt-12 { margin-top: 48px; }
+.mt-16 { margin-top: 64px; }
+.mt-20 { margin-top: 80px; }
+
+/* Right Margins (mr-{size}) */
+.mr-0 { margin-right: 0; }
+.mr-1 { margin-right: 4px; }
+.mr-2 { margin-right: 8px; }
+.mr-3 { margin-right: 12px; }
+.mr-4 { margin-right: 16px; }
+.mr-5 { margin-right: 20px; }
+.mr-6 { margin-right: 24px; }
+.mr-8 { margin-right: 32px; }
+.mr-10 { margin-right: 40px; }
+.mr-12 { margin-right: 48px; }
+.mr-16 { margin-right: 64px; }
+.mr-20 { margin-right: 80px; }
+
+/* Bottom Margins (mb-{size}) */
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: 4px; }
+.mb-2 { margin-bottom: 8px; }
+.mb-3 { margin-bottom: 12px; }
+.mb-4 { margin-bottom: 16px; }
+.mb-5 { margin-bottom: 20px; }
+.mb-6 { margin-bottom: 24px; }
+.mb-8 { margin-bottom: 32px; }
+.mb-10 { margin-bottom: 40px; }
+.mb-12 { margin-bottom: 48px; }
+.mb-16 { margin-bottom: 64px; }
+.mb-20 { margin-bottom: 80px; }
+
+/* Left Margins (ml-{size}) */
+.ml-0 { margin-left: 0; }
+.ml-1 { margin-left: 4px; }
+.ml-2 { margin-left: 8px; }
+.ml-3 { margin-left: 12px; }
+.ml-4 { margin-left: 16px; }
+.ml-5 { margin-left: 20px; }
+.ml-6 { margin-left: 24px; }
+.ml-8 { margin-left: 32px; }
+.ml-10 { margin-left: 40px; }
+.ml-12 { margin-left: 48px; }
+.ml-16 { margin-left: 64px; }
+.ml-20 { margin-left: 80px; }
+
+/* Font Sizes (text-{size}) */
+.text-xs { font-size: 12px; }       /* 0.75rem */
+.text-sm { font-size: 14px; }       /* 0.875rem */
+.text-base { font-size: 16px; }     /* 1rem */
+.text-lg { font-size: 18px; }       /* 1.125rem */
+.text-xl { font-size: 20px; }       /* 1.25rem */
+.text-2xl { font-size: 24px; }      /* 1.5rem */
+.text-3xl { font-size: 30px; }      /* 1.875rem */
+.text-4xl { font-size: 36px; }      /* 2.25rem */
+.text-5xl { font-size: 48px; }      /* 3rem */
+.text-6xl { font-size: 60px; }      /* 3.75rem */
+.text-7xl { font-size: 72px; }      /* 4.5rem */
+.text-8xl { font-size: 96px; }      /* 6rem */
+.text-9xl { font-size: 128px; }     /* 8rem */
