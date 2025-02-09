@@ -8,7 +8,7 @@ def main [] {
 
     let result = do {
         try {
-            (bash -c $'source ($env.HOME)/.nvm/nvm.sh && ($env.HOME)/.local/bin/ags run 2>&1') | complete
+            (bash -c $'source ($env.HOME)/.nvm/nvm.sh && ($env.HOME)/.local/bin/ags run -d ($env.HOME)/.config/ags4 --gtk4 2>&1') | complete
         } catch {|err|
             # Return the error message and exit code
             { stdout: $err, exit_code: 1 }

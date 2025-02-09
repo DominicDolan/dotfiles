@@ -2193,3 +2193,334 @@ date
 sudo systemctl poweroff 
 n
 dotfiles status
+config nu
+n
+nvim aliases.nu 
+source aliases.nu
+niri-config 
+nu ~/.config/ags/nu/get-audio-volume.nu 
+n
+nvim ags_run.nu 
+n
+niri msg windows
+astal say hi
+systemctl poweroff 
+niri msg windows
+niri msg windows --json
+niri msg --json windows
+echo "TXHC" | sudo tee /proc/acpi/wakeup
+ps | find gBar | get pid.0 | kill $in
+niri-config 
+sudo systemctl poweroff 
+niri-config 
+n
+nvim ./config 
+n
+sudo systemctl poweroff 
+which niri
+n
+cp -f  niri-portals.conf /usr/local/share/xdg-desktop-portal/
+cp --help
+n
+ls
+mkdir xdg-desktop-portal
+sudo mkdir xdg-desktop-portal
+ls
+cp niri-portals.conf /usr/local/share/xdg-desktop-portal/
+sudo cp niri-portals.conf /usr/local/share/xdg-desktop-portal/
+n
+nvim niri-portals.conf 
+cd ~
+ls
+n
+which ags
+nvim config.kdl 
+niri msg exit
+niri msg action exit
+niri exit
+ail-cli ./Downloads/zen-x86_64.AppImage
+ail-cli --help
+ail-cli install ./Downloads/zen-x86_64.AppImage
+ail-cli instegrate ./Downloads/zen-x86_64.AppImage
+ail-cli integrate ./Downloads/zen-x86_64.AppImage
+sudo apt install software-properties-common<\n>sudo add-apt-repository ppa:appimagelauncher-team/stable<\n>sudo apt update<\n>sudo apt install appimagelauncher
+flatpak install flathub app.zen_browser.zen
+sudo systemctl poweroff 
+sudo systemctl suspend 
+cat /proc/acpi/wakeup | grep enabled 
+echo "TXHC" | sudo tee /proc/acpi/wakeup
+sudo systemctl suspend 
+n
+nnn -e
+n
+nvim quitcd.nu 
+n
+nvim ../nushell/scripts/quitcd.nu 
+which ags
+n
+sh /home/doghouse/.local/bin/ags run
+sh ags run
+bash /home/doghouse/.local/bin/ags run
+ags run
+nvim .bashrc 
+nvm -v
+go version
+npm -v
+node -v
+ags run
+echo $env.path
+ls /opt/nvim-linux64/bin
+/opt/nvim-linux64/bin/nvim -v
+nvm
+nvm -v
+sudo systemctl suspend 
+which ags
+nvm -v
+bash -c ".nvm/nvm.sh "
+nvm -v
+ls .vm/
+ls .nvm/
+".nvm/nvm.sh" | bash
+nvm -v
+.nvm/nvm.sh -v
+.nvm/nvm.sh
+nvm -v
+nu -c "./.nvm/nvm.sh"
+nu -c ./.nvm/nvm.sh
+"./.nvm/nvm.sh" | bash
+nvm -v
+.nvm/nvm.sh nvm -v
+npm -v
+.nvm/nvm.sh
+npm -v
+.nvm/nvm.sh | bash
+npm -v
+.bashrc | bash
+./.bashrc | bash
+bash -c "source ./.bashrc"
+npm -v
+source .bashrc
+source .bashrc | bash
+nu --help
+npm -v
+nvm -v
+npm -v
+ags run
+systemctl poweroff 
+cat /proc/acpi/wakeup | grep enabled 
+n
+sudo nvim ./disable-usb0wake.conf 
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+nvim /home/doghouse/.config/niri/scripts/ags_run.nu
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+nvim /home/doghouse/.config/niri/scripts/ags_run.nu
+bash -c $'($env.HOME)/.local/bin/ags run'
+bash -c "nvm use latest"
+bash -c "./.nvm/nvm.sh && nvm --help"
+bash -c "npm --help"
+nvm --help
+bash -c "source ./.nvm/nvm.sh && nvm --help"
+bash -c "source ./.nvm/nvm.sh && nvm -v"
+bash -c "source ./.nvm/nvm.sh && ags run"
+n
+find --help
+glob -d 3 config.kdl
+glob -d 4 config.kdl
+glob -d 4 config
+glob  config
+glob config
+glob config -d 3
+glob config -d 4
+glob config -d 5
+n
+glob Pasted -d 5
+glob **/*.{rs,toml} --depth 2
+glob **/*.{kdl} --depth 2
+glob **/*.{kdl} --depth 4
+glob **/*.{kdl} --depth 5
+nvim /home/doghouse/.local/state/nvim/undo/%home%doghouse%.config%niri%config.kdl
+rm /home/doghouse/.local/state/nvim/undo/%home%doghouse%.config%niri%config.kdl
+glob **/*.{kdl} --depth 5
+glob **/*.{kdl} --depth 10
+cd ../..
+glob **/*.{kdl} --depth 10
+n
+glob **/*.{kdl} --depth 15
+nvm /home/doghouse/Source/repos/Niri/v25.01/niri/resources/default-config.kdl
+nvim /home/doghouse/Source/repos/Niri/v25.01/niri/resources/default-config.kdl
+n
+mv config.kdl config2.kdl
+nu ./put_files.nu 
+sudo nu ./put_files.nu 
+n
+grep **/*.nu
+grep **/*.nu -d 4
+glob **/*.nu --depth 4
+glob **/*.nu --depth 4 | first
+nvim ./bing-wallpaper.nu 
+nu ./bing-wallpaper.nu 
+n
+niri validate
+n
+systemctl poweroff
+n
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+npm -v
+save --help
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+systemctl poweroff
+which nu
+n
+ln -s ./ags-astal.service  ./niri.service.wants/
+systemctl poweroff
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+n
+systemctl restart
+systemctl poweroff
+ags
+which ags
+n
+ln -sf ./ags-astal.service  ./niri.service.wants/
+systemctl poweroff
+niri-config 
+systemctl poweroff
+niri-config 
+systemctl poweroff
+bash -c "source ./.nvm/nvm.sh && ags run"
+which nu
+niri-config 
+systemctl poweroff
+n
+systemctl poweroff
+n
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+n
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+nvim ags_run.nu 
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+n
+systemctl poweroff
+n
+systemctl poweroff
+n
+systemctl poweroff
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+systemctl poweroff
+n
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+[1, 2, 3]
+[1, 2, 3] | each {|i| $i}
+[1, 2, 3] | each {|i| echo $i}
+[1, 2, 3] | each {|i| echo $'index: ($i)'}
+each --help
+loop --help
+[1, 2, 3] | enumerate | each {|i| echo $'index: ($i)'}
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+n
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+n
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+ps | find astal
+ps | find ags
+ps | find ags | get.0
+ps | find ags | get 0
+ps | find ags | get 0.name
+ps | find ags | get 0.pid
+ps | find ags | get 0.pid | kill
+ps | find ags | get 0.pid | kill $in
+ps | find ags
+systemctl poweroff
+systemctl suspend
+systemctl poweroff
+systemctl sus
+systemctl suspend
+ps | find ags
+ps | find ags | get 0.pid
+ps | find ags | get 0.pid | kill $in
+ags run
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+ps | find ags | get 0.pid | kill $in
+ps | find ags
+nu /home/doghouse/.config/niri/scripts/ags_run.nu
+ps | find astal
+ags stop
+ags quit
+n
+cp ags_run.nu ags4_run.nu
+/home/linuxbrew/.linuxbrew/bin/nu /home/doghouse/.config/niri/scripts/ags4_run.nu
+n
+sudo apt install meson valac valadoc libnm-dev gobject-introspection
+git clone https://github.com/aylur/astal.git<\n>cd astal/lib/network
+meson setup --prefix /usr build<\n>meson install -C build
+n
+ags --help
+ags types
+basj
+niri-config 
+ags run
+n
+git clone https://github.com/DominicDolan/BingWallpaperDownloader.git
+n
+ln -sf ./swaybg.service  ./niri.service.wants/
+swaybg --help
+n
+swaybg --help
+swaybg -m fill  -i ~/Pictures/Wallpaper/catppuccin_triangle.png 
+swaybg -m fill  -i ~/Pictures/Wallpaper/openart-image_mountain.jpg 
+swaybg -m fill  -i ~/Pictures/Wallpaper/openart-image_mountain_hq.jpg 
+swaybg -m fill  -i ~/Pictures/Wallpaper/openart-image_mountain_wide.jpg 
+swaybg -m fill  -i ~/Pictures/Wallpaper/DALLE_mountain.webp 
+swaybg -m fill  -i ~/Pictures/Wallpaper/DALLE_mountain2.webp 
+swaybg -m fill  -i ~/Pictures/Wallpaper/DALLE_mountain.webp 
+n
+systemctl reboot 
+n
+ln -sf ./swaybg.service  ./niri.service.wants/
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/accd1d9f04dfc115f0500eb1c3a4eec12068fd3f/null/5/American.Primeval.S01E06.NF.DV.HDR.WEB-DL.2160p.by.AKTEP.mkv
+http get https://google.com
+mpv https://torrentio.strem.fun/realdebrid/7KZU2ANMLW53ICCFZ5AO2VYIPLMPRONSSUT2N55J4KL22S7U6TUQ/accd1d9f04dfc115f0500eb1c3a4eec12068fd3f/null/5/American.Primeval.S01E06.NF.DV.HDR.WEB-DL.2160p.by.AKTEP.mkv
+n
+nvim swaybg_run.nu
+n
+which nu
+n
+ln -sf ./swaybg.service  ./niri.service.wants/
+systemctl reboot 
+n
+nu swaybg_run.nu ~/Pictures/Wallpaper/catpuccin_triangle.png
+nvim swaybg_run_log.txt 
+nu swaybg_run.nu ~/Pictures/Wallpaper/catppuccin_triangle.png
+nvim swaybg_run_log.txt 
+systemctl reboot 
+niri-config 
+n
+ln -sf ./swaybg.service  ./niri.service.wants/
+n
+systemctl reboot 
+niri-config 
+n
+niri-config 
+n
+nvim bing-wallpaper.nu 
+nvim swaybg.service 
+n
+systemctl --user daemon-reload 
+sh -c "nu /home/doghouse/.config/niri/scripts/swabg_run.nu /home/doghouse/Pictures/Wallpaper/openart-omage_mountain_winde.jpg"
+sh -c "nu /home/doghouse/.config/niri/scripts/swaybg_run.nu /home/doghouse/Pictures/Wallpaper/openart-omage_mountain_winde.jpg"
+sh -c "nu /home/doghouse/.config/niri/scripts/swaybg_run.nu /home/doghouse/Pictures/Wallpaper/openart-omage_mountain_wide.jpg"
+sh -c "nu /home/doghouse/.config/niri/scripts/swaybg_run.nu /home/doghouse/Pictures/Wallpaper/openart-image_mountain_wide.jpg"
+n
+mpv https://21-4.download.real-debrid.com/d/XV5X2OU3DYXGU/Encanto.2021.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv
+gksu software-center
+sudo -l
+groups
+sudo apt update && sudo apt upgrade
+sudo apt update; sudo apt upgrade
+sudo add-apt-repository -r ppa:https://ppa.launchpadcontent.net/appimagelauncher-team/stable/ubuntu
+sudo add-apt-repository --help
+sudo add-apt-repository -L
+sudo add-apt-repository --remove ppa:appimagelauncher-team/stable
+sudo add-apt-repository -L
+sudo apt update; sudo apt upgrade
+sudo add-apt-repository --remove ppa:mutate/ppa
+dotfiles status

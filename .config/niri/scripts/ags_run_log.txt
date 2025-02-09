@@ -1,0 +1,574 @@
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Error: [31mnu::shell::terminated_by_signal[0m
+
+  [31m×[0m External command was terminated by a signal
+   ╭─[[36;1;4m/home/doghouse/.config/niri/scripts/ags_run.nu:8:5[0m]
+ [2m7[0m │ 
+ [2m8[0m │     bash -c $'source ($env.HOME)/.nvm/nvm.sh && ($env.HOME)/.local/bin/ags run'
+   · [35;1m    ──┬─[0m
+   ·       [35;1m╰── [35;1mterminated by SIGTERM (15)[0m[0m
+ [2m9[0m │   } catch {|err| 
+   ╰────
+Starting sevice
+Command failed with error astal-Message: 00:49:30.092: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:52:20.583: Google Chrome
+
+(gjs:3366): GLib-GIO-WARNING **: 00:52:22.392: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3366): GLib-CRITICAL **: 00:52:22.541: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3366): GLib-CRITICAL **: 00:52:22.541: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 11:56:27.450: Google Chrome
+
+(gjs:3141): GLib-GIO-WARNING **: 11:56:31.116: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3141): GLib-CRITICAL **: 11:56:31.299: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3141): GLib-CRITICAL **: 11:56:31.299: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:43:26.943: Google Chrome
+
+(gjs:3146): GLib-GIO-WARNING **: 18:43:30.592: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3146): GLib-CRITICAL **: 18:43:30.787: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3146): GLib-CRITICAL **: 18:43:30.787: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:55:31.844: Google Chrome
+
+** (gjs:3215): WARNING **: 20:55:32.619: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 127 does not refer to a menu item we have
+
+** (gjs:3215): WARNING **: 20:55:32.619: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 137 does not refer to a menu item we have
+
+(gjs:3215): GLib-GIO-WARNING **: 20:55:32.641: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3215): GLib-CRITICAL **: 20:55:32.796: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3215): GLib-CRITICAL **: 20:55:32.796: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 01:30:00.082: Google Chrome
+
+(gjs:3134): GLib-GIO-WARNING **: 01:30:03.373: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3134): GLib-CRITICAL **: 01:30:03.575: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3134): GLib-CRITICAL **: 01:30:03.575: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 11:46:34.988: Google Chrome
+
+** (gjs:3138): WARNING **: 11:46:36.752: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 61 does not refer to a menu item we have
+
+** (gjs:3138): WARNING **: 11:46:36.752: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 69 does not refer to a menu item we have
+
+(gjs:3138): GLib-GIO-WARNING **: 11:46:36.788: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3138): GLib-CRITICAL **: 11:46:36.949: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3138): GLib-CRITICAL **: 11:46:36.949: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Command failed with error astal-Message: 11:46:38.511: Google Chrome
+
+** (gjs:3762): WARNING **: 13:05:37.538: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 876 does not refer to a menu item we have
+
+** (gjs:3762): WARNING **: 13:05:37.538: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 883 does not refer to a menu item we have
+
+** (gjs:3762): WARNING **: 13:26:47.024: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 1429 does not refer to a menu item we have
+
+** (gjs:3762): WARNING **: 13:26:47.024: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 1439 does not refer to a menu item we have
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:32:32.135: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:39772): Gdk-CRITICAL **: 18:36:18.272: gdk_monitor_set_scale: assertion 'scale >= 1.' failed
+items: 
+items length: 0
+Starting sevice
+Command failed with error 
+(gjs:40053): Gdk-CRITICAL **: 18:36:24.665: gdk_monitor_set_scale: assertion 'scale >= 1.' failed
+items: 
+items length: 0
+Starting sevice
+Command failed with error 
+(gjs:40321): Gdk-CRITICAL **: 18:36:26.454: gdk_monitor_set_scale: assertion 'scale >= 1.' failed
+items: 
+items length: 0
+Starting sevice
+Command failed with error 
+(gjs:40813): Gjs-CRITICAL **: 18:38:23.477: JS ERROR: Error: Version 3.0 of GI module Astal already loaded, cannot load version 4.0
+require@resource:///org/gnome/gjs/modules/esm/gi.js:19:23
+@gi://Astal/?version=4.0:3:25
+
+
+(gjs:40813): Gjs-CRITICAL **: 18:38:23.477: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error 
+(gjs:41070): Gjs-CRITICAL **: 18:38:23.882: JS ERROR: Error: Version 3.0 of GI module Astal already loaded, cannot load version 4.0
+require@resource:///org/gnome/gjs/modules/esm/gi.js:19:23
+@gi://Astal/?version=4.0:3:25
+
+
+(gjs:41070): Gjs-CRITICAL **: 18:38:23.882: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error 
+(gjs:41322): Gjs-CRITICAL **: 18:38:24.282: JS ERROR: Error: Version 3.0 of GI module Astal already loaded, cannot load version 4.0
+require@resource:///org/gnome/gjs/modules/esm/gi.js:19:23
+@gi://Astal/?version=4.0:3:25
+
+
+(gjs:41322): Gjs-CRITICAL **: 18:38:24.282: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error astal-Message: 18:39:33.781: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:40:33.904: Google Chrome
+
+(gjs:42501): Gtk-WARNING **: 18:40:33.906: Attempting to add a widget with type Label to a Button, but as a GtkBin subclass a Button can only contain one widget at a time; it already contains a widget of type Label
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:42:01.336: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:42:48.239: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:46:09.515: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:46:58.117: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:48:23.217: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:59:53.080: Google Chrome
+Starting sevice
+Command failed with error 
+(gjs:49355): Gjs-CRITICAL **: 19:03:53.686: JS ERROR: ReferenceError: module is not defined
+@file:///run/user/1000/ags.js:930:14
+
+
+(gjs:49355): Gjs-CRITICAL **: 19:03:53.687: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error 
+(gjs:49609): Gjs-CRITICAL **: 19:03:54.143: JS ERROR: ReferenceError: module is not defined
+@file:///run/user/1000/ags.js:930:14
+
+
+(gjs:49609): Gjs-CRITICAL **: 19:03:54.143: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error 
+(gjs:49866): Gjs-CRITICAL **: 19:03:54.687: JS ERROR: ReferenceError: module is not defined
+@file:///run/user/1000/ags.js:930:14
+
+
+(gjs:49866): Gjs-CRITICAL **: 19:03:54.687: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error 
+(gjs:50121): Gjs-CRITICAL **: 19:03:55.150: JS ERROR: ReferenceError: module is not defined
+@file:///run/user/1000/ags.js:930:14
+
+
+(gjs:50121): Gjs-CRITICAL **: 19:03:55.150: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error 
+(gjs:50373): Gjs-CRITICAL **: 19:03:55.608: JS ERROR: ReferenceError: module is not defined
+@file:///run/user/1000/ags.js:930:14
+
+
+(gjs:50373): Gjs-CRITICAL **: 19:03:55.609: Module file:///run/user/1000/ags.js threw an exception
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error astal-Message: 19:04:57.260: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:06:37.982: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:09:36.348: Google Chrome
+astal-Message: 19:09:38.082: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:12:25.944: Google Chrome
+astal-Message: 19:12:27.085: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:15:37.981: Google Chrome
+astal-Message: 19:15:39.498: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:17:07.725: Google Chrome
+astal-Message: 19:17:09.965: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:19:44.720: Google Chrome
+astal-Message: 19:19:46.305: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:21:15.054: Google Chrome
+astal-Message: 19:21:16.444: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:22:37.015: Google Chrome
+astal-Message: 19:22:38.153: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:23:08.442: Google Chrome
+astal-Message: 19:23:09.331: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:24:11.542: Google Chrome
+astal-Message: 19:24:12.920: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:27:14.354: Google Chrome
+astal-Message: 19:27:15.710: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:30:40.492: Google Chrome
+astal-Message: 19:30:41.723: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:33:47.417: Google Chrome
+astal-Message: 19:33:48.686: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:34:30.486: Google Chrome
+astal-Message: 19:34:31.543: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:35:02.871: Google Chrome
+astal-Message: 19:35:03.725: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:41:01.194: Google Chrome
+astal-Message: 19:41:02.441: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:43:14.816: Google Chrome
+astal-Message: 19:43:16.223: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:44:34.080: Google Chrome
+astal-Message: 19:44:35.438: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:45:13.450: Google Chrome
+astal-Message: 19:45:14.415: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:46:05.847: Google Chrome
+astal-Message: 19:46:06.862: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:47:34.275: Google Chrome
+astal-Message: 19:47:36.186: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:48:51.575: Google Chrome
+astal-Message: 19:48:52.431: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:21:25.990: Google Chrome
+astal-Message: 20:21:29.315: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:22:27.901: Google Chrome
+astal-Message: 20:22:29.580: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:23:11.805: Google Chrome
+astal-Message: 20:23:13.398: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:23:34.207: Google Chrome
+astal-Message: 20:23:35.125: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:26:03.115: Google Chrome
+astal-Message: 20:26:04.504: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:28:48.705: Google Chrome
+astal-Message: 20:28:49.904: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:31:47.041: Google Chrome
+astal-Message: 20:31:48.916: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:32:35.276: Google Chrome
+astal-Message: 20:32:36.501: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:33:04.150: Google Chrome
+astal-Message: 20:33:05.423: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:35:52.197: Google Chrome
+astal-Message: 20:35:53.096: Creating new window
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:39:44.424: Google Chrome
+astal-Message: 20:39:45.599: Creating new window
+
+(gjs:77266): Gtk-WARNING **: 20:39:45.600: Attempting to add a widget with type Label to a Button, but as a GtkBin subclass a Button can only contain one widget at a time; it already contains a widget of type Box
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:45:48.144: Google Chrome
+
+(gjs:79968): Gtk-WARNING **: 20:45:49.983: Attempting to add a widget with type Label to a Button, but as a GtkBin subclass a Button can only contain one widget at a time; it already contains a widget of type Box
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:46:43.353: Google Chrome
+
+(gjs:80668): Gtk-WARNING **: 20:46:46.984: Attempting to add a widget with type Label to a Button, but as a GtkBin subclass a Button can only contain one widget at a time; it already contains a widget of type Box
+astal-Message: 20:46:46.991: 1
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 18:24:01.263: Google Chrome
+astal-Message: 18:24:01.347: Google Chrome
+
+(gjs:3155): GLib-GIO-WARNING **: 18:24:01.446: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3155): GLib-CRITICAL **: 18:24:01.583: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3155): GLib-CRITICAL **: 18:24:01.583: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 22:13:55.407: Google Chrome
+astal-Message: 22:13:55.463: Google Chrome
+astal-Message: 22:13:55.485: Google Chrome
+
+(gjs:3158): GLib-GIO-WARNING **: 22:13:56.710: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3158): GLib-CRITICAL **: 22:13:56.875: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3158): GLib-CRITICAL **: 22:13:56.875: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Command failed with error astal-Message: 22:13:58.469: Google Chrome
+astal-Message: 22:13:58.520: Google Chrome
+
+(gjs:3894): GLib-GIO-WARNING **: 22:14:22.271: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3894): GLib-CRITICAL **: 22:14:22.444: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3894): GLib-CRITICAL **: 22:14:22.444: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 22:20:49.521: Google Chrome
+astal-Message: 22:20:49.584: Google Chrome
+astal-Message: 22:20:49.608: Google Chrome
+
+** (gjs:3446): WARNING **: 22:20:50.041: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 49 does not refer to a menu item we have
+
+(gjs:3446): GLib-GIO-WARNING **: 22:20:50.830: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3446): GLib-CRITICAL **: 22:20:50.995: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3446): GLib-CRITICAL **: 22:20:50.995: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 23:23:56.899: Google Chrome
+
+** (gjs:3289): WARNING **: 23:23:57.563: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 66 does not refer to a menu item we have
+
+(gjs:3289): GLib-GIO-WARNING **: 23:23:58.764: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3289): GLib-CRITICAL **: 23:23:58.914: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3289): GLib-CRITICAL **: 23:23:58.914: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 23:57:03.832: Google Chrome
+
+(gjs:3300): GLib-GIO-WARNING **: 23:57:05.739: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3300): GLib-CRITICAL **: 23:57:05.882: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3300): GLib-CRITICAL **: 23:57:05.882: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:02:05.590: Google Chrome
+
+** (gjs:3258): WARNING **: 00:02:06.240: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 66 does not refer to a menu item we have
+
+(gjs:3258): GLib-GIO-WARNING **: 00:02:07.469: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3258): GLib-CRITICAL **: 00:02:07.605: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3258): GLib-CRITICAL **: 00:02:07.605: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:05:38.574: Google Chrome
+
+(gjs:3425): GLib-GIO-WARNING **: 00:05:40.173: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3425): GLib-CRITICAL **: 00:05:40.309: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3425): GLib-CRITICAL **: 00:05:40.309: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:08:11.480: Google Chrome
+astal-Message: 00:08:11.534: Google Chrome
+
+(gjs:3525): GLib-GIO-WARNING **: 00:08:12.784: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3525): GLib-CRITICAL **: 00:08:12.922: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3525): GLib-CRITICAL **: 00:08:12.922: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:10:21.852: Google Chrome
+
+(gjs:3314): GLib-GIO-WARNING **: 00:10:23.682: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3314): GLib-CRITICAL **: 00:10:23.819: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3314): GLib-CRITICAL **: 00:10:23.819: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:16:42.691: Google Chrome
+
+(gjs:3313): GLib-GIO-WARNING **: 00:16:44.725: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3313): GLib-CRITICAL **: 00:16:44.855: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3313): GLib-CRITICAL **: 00:16:44.855: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:23:09.667: Google Chrome
+
+(gjs:3322): GLib-GIO-WARNING **: 00:23:11.548: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3322): GLib-CRITICAL **: 00:23:11.714: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3322): GLib-CRITICAL **: 00:23:11.714: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+**
+GLib:ERROR:../../../glib/gvarianttypeinfo.c:168:g_variant_type_info_check: assertion failed: (info->alignment == 0 || info->alignment == 1 || info->alignment == 3 || info->alignment == 7)
+Bail out! GLib:ERROR:../../../glib/gvarianttypeinfo.c:168:g_variant_type_info_check: assertion failed: (info->alignment == 0 || info->alignment == 1 || info->alignment == 3 || info->alignment == 7)
+[31merror: [0msignal: aborted (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:32:14.930: Google Chrome
+
+(gjs:3316): GLib-GIO-WARNING **: 00:32:15.137: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3316): GLib-CRITICAL **: 00:32:15.278: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3316): GLib-CRITICAL **: 00:32:15.278: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 12:12:31.135: Google Chrome
+
+(gjs:3154): GLib-GIO-WARNING **: 12:12:34.794: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3154): GLib-CRITICAL **: 12:12:34.975: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3154): GLib-CRITICAL **: 12:12:34.975: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 16:16:55.040: Google Chrome
+
+** (gjs:3317): WARNING **: 16:16:56.201: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 141 does not refer to a menu item we have
+
+** (gjs:3317): WARNING **: 16:16:56.201: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 151 does not refer to a menu item we have
+
+(gjs:3317): GLib-GIO-WARNING **: 16:16:56.785: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3317): GLib-CRITICAL **: 16:16:56.926: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3317): GLib-CRITICAL **: 16:16:56.926: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 22:45:18.194: Google Chrome
+
+** (gjs:3279): WARNING **: 22:45:18.814: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 66 does not refer to a menu item we have
+
+** (gjs:3279): WARNING **: 22:45:19.335: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 130 does not refer to a menu item we have
+
+** (gjs:3279): WARNING **: 22:45:19.335: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 141 does not refer to a menu item we have
+
+** (gjs:3279): WARNING **: 22:45:19.659: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 183 does not refer to a menu item we have
+
+** (gjs:3279): WARNING **: 22:45:19.659: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 194 does not refer to a menu item we have
+
+(gjs:3279): GLib-GIO-WARNING **: 22:45:19.932: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3279): GLib-CRITICAL **: 22:45:20.071: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3279): GLib-CRITICAL **: 22:45:20.071: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 11:49:48.317: Google Chrome
+
+(gjs:3169): GLib-GIO-WARNING **: 11:49:51.939: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3169): GLib-CRITICAL **: 11:49:52.129: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3169): GLib-CRITICAL **: 11:49:52.129: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice

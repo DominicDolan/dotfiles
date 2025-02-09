@@ -1,0 +1,8 @@
+[Unit]
+PartOf=graphical-session.target
+After=graphical-session.target
+Requisite=graphical-session.target
+
+[Service]
+ExecStart=/home/linuxbrew/.linuxbrew/bin/nu /home/doghouse/.config/niri/scripts/ags_run.nu
+Restart=on-failure

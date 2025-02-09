@@ -4,5 +4,5 @@ After=graphical-session.target
 Requisite=graphical-session.target
 
 [Service]
-ExecStart=/usr/bin/swaybg -m fill -i "%h/Pictures/Wallpaper/daily.jpeg"
+ExecStart=/home/linuxbrew/.linuxbrew/bin/nu /home/doghouse/.config/niri/scripts/swabg_run.nu "%h/Pictures/Wallpaper/openart-image_mountain_wide.png"
 Restart=on-failure

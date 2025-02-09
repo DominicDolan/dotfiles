@@ -107,6 +107,7 @@ $env.PATH = ($env.PATH | split row (char esep)
     | prepend '/run/user/1000/fnm_multishells/15895_1731712441358/bin'
     | prepend $'/home/doghouse/.cargo/bin'
     | prepend $'/usr/local/go/bin'
+    | prepend '/opt/nvim-linux64/bin'
      
 $env.PATH = ($env.PATH | uniq)
 # To load from a custom file you can use:
@@ -129,4 +130,12 @@ $env.FNM_NODE_DIST_MIRROR = "https://nodejs.org/dist"
 $env.FNM_COREPACK_ENABLED = "false"
 $env.FNM_RESOLVE_ENGINES = "true"
 $env.FNM_ARCH = "x64"
+
+$env.NVM_DIR = $'($env.HOME)/.nvm'
+
+let nvm_script = ($env.NVM_DIR | path join "nvm.sh")
+
+if ($nvm_script | path exists) and (not ($nvm_script | is-empty)) {
+    nu -c $'cat ($nvm_script) | bash -c "$in"'
+}
 

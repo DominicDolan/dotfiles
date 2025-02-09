@@ -3,10 +3,11 @@
 // Check the wiki for a full description of the configuration:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Overview
 
-spawn-at-startup "~/.config/niri/startup/bing-wallpaper"
-spawn-at-startup "bash" "-c" "cat /proc/acpi/button/lid/LID0/state | grep closed | awk 'END { if(index($0, \"closed\") != 0) {print \"off\"} else {print \"on\"}}' | xargs niri msg output eDP-1"
-spawn-at-startup "/usr/local/bin/gBar bar DP-7 eDP-1"
-spawn-at-startup "/usr/bin/ulauncher"
+//spawn-at-startup "nu" "~/.config/niri/startup/bing-wallpaper.nu";
+//spawn-at-startup "bash" "-c" "cat /proc/acpi/button/lid/LID0/state | grep closed | awk 'END { if(index($0, \"closed\") != 0) {print \"off\"} else {print \"on\"}}' | xargs niri msg output eDP-1"
+//spawn-at-startup "nu" "/home/doghouse/.config/niri/scripts/ags_run.nu";
+spawn-at-startup "sh" "-c" "nu /home/doghouse/.config/niri/scripts/swaybg_run.nu /home/doghouse/Pictures/Wallpaper/openart-image_mountain_wide.jpg";
+spawn-at-startup "/usr/bin/ulauncher";
 
 environment {
     DISPLAY ":0"
@@ -50,9 +51,6 @@ input {
 
     // Focus windows and outputs automatically when moving the mouse into them.
     focus-follows-mouse max-scroll-amount="25%"
-}
-output "DP-6" {
-    off;
 }
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
@@ -484,6 +482,7 @@ binds {
     Mod+Ctrl+2 { spawn "idea";}
 
     Mod+4 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "pavucontrol"; }
+    Mod+5 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "pavucontrol"; }
     Mod+3 { spawn "nu" "/home/doghouse/.config/niri/scripts/open-mpv-from-clipboard.nu"; }
     Mod+0 { spawn "nu" "/home/doghouse/.config/niri/scripts/ags_run.nu"; }
     // Alternatively, there are commands to move just a single window:

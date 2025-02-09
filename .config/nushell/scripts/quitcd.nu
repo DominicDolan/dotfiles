@@ -20,9 +20,9 @@ export def --env n [
 	# Launch nnn. Add desired flags after `^nnn`, ex: `^nnn -eda ...$args`,
 	# or make an alias `alias n = n -eda`.
 	if $selective {
-		^nnn ...$args
+		^nnn -e ...$args
 	} else {
-		NNN_TMPFILE=$nnn_tmpfile ^nnn ...$args
+		NNN_TMPFILE=$nnn_tmpfile ^nnn -e ...$args
 	}
 
 	if ($nnn_tmpfile | path exists) {
