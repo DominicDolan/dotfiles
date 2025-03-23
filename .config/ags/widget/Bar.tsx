@@ -74,8 +74,8 @@ function AppButton({ app }: { app: Apps.Application }) {
     </button>
 }
 
-function Time(props: { align: Gtk.Align, onClick: () => void }) {
-    return <button onClick={ props.onClick }>
+function Time(props: { align: Gtk.Align, onClick: () => void, className?: string }) {
+    return <button onClick={ props.onClick } className={ props.className }>
         <box className="Time mx-2" vertical valign={Gtk.Align.CENTER}>
             <label className={"text-base"} halign={props.align} label={time()}/>
             <label className={"text-xs"} halign={props.align} label={date()}></label>
@@ -116,13 +116,36 @@ function OpenApps() {
     </box>
 }
 
+function isOnMonitor(window: Gtk.Window, gdkmonitor: Gdk.Monitor) {
+    const gdkWindow = window.get_window()
+    if (gdkWindow == null) return false
+
+    const id = window.screen.get_monitor_at_window(gdkWindow)
+    const windowMonitor = window.screen.get_display().get_monitor(id)
+    if (windowMonitor == null) return false
+
+    const uniqueMonitorIdentifier = "" + gdkmonitor.workarea.x + "-" + gdkmonitor.workarea.y
+    const uniqueWindowMonitorIdentifier = "" + windowMonitor.workarea.x + "-" + windowMonitor.workarea.y
+    return uniqueMonitorIdentifier === uniqueWindowMonitorIdentifier
+}
 
 export default function Bar(gdkmonitor: Gdk.Monitor) {
     const { TOP, LEFT, RIGHT } = Astal.WindowAnchor
 
-    const apps = new Apps.Apps();
-    let chrome = apps.fuzzy_query("chrome")[0]
-    console.log(chrome.name)
+
+    function onTimeClicked() {
+        const openWindow = App.get_windows()
+            .filter(w => isOnMonitor(w, gdkmonitor))
+            .filter(w => w.name.includes("tools"))
+            .at(0)
+
+        if (openWindow == undefined) {
+            Tools(gdkmonitor)
+        } else {
+            openWindow.destroy()
+        }
+
+    }
     return <window
         className="Bar"
         name={"bar"}
@@ -139,7 +162,7 @@ export default function Bar(gdkmonitor: Gdk.Monitor) {
             <box hexpand halign={Gtk.Align.END}>
                 <SysTray className="ml-4"/>
                 <BatteryLevel/>
-                <Time align={Gtk.Align.END} onClick={() => Tools(gdkmonitor)}/>
+                <Time align={Gtk.Align.END} onClick={onTimeClicked} className={"ml-2"}/>
                 {/*<PowerActions />*/}
             </box>
         </centerbox>

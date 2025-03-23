@@ -572,3 +572,677 @@ Command failed with error astal-Message: 11:49:48.317: Google Chrome
 (gjs:3169): GLib-CRITICAL **: 11:49:52.129: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
 [31merror: [0msignal: segmentation fault (core dumped)
 Starting sevice
+Starting sevice
+Command failed with error astal-Message: 15:53:24.139: Google Chrome
+
+(gjs:3159): GLib-GIO-WARNING **: 15:53:25.918: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3159): GLib-CRITICAL **: 15:53:26.060: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3159): GLib-CRITICAL **: 15:53:26.060: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 19:36:32.613: Google Chrome
+
+** (gjs:3310): WARNING **: 19:36:33.654: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 177 does not refer to a menu item we have
+
+** (gjs:3310): WARNING **: 19:36:33.654: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 186 does not refer to a menu item we have
+
+(gjs:3310): GLib-GIO-WARNING **: 19:36:34.267: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3310): GLib-CRITICAL **: 19:36:34.444: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3310): GLib-CRITICAL **: 19:36:34.444: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 12:12:02.986: Google Chrome
+astal-Message: 12:12:03.053: Google Chrome
+
+(gjs:3208): GLib-GIO-WARNING **: 12:12:03.182: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3208): GLib-CRITICAL **: 12:12:03.332: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3208): GLib-CRITICAL **: 12:12:03.332: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 22:27:13.634: Google Chrome
+
+** (gjs:3177): WARNING **: 22:27:14.161: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 59 does not refer to a menu item we have
+
+** (gjs:3177): WARNING **: 22:27:14.161: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 66 does not refer to a menu item we have
+
+(gjs:3177): GLib-GIO-WARNING **: 22:27:16.731: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3177): GLib-CRITICAL **: 22:27:16.899: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3177): GLib-CRITICAL **: 22:27:16.899: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 23:59:24.648: Google Chrome
+
+(gjs:3139): GLib-GIO-WARNING **: 23:59:27.727: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3139): GLib-CRITICAL **: 23:59:27.903: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3139): GLib-CRITICAL **: 23:59:27.903: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 17:40:29.332: Google Chrome
+
+** (gjs:3180): WARNING **: 17:40:30.986: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 64 does not refer to a menu item we have
+
+** (gjs:3180): WARNING **: 17:40:30.987: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 75 does not refer to a menu item we have
+
+** (gjs:3180): WARNING **: 17:40:31.297: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 111 does not refer to a menu item we have
+
+** (gjs:3180): WARNING **: 17:40:31.298: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 122 does not refer to a menu item we have
+
+(gjs:3180): GLib-GIO-WARNING **: 17:40:32.858: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3180): GLib-CRITICAL **: 17:40:33.034: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3180): GLib-CRITICAL **: 17:40:33.035: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 23:46:23.200: Google Chrome
+
+(gjs:10253): GLib-GIO-WARNING **: 23:46:24.704: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:10253): GLib-CRITICAL **: 23:46:24.848: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:10253): GLib-CRITICAL **: 23:46:24.849: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Starting sevice
+Command failed with error Astal instance "astal" already running
+[31merror: [0mexit status 1
+Command failed with error astal-Message: 23:46:27.939: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 23:53:58.930: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 23:54:52.193: Google Chrome
+Starting sevice
+Command failed with error [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mExpected ":" but found "}"[0m
+
+    widget/Tools.tsx:45:53:
+[37m      45 │             { expanded.get() ? <label>Testing</label>[32m}[37m
+         │                                                      [32m^[37m
+         ╵                                                      [32m:[0m
+
+Starting sevice
+Command failed with error [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mExpected ":" but found "}"[0m
+
+    widget/Tools.tsx:45:53:
+[37m      45 │             { expanded.get() ? <label>Testing</label>[32m}[37m
+         │                                                      [32m^[37m
+         ╵                                                      [32m:[0m
+
+Starting sevice
+Command failed with error [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mExpected ":" but found "}"[0m
+
+    widget/Tools.tsx:45:53:
+[37m      45 │             { expanded.get() ? <label>Testing</label>[32m}[37m
+         │                                                      [32m^[37m
+         ╵                                                      [32m:[0m
+
+Starting sevice
+Command failed with error [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mExpected ":" but found "}"[0m
+
+    widget/Tools.tsx:45:53:
+[37m      45 │             { expanded.get() ? <label>Testing</label>[32m}[37m
+         │                                                      [32m^[37m
+         ╵                                                      [32m:[0m
+
+Starting sevice
+Command failed with error [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mExpected ":" but found "}"[0m
+
+    widget/Tools.tsx:45:53:
+[37m      45 │             { expanded.get() ? <label>Testing</label>[32m}[37m
+         │                                                      [32m^[37m
+         ╵                                                      [32m:[0m
+
+Starting sevice
+Command failed with error astal-Message: 23:59:39.092: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:01:12.676: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:04:18.966: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:05:23.428: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:06:12.191: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:10:39.096: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:14:07.798: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:15:15.539: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:17:21.413: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:19:24.225: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:21:13.011: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:23:42.971: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 00:25:42.282: Google Chrome
+Starting sevice
+Starting sevice
+Command failed with error astal-Message: 11:30:59.251: Google Chrome
+
+(gjs:3158): GLib-GIO-WARNING **: 11:31:02.870: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3158): GLib-CRITICAL **: 11:31:03.052: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3158): GLib-CRITICAL **: 11:31:03.052: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error Starting sevice
+Starting sevice
+Command failed with error astal-Message: 20:57:39.011: 0
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3161): GLib-GIO-WARNING **: 12:11:33.663: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3161): GLib-CRITICAL **: 12:11:33.854: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3161): GLib-CRITICAL **: 12:11:33.854: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3185): GLib-GIO-WARNING **: 01:47:26.740: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3185): GLib-CRITICAL **: 01:47:26.887: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3185): GLib-CRITICAL **: 01:47:26.887: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3181): GLib-GIO-WARNING **: 10:41:35.672: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3181): GLib-CRITICAL **: 10:41:35.840: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3181): GLib-CRITICAL **: 10:41:35.840: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3198): GLib-GIO-WARNING **: 21:53:56.425: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3198): GLib-CRITICAL **: 21:53:56.560: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3198): GLib-CRITICAL **: 21:53:56.560: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3141): GLib-GIO-WARNING **: 18:42:42.150: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3141): GLib-CRITICAL **: 18:42:42.340: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3141): GLib-CRITICAL **: 18:42:42.340: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+** (gjs:3169): WARNING **: 20:06:50.990: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 154 does not refer to a menu item we have
+
+** (gjs:3169): WARNING **: 20:06:50.991: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 164 does not refer to a menu item we have
+
+(gjs:3169): GLib-GIO-WARNING **: 20:06:53.986: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3169): GLib-CRITICAL **: 20:06:54.167: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3169): GLib-CRITICAL **: 20:06:54.167: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+** (gjs:3161): WARNING **: 16:04:20.345: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 144 does not refer to a menu item we have
+
+** (gjs:3161): WARNING **: 16:04:20.346: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 152 does not refer to a menu item we have
+
+(gjs:3161): GLib-GIO-WARNING **: 16:04:23.462: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3161): GLib-CRITICAL **: 16:04:23.647: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3161): GLib-CRITICAL **: 16:04:23.647: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+** (gjs:3154): WARNING **: 11:02:17.267: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 144 does not refer to a menu item we have
+
+** (gjs:3154): WARNING **: 11:02:17.267: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 152 does not refer to a menu item we have
+
+(gjs:3154): GLib-GIO-WARNING **: 11:02:20.323: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3154): GLib-CRITICAL **: 11:02:20.506: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3154): GLib-CRITICAL **: 11:02:20.506: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+** (gjs:3289): WARNING **: 23:32:53.562: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 193 does not refer to a menu item we have
+
+** (gjs:3289): WARNING **: 23:32:53.562: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 205 does not refer to a menu item we have
+
+(gjs:3289): GLib-GIO-WARNING **: 23:32:54.083: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3289): GLib-CRITICAL **: 23:32:54.216: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3289): GLib-CRITICAL **: 23:32:54.216: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3157): GLib-GIO-WARNING **: 11:22:01.613: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3157): GLib-CRITICAL **: 11:22:01.787: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3157): GLib-CRITICAL **: 11:22:01.787: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3182): GLib-GIO-WARNING **: 19:01:12.734: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3182): GLib-CRITICAL **: 19:01:12.895: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3182): GLib-CRITICAL **: 19:01:12.895: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3186): GLib-GIO-WARNING **: 19:15:50.258: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3186): GLib-CRITICAL **: 19:15:50.450: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3186): GLib-CRITICAL **: 19:15:50.450: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3179): GLib-GIO-WARNING **: 15:18:17.488: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3179): GLib-CRITICAL **: 15:18:17.671: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3179): GLib-CRITICAL **: 15:18:17.671: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Command failed with error 
+(gjs:3769): GLib-GIO-WARNING **: 15:18:45.702: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3769): GLib-CRITICAL **: 15:18:45.879: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3769): GLib-CRITICAL **: 15:18:45.879: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3320): GLib-GIO-WARNING **: 21:05:34.299: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3320): GLib-CRITICAL **: 21:05:34.444: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3320): GLib-CRITICAL **: 21:05:34.444: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3142): GLib-GIO-WARNING **: 16:35:59.111: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3142): GLib-CRITICAL **: 16:35:59.319: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3142): GLib-CRITICAL **: 16:35:59.319: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Command failed with error 
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.971: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.972: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+
+(gjs:3763): Gdk-CRITICAL **: 19:40:40.973: gdk_monitor_get_scale_factor: assertion 'GDK_IS_MONITOR (monitor)' failed
+Gdk-Message: 19:51:32.216: Error reading events from display: Connection reset by peer
+[31merror: [0mexit status 1
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:45048): GLib-GIO-WARNING **: 20:14:56.604: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:45048): GLib-CRITICAL **: 20:14:56.757: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:45048): GLib-CRITICAL **: 20:14:56.757: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3143): GLib-GIO-WARNING **: 10:42:49.427: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3143): GLib-CRITICAL **: 10:42:49.563: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3143): GLib-CRITICAL **: 10:42:49.563: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3165): GLib-GIO-WARNING **: 09:26:32.044: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3165): GLib-CRITICAL **: 09:26:32.236: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3165): GLib-CRITICAL **: 09:26:32.236: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+** (gjs:3182): WARNING **: 21:21:20.496: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 125 does not refer to a menu item we have
+
+** (gjs:3182): WARNING **: 21:21:20.497: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 135 does not refer to a menu item we have
+
+(gjs:3182): GLib-GIO-WARNING **: 21:21:21.183: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3182): GLib-CRITICAL **: 21:21:21.327: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3182): GLib-CRITICAL **: 21:21:21.328: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3136): GLib-GIO-WARNING **: 17:34:05.643: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3136): GLib-CRITICAL **: 17:34:05.820: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3136): GLib-CRITICAL **: 17:34:05.820: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3180): GLib-GIO-WARNING **: 20:23:31.414: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3180): GLib-CRITICAL **: 20:23:31.555: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3180): GLib-CRITICAL **: 20:23:31.555: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3127): GLib-GIO-WARNING **: 18:24:06.114: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3127): GLib-CRITICAL **: 18:24:06.252: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3127): GLib-CRITICAL **: 18:24:06.252: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3129): GLib-GIO-WARNING **: 22:53:01.108: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3129): GLib-CRITICAL **: 22:53:01.278: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3129): GLib-CRITICAL **: 22:53:01.278: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3272): GLib-GIO-WARNING **: 09:01:43.762: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3272): GLib-CRITICAL **: 09:01:43.932: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3272): GLib-CRITICAL **: 09:01:43.932: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3135): GLib-GIO-WARNING **: 09:22:15.724: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3135): GLib-CRITICAL **: 09:22:15.905: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3135): GLib-CRITICAL **: 09:22:15.905: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Command failed with error Gdk-Message: 09:25:28.679: Error reading events from display: Broken pipe
+[31merror: [0mexit status 1
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:12797): GLib-GIO-WARNING **: 09:48:39.249: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:12797): GLib-CRITICAL **: 09:48:39.414: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:12797): GLib-CRITICAL **: 09:48:39.414: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3149): GLib-GIO-WARNING **: 23:12:41.426: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3149): GLib-CRITICAL **: 23:12:41.560: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3149): GLib-CRITICAL **: 23:12:41.560: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3133): GLib-GIO-WARNING **: 11:14:36.643: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3133): GLib-CRITICAL **: 11:14:36.822: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3133): GLib-CRITICAL **: 11:14:36.822: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Command failed with error Gdk-Message: 11:19:20.349: Error reading events from display: Broken pipe
+[31merror: [0mexit status 1
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:10595): GLib-GIO-WARNING **: 11:20:34.071: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:10595): GLib-CRITICAL **: 11:20:34.283: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:10595): GLib-CRITICAL **: 11:20:34.283: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3178): GLib-GIO-WARNING **: 13:04:16.828: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3178): GLib-CRITICAL **: 13:04:16.970: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3178): GLib-CRITICAL **: 13:04:16.970: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3131): GLib-GIO-WARNING **: 09:09:27.805: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3131): GLib-CRITICAL **: 09:09:27.974: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3131): GLib-CRITICAL **: 09:09:27.974: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3191): GLib-GIO-WARNING **: 13:52:30.051: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3191): GLib-CRITICAL **: 13:52:30.242: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3191): GLib-CRITICAL **: 13:52:30.242: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:3155): GLib-GIO-WARNING **: 10:59:36.043: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:3155): GLib-CRITICAL **: 10:59:36.226: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:3155): GLib-CRITICAL **: 10:59:36.226: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice
+Command failed with error Gdk-Message: 11:56:20.265: Error reading events from display: Broken pipe
+[31merror: [0mexit status 1
+Starting sevice
+Starting sevice
+Command failed with error 
+(gjs:16013): GLib-GIO-WARNING **: 11:58:36.597: Received property Menu with type s does not match expected type o in the expected interface
+
+(gjs:16013): GLib-CRITICAL **: 11:58:36.779: the GVariant format string '(i@a{sv}@av)' has a type of '(ia{sv}av)' but the given value has a type of '(uavav)'
+
+(gjs:16013): GLib-CRITICAL **: 11:58:36.779: g_variant_get: assertion 'valid_format_string (format_string, TRUE, value)' failed
+[31merror: [0msignal: segmentation fault (core dumped)
+Starting sevice

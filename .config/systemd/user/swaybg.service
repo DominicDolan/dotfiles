@@ -4,5 +4,5 @@ After=graphical-session.target
 Requisite=graphical-session.target
 
 [Service]
-ExecStart=/home/linuxbrew/.linuxbrew/bin/nu /home/doghouse/.config/niri/scripts/swabg_run.nu "%h/Pictures/Wallpaper/openart-image_mountain_wide.png"
+ExecStart=/home/linuxbrew/.linuxbrew/bin/nu /home/doghouse/.config/niri/scripts/swabg_run.nu "%h/Pictures/Wallpaper/MountainVector.png"
 Restart=on-failure

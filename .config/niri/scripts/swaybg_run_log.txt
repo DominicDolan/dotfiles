@@ -1,0 +1,2 @@
+Command failed with error 2025-02-11 12:12:02 - [main.c:293] Found config * for output DP-7 ((null))
+2025-02-11 12:12:02 - [main.c:293] Found config * for output DP-6 ((null))
