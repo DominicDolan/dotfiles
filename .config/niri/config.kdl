@@ -371,6 +371,8 @@ binds {
     Mod+Ctrl+Home { move-column-to-first; }
     Mod+Ctrl+End  { move-column-to-last; }
 
+    Mod+Tab { toggle-overview; }
+
     Mod+Shift+Left  { focus-monitor-left; }
     Mod+Shift+Down  { focus-monitor-down; }
     Mod+Shift+Up    { focus-monitor-up; }
@@ -532,6 +534,8 @@ binds {
     Print { screenshot; }
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
+
+    Mod+Shift+S { screenshot; }
 
     // The quit action will show a confirmation dialog to avoid accidental exits.
     Mod+Shift+E { spawn "wleave" "-p" "layer-shell"; }

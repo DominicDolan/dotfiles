@@ -3,7 +3,7 @@ import style from "./style.scss"
 import Bar from "./widget/Bar"
 import {NiriEvent} from "./widget/NiriEvent";
 import { execAsync } from "astal/process"
-import {NiriWindow} from "./widget/NiriWindow";
+import {NiriWindow} from "./models/NiriWindow";
 import {Variable} from "astal";
 
 export const windows = Variable([] as Array<NiriWindow>)

@@ -2524,3 +2524,566 @@ sudo add-apt-repository -L
 sudo apt update; sudo apt upgrade
 sudo add-apt-repository --remove ppa:mutate/ppa
 dotfiles status
+sudo apt update; sudo apt upgrade
+n
+Inkscape-e7c3feb-x86_64.AppImage 
+swabg --help
+swaybg --help
+ps | find swaybg
+ps | find swaybg | first.0
+ps | find swaybg | first.pid
+ps | find swaybg | first | get pid
+ps | find swaybg | first | get pid | kill
+ps | find swaybg | first | get pid | kill $in
+swaybg -m fill -i ~/Pictures/Wallpaper/MountainVector.png 
+niri-config 
+n
+niri-config 
+n
+niri-config 
+ps | find ags | first
+ps | find ags | first | get pid | kill $in
+ps | find ags
+ps | find astal
+ags --help
+ags quit
+niri-config 
+niri msg action --help
+niri msg --help
+niri --help
+system-settings
+./Downloads/What-a-Legend-0.7.02-pc/What-a-Legend.py
+./Downloads/What-a-Legend-0.7.02-pc/What-a-Legend.sh
+ags quit
+sudo apt update; sudo apt upgrade
+./Downloads/
+ags quit
+sudo apt-get update
+sudo apt-get upgrade 
+jj st
+jj git init --colocate
+jj git --colocate
+jj git export
+jj --version
+cargo install --locked --bin jj jj-cli
+jj --version 
+jj st
+jj diffedit --tool idea
+jj st
+jj commit -m "Made the Level object more loosely coupled"
+jj st
+jj diff
+jj st
+jj diff src/main/kotlin/com/vtess/game/level/background/BackgroundShader.kt 
+jj st
+jj diff
+jj commit -m "Added accent colors to the background"
+jj git push
+jj log
+jj set bookmark develop
+jj bookmark set develop
+jj log
+jj git push
+jj bookmark set develop -r @-
+jj bookmark set develop -r @- --allow-backwards
+jj git push
+jj squash --from wz --to k
+jj log
+jj squash --from r --to k
+jj log
+jj squash --from s --to wur
+jj log
+jj squash --help
+jj log
+jj squash --from k::wur --to n
+jj log
+jj log -r k::wur
+jj log -r k..wur
+jj log -r wur..k
+jj log -r wur & k
+jj log -r wur&k
+jj log -r wur..k
+jj log -r n..k
+jj squash --from n..k --to n
+jj log
+jj squash --from w --to n
+jj log
+jj git push
+jj st
+jj diff @-
+sudo chmod g+rw /dev/video0
+ls /dev/
+mpv https://105-4.download.real-debrid.com/d/IGYUK3YEJSIXW/Mad.Men.S05E05.1080p.BluRay.x265-PGW.mkv
+xrandr -q | grep " connected"
+xrandr --output eDP-1 --brightness 0.5
+xrandr --output eDP-1 --brightness 1.0
+light -v 3 -A 10
+sudo apt update; sudo apt upgrade
+brightnessctl set -15%
+sudo apt install brightnessctl
+brightnessctl set -15%
+brightnessctl device=eDP-1 set 10%-
+brightnessctl device=intel_backlight set 10%-
+brightnessctl device=intel_backlight set -10%
+brightnessctl device=intel_backlight set -50%
+brightnessctl device=intel_backlight set 50%-
+brightnessctl device=intel_backlight set 32000
+sudo brightnessctl device=intel_backlight set 32000
+sudo brightnessctl --device=intel_backlight set 32000
+sudo brightnessctl --device=intel_backlight max
+sudo brightnessctl --device=intel_backlight set 100%
+n
+c
+n
+nu brightness.nu up
+nu brightness.nu
+sudo nu brightness.nu up
+sudo nu brightness.nu down
+brightnessctl --device=intel_backlight set 32000
+sudo visudo
+xterm-kitty
+whoami
+pwd
+xterm
+n
+nu brightness.nu up
+which brightnessctl
+sudo visudo
+nu brightness.nu up
+brightnessctl --device=intel_backlight set 32000
+brightnessctl --device=intel_backlight set 10%
+sudo brightnessctl --device=intel_backlight set 10%
+sudo brightnessctl --device=intel_backlight set 0%
+sudo brightnessctl --device=intel_backlight set 10%
+sudo brightnessctl --device=intel_backlight set 1%
+sudo brightnessctl --device=intel_backlight set 60
+sudo brightnessctl --device=intel_backlight set 20
+brightnessctl --device=intel_backlight set 10%
+sudo visudo
+xterm
+ls /sys/class/backlight/
+sudo nvim /etc/udev/rules.d/80-backlight.rules
+sudo udevadm control --reload-rules && sudo udevadm trigger
+sudo udevadm control --reload-rules
+brightnessctl --device=intel_backlight set 10%
+dotfiles status
+sudo apt update; sudo apt upgrade
+brightnessctl --device=intel_backlight set 100%
+sudo brightnessctl --device=intel_backlight set 100%
+sudo brightnessctl --device=intel_backlight set 10%
+jj diff
+jj edit @-
+jj edit @- --ignore-immutable 
+jj edit @+
+jj commit -m "Added a SectionColorTheme class for managing level color"
+sudo brightnessctl --device=intel_backlight set 100%
+./Downloads/What-a-Legend-0.7.02-pc/What-a-Legend.sh
+sudo brightnessctl --device=intel_backlight set 10%
+sudo apt update; sudo apt upgrade
+sudo brightnessctl --device=intel_backlight set 100%
+sudo brightnessctl --device=intel_backlight set 10%
+sudo brightnessctl --device=intel_backlight set 1%
+sudo brightnessctl --device=intel_backlight set 100%
+n
+which google-chrome 
+zenity 
+zenity --help
+xdg-settings set default-web-browser zen-browser.desktop
+sudo brightnessctl --device=intel_backlight set 100%
+systemd-analyze blame 
+sevice --status-all
+service --status-all
+systemctl list-units
+systemctl list-units --type=service
+systemctl list-units --type=service | grep apt-daily
+systemctl list-units --type=service | grep systemd
+systemctl list-units -a --state=active
+systemctl list-units -a --state=active | grep apt-daily
+systemd-analyze blame 
+systemctl list-units -a --state=active | grep fstrim
+sudo apt update; sudo apt upgrade
+systemctl shutdown
+systemctl poweroff 
+sudo brightnessctl --device=intel_backlight set 100%
+npm install solid-js babel-preset-solid
+nvm -v
+bun install solid-js babel-preset-solid
+bun create vite@latest
+bun install
+bun run dev
+bun run build
+bun create vite@latest
+bun install -D unocss
+gh
+n
+gh repo clone DominicDolan/UnoCSSLayoutOnly
+bun i beercss
+bun i material-dynamic-colors
+bun run dev
+jj git init --colocate
+jj st
+jj commit -m "Added a call to rynair flights"
+curl -G \<\n>  --data-urlencode "engine=google_flights" \<\n>  --data-urlencode "departure_id=DUB" \<\n>  --data-urlencode "arrival_id=LHR" \<\n>  --data-urlencode "outbound_date=2025-05-25" \<\n>  --data-urlencode "gl=ie" \<\n>  --data-urlencode "hl=en" \<\n>  --data-urlencode "currency=EUR" \<\n>  --data-urlencode "api_key=998831207d8baa24f7e9422cb3ad01ac88d5f6807100f9aa4c9b5f0fa25376ec" \<\n>  "https://serpapi.com/search.json"
+http get "https://serpapi.com/search.json?engine=google_flights&departure_id=DUB&arrival_id=LHR&outbound_date=2025-05-25&gl=ie&hl=en&currency=EUR&api_key=998831207d8baa24f7e9422cb3ad01ac88d5f6807100f9aa4c9b5f0fa25376ec"
+bun create solid
+bun install
+ls
+cat gemini-backend.log 
+ls
+cd ./solid-project-temp/
+bun install 
+bun run dev
+cd ../
+bun install
+bun run dev
+bun install
+bun run dev
+bun install
+n
+bun create solid
+bun run dev
+cd solid-project/
+bun install
+bun dev
+n
+cat StartServer.jsx 
+jj st
+jj diff
+jj st
+jj commit -m "Converted to SolidStart project"
+bun run dev
+jj st
+jj commit -m "Added a card to display flights data"
+bt-device -l
+bun run dev
+sudo brightnessctl --device=intel_backlight set 100%
+rofi
+ulauncher --version
+ulauncher-toggle
+ulauncher-toggle --verison
+ulauncher --help
+sudo apt update
+sudo apt list 
+sudo apt list | grep ulauncher
+astal --help
+astal -q
+aplay -l
+aplay --help
+pw-cli --help
+pw-cli ls
+pw-cli --help
+pw-cli ls | grep "node.name"
+pactl list | grep node.name
+pactl list
+pactl list | grep api.alsa.card.name
+pactl list | lines | group by {<\n>    if $it =~ "Client #(\d+)" {<\n>        "client"<\n>    } else if $it =~ "\s+Driver: (.+)" {<\n>        "driver"<\n>    } else if $it =~ "\s+Owner Module: (\d+)" {<\n>        "owner_module"<\n>    } else if $it =~ "\s+Properties:" {<\n>        "properties"<\n>    } else if $it =~ "\s+(\S+) = \"(.+)\"" {<\n>        "property_key_value"<\n>    } else {<\n>        "other"<\n>    }<\n>} | get client | each {<\n>    let client_id = ($it.0 | str substring 8 | str to int)<\n>    let driver = ($it.1 | str substring 8 | str trim)<\n>    let owner_module = ($it.2 | str substring 14 | str to int)<\n>    let properties_lines = ($it | drop 4)<\n><\n>    let properties = ($properties_lines | each {<\n>        let parts = ($it | str trim | split row "=")<\n>        if ($parts | length) == 2 {<\n>            { key: ($parts.0 | str trim), value: ($parts.1 | str trim | str trim_start '"' | str trim_end '"') }<\n>        } else {<\n>            null<\n>        }<\n>    } | compact | group by key | each {<\n>        let key = $it.0<\n>        let value = $it.1.0.value<\n>        { $key: $value }<\n>    } | flatten)<\n><\n>    {<\n>        id: $client_id,<\n>        driver: $driver,<\n>        owner_module: $owner_module,<\n>        properties: $properties<\n>    }<\n>}
+pactl list | lines | group by {<\n>    if $it =~ "Client #(\d+)" {<\n>        "client"<\n>    } else if $it =~ "\s+Driver: (.+)" {<\n>        "driver"<\n>    } else if $it =~ "\s+Owner Module: (\d+)" {<\n>        "owner_module"<\n>    } else if $it =~ "\s+Properties:" {<\n>        "properties"<\n>    } else if $it =~ "\s+(\S+) = \"(.+)\"" {<\n>        "property_key_value"<\n>    } else {<\n>        "other"<\n>    }<\n>}
+pactl list | | split row "\n\n"  # split by blank lines between clients<\n>| each {<\n>    $it<\n>    | lines<\n>    | where $it != ""<\n>    | each {|line|<\n>        if $line =~ "^Client #"<\n>        {<\n>            # Extract client number<\n>            $client_num = ($line | str trim | str replace "Client #" "")<\n><\n>            # Start a record with client number<\n>            { client: $client_num }<\n>        }<\n>        else if $line =~ "^\s+([^:]+): (.+)$"<\n>        {<\n>            # Extract key and value from indented lines like "Driver: PipeWire"<\n>            $matches = ($line | str trim | str split ": " | first 2)<\n>            { ($matches[0] | str downcase | str replace " " "-"): $matches[1] }<\n>        }<\n>        else if $line =~ "^\s+([^=]+) = \"(.+)\"$"<\n>        {<\n>            # Extract key-value pairs from Properties section<\n>            $matches = ($line | str trim | str split " = " | first 2)<\n>            { ($matches[0] | str downcase | str replace "." "-" | str replace " " "-"): ($matches[1] | str trim "\"") }<\n>        }<\n>        else<\n>        {<\n>            {}<\n>        }<\n>    }<\n>    | flatten<\n>    | reduce { merge $it $acc } {}<\n>}
+pactl list | split row "\n\n"  # split by blank lines between clients<\n>| each {<\n>    $it<\n>    | lines<\n>    | where $it != ""<\n>    | each {|line|<\n>        if $line =~ "^Client #"<\n>        {<\n>            # Extract client number<\n>            $client_num = ($line | str trim | str replace "Client #" "")<\n><\n>            # Start a record with client number<\n>            { client: $client_num }<\n>        }<\n>        else if $line =~ "^\s+([^:]+): (.+)$"<\n>        {<\n>            # Extract key and value from indented lines like "Driver: PipeWire"<\n>            $matches = ($line | str trim | str split ": " | first 2)<\n>            { ($matches[0] | str downcase | str replace " " "-"): $matches[1] }<\n>        }<\n>        else if $line =~ "^\s+([^=]+) = \"(.+)\"$"<\n>        {<\n>            # Extract key-value pairs from Properties section<\n>            $matches = ($line | str trim | str split " = " | first 2)<\n>            { ($matches[0] | str downcase | str replace "." "-" | str replace " " "-"): ($matches[1] | str trim "\"") }<\n>        }<\n>        else<\n>        {<\n>            {}<\n>        }<\n>    }<\n>    | flatten<\n>    | reduce { merge $it $acc } {}<\n>}
+pactl list | split row "\n\n"  # split by blank lines between clients<\n>
+pactl list | split row "\n\n" | each {|it| | lines }
+pactl list | split row "\n\n" | each {|it| | lines } | each {|line|<\n>        if $line =~ "^Client #"<\n>        {<\n>            # Extract client number<\n>            $client_num = ($line | str trim | str replace "Client #" "")<\n><\n>            # Start a record with client number<\n>            { client: $client_num }<\n>        }<\n>        else if $line =~ "^\s+([^:]+): (.+)$"<\n>        {<\n>            # Extract key and value from indented lines like "Driver: PipeWire"<\n>            $matches = ($line | str trim | str split ": " | first 2)<\n>            { ($matches[0] | str downcase | str replace " " "-"): $matches[1] }<\n>        }<\n>        else if $line =~ "^\s+([^=]+) = \"(.+)\"$"<\n>        {<\n>            # Extract key-value pairs from Properties section<\n>            $matches = ($line | str trim | str split " = " | first 2)<\n>            { ($matches[0] | str downcase | str replace "." "-" | str replace " " "-"): ($matches[1] | str trim "\"") }<\n>        }<\n>        else<\n>        {<\n>            {}<\n>        }<\n>    }
+pactl list | split row "\n\n" | each {|it| | lines } | each {|line| if $line =~ "Somehtin" }
+pactl list | split row "\n\n" | each {|it| | lines } | each {|line| if $line =~ "Somehtin" {}}
+pactl list | split row "\n\n" | each {|it| | lines | each {|line| if $line =~ "Somehtin" {}} }
+pactl list | split row "\n\n" | each {|it| | lines | each {|line| if $line =~ "Client" {}} }
+n
+nvim get-audio-devices.nu
+nu get-audio-devices.nu 
+n
+nu get-audio-devices.nu 
+split
+nu get-audio-devices.nu 
+"Testing testing" | split row " "
+"Testing testing" | str trim | split row " "
+let matches = "Testing testing" | str trim | split row " "
+let matches = ("Testing testing" | str trim | split row " ")
+let matches = ("Testing testing" | str trim | split row " " | first 2)
+$matches
+nu get-audio-devices.nu 
+find --help
+pactl list | find --regex '^\w'
+pactl list | lines | find --regex '^\w'
+pactl list | lines | find --regex '^    \w'
+pactl list | lines | find --regex '^\t\w'
+pactl list | lines | find --regex '^\t\t\w'
+pactl list | lines | split row --regex '^\w'
+pactl list | split row --regex '^\w'
+pactl list | split row '^\w'
+split row --help
+pactl list | split row -r '^\w'
+pactl list | split row -r '\n\w'
+pactl list | split row -r '\n(?=\w)'
+split row --help
+split --help
+pactl list | split row -r '\n^\t'
+pactl list | split row -r '\n[^\t]'
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n\t[^\t]'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n\t?'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n\t{1}'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n(\t{1})'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n[^\t\t]'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n[^\t{2}]'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n\t\t'}
+ags quit
+n
+nu get-audio-devices.nu 
+nvim get-audio-devices.nu
+nvim get-audio-devices-2.nu
+pactl list | split row -r '\n[^\t]' | each {|device| $device | split row -r '\n\t\t'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | replace -r '\n\t(\w)' '\n___$1'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | str replace -r '\n\t(\w)' '\n___$1'}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | str replace -r '\n\t(\w)' "\n___$1"}
+str replace --hekp
+str replace --help
+pactl list | split row -r '\n[^\t]' | each {|device| $device | str replace --all -r '\n\t(\w)' "\n___$1"}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | str replace --all -r '\n\t(\w)' "\n111$1" | str replace --all -r '\n\t\t(\w)' "\n222$1"}
+pactl list | split row -r '\n[^\t]' | each {|device| $device | str replace --all -r '\n\t(\w)' "\n111$1" | split row "\n111" | str replace --all -r '\n\t\t(\w)' "\n222$1"}
+nu get-audio-devices-2.nu 
+"Driver: alsa" | split row ": " | first 2
+let parts = "Driver: alsa" | split row ": " | first 2
+$parts.0
+$parts.1
+nu get-audio-devices-2.nu 
+pactl list
+pactl list | split row -r '\n\t'
+pactl list | split row -r '\n[^\t]' |  first 2
+pactl list | split row -r '\n[^\t]' |  first 3
+nu get-audio-devices-2.nu 
+pactl list
+pactl list | lines | first 30
+nu get-audio-devices-2.nu 
+reduce --help
+nu get-audio-devices-2.nu 
+nu get-audio-devices-2.nu to json
+into --help
+to --help
+nu get-audio-devices-2.nu to json
+nu get-audio-devices-2.nu
+str contains --help
+nu get-audio-devices-2.nu
+"Something: Else" | $it =~ ":(\s+)\w"
+"Something: Else" | $in =~ ":(\s+)\w"
+"Something: Else" | $in =~ ':(\s+)\w'
+nu get-audio-devices-2.nu
+ags
+ags run
+n
+nu get-audio-devices-2.nu
+n
+nu get-audio-devices-2.nu
+{a: 1, b:2} | wrap name
+{a: 1, b:2} | merge {c: 3}
+{a: 1, b:2} | merge {a: 3}
+nu get-audio-devices-2.nu
+["a: 1", "b: 2", "c: 3"] | reduce {|it, acc| $acc | merge $it }
+[{a: 1}, {b: 2}, {c: 3}] | reduce {|it, acc| $acc | merge $it }
+nu get-audio-devices-2.nu
+[1, 2] | count
+[1, 2] | length
+[1, 2] | length > 2
+([1, 2] | length) > 2
+nu get-audio-devices-2.nu
+[1, 2, 3] | enumerate | each {|item| item.index }
+[1, 2, 3] | enumerate | each {|item| $item.index }
+nu get-audio-devices-2.nu
+"test" | describe
+("test" | describe) == "string"
+nu get-audio-devices-2.nu
+pactl list | save temp.txt
+n
+nu get-audio-devices-2.nu
+"# asd fa" | str starts-with "#"
+"# asd fa" | not (str starts-with "#")
+not ("# asd fa" | str starts-with "#")
+nu get-audio-devices-2.nu
+'hello "something"'
+'hello "something"' | str replace --all '"' ''
+nu get-audio-devices-2.nu
+[] | reduce {|it, acc| $acc | merge $it}
+nu get-audio-devices-2.nu
+nvim get-audio-devices-2.nu
+nu get-audio-devices-2.nu
+nu get-audio-devices-2.nu | explore
+nvim get-audio-devices-2.nu
+nu get-audio-devices-2.nu | explore
+nu get-audio-devices-2.nu
+nvim get-audio-devices-2.nu
+use get-audio-devices-2.nu 
+pactl_nu
+get-audio-devices-2 pactl_nu
+get-audio-devices-2 pactl_nu | explore
+ags quit
+n
+nu get-audio-devices-2.nu pactl_nu
+nu "get-audio-devices-2.nu pactl_nu"
+nu get-audio-devices-2.nu pactl_nu
+nu --help
+nu --commands "./get-audio-devices-2"
+nu --commands "./get-audio-devices-2.nu"
+nu --commands "nu get-audio-devices-2.nu pactl_nu"
+nu --commands "nu use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | get Properties"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | get Name"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | get Name"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | get 0 | get Name"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | each {|record| record.Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | each {|record| record | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | each {|record| $record | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | each {|record| $record | default 'nothing' | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | each {|record| $record | default 'Name' '' | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default 'Name' '' |each {|record| $record | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default 'Name' '' |each {|record| $record | get Type}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name |each {|record| $record | get Type}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name |each {|record| $record | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| record | get Type | str contains "Source" } | each {|record| $record | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Name}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properies}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properties}"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properties | get alsa.card_name }"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properties | get "alsa.card_name" }"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properties | get (alsa.card_name) }"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properties | get 'alsa.card_name' }"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properties | get 'alsa.card_name' } | join ','"
+nu --commands "use "./get-audio-devices-2.nu"; get-audio-devices-2 pactl_nu | default '' Name | filter {|record| $record | get Type | str contains "Source" } | each {|record| $record | get Properties | get 'alsa.card_name' } | str join ','"
+n
+"{"some": "thing"}" | to json
+"{"some": "thing"}" | from json
+{some: "thing"}
+{some: "thing"} to json
+{some: "thing"} | to json
+nvim pactl_parse.nu 
+nu --commands "use '~/.config/ags/nu/pactl_parse.nu'; pactl_parse ${pipedInput} | to json"
+nu --commands "use '~/.config/ags/nu/pactl_parse.nu'; pactl_parse  | to json"
+pactl list
+pactl list sources 
+n
+nu pactl_parse.nu 
+nu pactl_parse.nu sources
+nu pactl_parse.nu
+let t = null
+$t
+let a = if t == null { "" } else { t }
+let a = if t == null { "" } else { i$t }
+let a = if t == null { "" } else { $t }
+$a
+let a = if t == null { "test" } else { $t }
+$a
+let a = if t != null { "test" } else { $t }
+$a
+$t | describe
+let a = if i$t != null { "test" } else { $t }
+let a = if $t != null { "test" } else { $t }
+$a
+let a = if $t == null { "test" } else { $t }
+$a
+nu pactl_parse.nu
+nu pactl_parse.nu sinks
+nu pactl_parse.nu sinks | to json | save temp.txt
+nu pactl_parse.nu sinks | to json | save -f temp.txt
+nvim temp.txt 
+nu pactl_parse.nu sinks | from json | save -f temp.txt
+nu pactl_parse.nu sinks | to json | save -f temp.txt
+nvim temp.txt 
+nu pactl_parse.nu sinks | to json
+nu pactl_parse.nu sinks
+use pactl_parse.nu
+pactl_parse sinks | to json
+pactl_parse sinks | to json | save -f temp.txt
+nvim temp.txt 
+pactl_parse sinks | filter {|device| ($device | get Driver) == "PipeWire"}
+sudo brightnessctl --device=intel_backlight set 10%
+ags quit
+pactl help
+pactl --help
+pactl get-default-sink
+pactl list --help
+pactl list alsa_output.usb-0c76_USB_PnP_Audio_Device-00.analog-stereo
+pactl list sink-inputs
+pactl --format=json list sinks
+pactl --format=json list sinks | to json
+pactl --format=json list sinks | from json
+pactl --format=json list sinks | from json | get ownerModule
+pactl --format=json list sinks | from json | get ports
+pactl --format=json list sinks | from json | get 0 | get ports
+pactl --format=json list sinks | from json | get 0 | get ports | to json
+ags quit
+pactl --help
+pactl get-sink-mute @DEFAULT_SINK@
+pactl get-sink-mute @DEFAULT_SINK@ --format=json
+pactl --format=json get-sink-mute @DEFAULT_SINK@
+pactl set-sink-mute @DEFAULT_SINK@ toggle
+pactl --format=json get-sink-mute @DEFAULT_SINK@
+n
+cat ~/.config/ags/audio_devices.json
+ags quit
+cat audio_device.json
+cat audio_devices.json 
+cat ~/.config/ags/audio_devices.json
+pwd
+cat ~/.config/ags/audio_devices.json
+sudo apt update && sudo apt upgrade
+sudo apt update; sudo apt upgrade
+ags quit
+n
+cat audio_devices.json 
+ags --help
+cat audio_devices.json 
+ags run --help
+ags run
+kitten quick-access-terminal
+kitten --version
+kitten --help
+kitten update-self
+kitty --help
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+kitty --version
+kitten quick-access-terminal
+n
+nvim put_files.nu 
+n
+git status
+git fetch
+git pull
+git status
+n
+nu put_files.nu 
+sudo nu put_files.nu 
+kitten quick-access-terminal --help
+kitten quick-access-terminal
+niri msg --help
+niri msg action --help
+niri msg action --help | grep overview
+niri --version
+n
+git status
+cd niri/
+git status
+git tag
+git log
+git tag -l
+git tag --help
+git tag --merged
+git log
+git log --no-walk --tags --pretty="%h %d %s" --decorate=full
+git status
+git log
+n
+sudo apt-get install -y gcc clang libudev-dev libgbm-dev libxkbcommon-dev libegl1-mesa-dev libwayland-dev libinput-dev libdbus-1-dev libsystemd-dev libseat-dev libpipewire-0.3-dev libpango1.0-dev libdisplay-info-dev
+rustup update 
+cargo build --release
+n
+nu put_files.nu 
+sudo nu put_files.nu 
+niri --version
+niri msg action --help | grep overview
+niri msg action toggle-overview
+niri completions
+niri completions nu
+niri completions bash
+niri completions --help
+sudo brightnessctl --device=intel_backlight set 100%
+ags quit
+dotfiles status

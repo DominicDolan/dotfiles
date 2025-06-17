@@ -53,6 +53,21 @@ $bg-hover-color: rgba(46, 46, 71, 0.15);
 $primary: $peach;
 $text: $peach-text;
 
+@mixin elevated {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+@mixin outlined {
+    box-shadow: none;
+    border: 2px solid $surface1;
+    border-radius: 32px;
+}
+
+.outlined {
+    @include outlined;
+}
+
 button {
     background: transparent;
     border: none;
@@ -73,7 +88,7 @@ window {
         color: white;
         padding: 16px;
         border-radius: 32px;
-        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+        @include elevated;
 
         .Card, button {
             background: $surface0;
@@ -121,6 +136,19 @@ window {
         }
     }
 
+    .AudioControls, .Card .AudioControls {
+        @include outlined;
+
+        padding: 8px 10px;
+        button {
+            background: transparent;
+        }
+
+        button.active {
+            background: $surface2;
+        }
+    }
+
     .ControlPanel {
         button {
             padding: 0;
@@ -148,6 +176,26 @@ window {
             }
         }
     }
+
+    levelbar {
+        trough {
+            color: $base;
+            min-height: 0.35rem;
+            border: none;
+        }
+
+        block {
+            border: none;
+        }
+        block.filled {
+            background-color: $primary;
+        }
+
+        block.empty {
+            background-color: $mantle;
+        }
+    }
+
 }
 window.Bar {
     >centerbox {

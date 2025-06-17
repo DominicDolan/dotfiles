@@ -1,6 +1,9 @@
 import { App, Astal, Gtk, Gdk } from "astal/gtk3"
 import {Variable, bind, exec} from "astal"
 import Network from "gi://AstalNetwork"
+import {AudioDevice, DefaultAudioDevice, useAudioDeviceRepository} from "../service/AudioDeviceRepository";
+import {ButtonBar} from "./ButtonBar";
+import {AudioControls} from "./AudioControls";
 
 function hide() {
     App.get_windows()
@@ -28,27 +31,7 @@ function Wifi() {
 
 }
 
-function ButtonBar(props: { icon: string, label: string, className?: string, toolPanel: () => any }) {
 
-    const expanded = Variable(false)
-
-    function onClick() {
-        expanded.set(!expanded.get())
-    }
-
-    return <box vertical className={"" + (props.className ?? "")}>
-            <button onClick={onClick}>
-                <box className="ButtonBar">
-                    <box widthRequest={36} heightRequest={36} className={"md-icon"}>
-                        <label>{props.icon}</label>
-                    </box>
-                    <label className={"ml-4"}>{props.label}</label>
-                </box>
-            </button>
-            {bind(expanded).as((ex) => ex ? props.toolPanel() : <></>)}
-        </box>
-}
-                // bind(expanded).as((ex) => ex ? <label>Testing</label> : undefined)}
 function suspend() {
     hide()
     exec("systemctl suspend")
@@ -76,9 +59,9 @@ function poweroff() {
 
 export default function Tools(gdkmonitor: Gdk.Monitor) {
     const { RIGHT, TOP } = Astal.WindowAnchor
-
     const width = Variable(1280)
     const height = Variable(1080)
+
 
     return <window
         name={"tools." + gdkmonitor.workarea.x + "." + gdkmonitor.workarea.y}
@@ -114,28 +97,29 @@ export default function Tools(gdkmonitor: Gdk.Monitor) {
                     </button>
                 </box>
                 <box className="Card ControlPanel mt-4" vertical>
+                    <AudioControls onClose={() => hide()} />
                     <ButtonBar
+                        className={"mt-4"}
                         icon={"WIFI"}
-                        label={"VM6089549_EXT"}
+                        label={Variable("VM6089549_EXT")}
                         toolPanel={() => <label>Test 1</label>}
                     />
                     <ButtonBar
                         className={"mt-4"}
                         icon={"BLUETOOTH"}
-                        label={"Bluetooth"}
+                        label={Variable("Bluetooth")}
                         toolPanel={() => <label>Test 2</label>}
                     />
                     <ButtonBar
                         className={"mt-4"}
                         icon={"BATTERY_6_BAR"}
-                        label={"90% Balanced"}
+                        label={Variable("90% Balanced")}
                         toolPanel={() => <label>Test 3</label>}
                     />
                     <box className={"ExtraSettings mt-4"}>
-                        <button>
+                        <button onClicked={hide}>
                             <box>
-                                <label className={"md-icon"}>SETTINGS</label>
-                                <label>Settings</label>
+                                <label>Cancel</label>
                             </box>
                         </button>
                     </box>
