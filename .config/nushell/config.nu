@@ -224,8 +224,7 @@ $env.config = {
     }
 
     filesize: {
-        metric: false # true => KB, MB, GB (ISO standard), false => KiB, MiB, GiB (Windows standard)
-        format: "auto" # b, kb, kib, mb, mib, gb, gib, tb, tib, pb, pib, eb, eib, auto
+        unit: "metric"
     }
 
     cursor_shape: {
@@ -902,6 +901,7 @@ source ~/.cache/carapace/init.nu
 use quitcd.nu n
 source aliases.nu
 use task.nu
+use std/clip
 
 if ($env.NVM_DIR | path exists) and ($"($env.NVM_DIR)/nvm.sh" | path exists) {
     ^bash -c $"source ($env.NVM_DIR)/nvm.sh"

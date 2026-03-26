@@ -23,7 +23,8 @@ input {
             // For more information, see xkeyboard-config(7).
 
             // For example:
-            layout "gb"
+            layout "us"
+            variant "altgr-intl"
             // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
             options "caps:swapescape"
         }
@@ -263,6 +264,12 @@ window-rule {
     }
 }
 
+window-rule {
+    match title="Mechanica"
+
+    open-floating true
+}
+
 
 window-rule {
     match app-id="pavucontrol"
@@ -340,6 +347,7 @@ binds {
     XF86MonBrightnessDown   allow-when-locked=true { spawn "nu" "~/.config/niri/scripts/brightness.nu" "down";  }
 
     Mod+Backspace { close-window; }
+    Mod+Q { close-window; }
 
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
@@ -372,6 +380,7 @@ binds {
     Mod+Ctrl+End  { move-column-to-last; }
 
     Mod+Tab { toggle-overview; }
+    //MouseForward { toggle-overview; }
 
     Mod+Shift+Left  { focus-monitor-left; }
     Mod+Shift+Down  { focus-monitor-down; }
@@ -431,10 +440,13 @@ binds {
     Mod+Ctrl+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
     Mod+Ctrl+WheelScrollUp   cooldown-ms=150 { move-column-to-workspace-up; }
 
-    Mod+WheelScrollRight      { focus-column-right; }
-    Mod+WheelScrollLeft       { focus-column-left; }
-    Mod+Ctrl+WheelScrollRight { move-column-right; }
-    Mod+Ctrl+WheelScrollLeft  { move-column-left; }
+    Mod+Shift+Home { focus-window-top; }
+    Mod+Shift+End { focus-window-bottom; }
+
+    Mod+WheelScrollRight  cooldown-ms=150    { focus-column-right; }
+    Mod+WheelScrollLeft   cooldown-ms=150    { focus-column-left; }
+    Mod+Ctrl+WheelScrollRight  cooldown-ms=150 { move-column-right; }
+    Mod+Ctrl+WheelScrollLeft   cooldown-ms=150 { move-column-left; }
 
     // Usually scrolling up and down with Shift in applications results in
     // horizontal scrolling; these binds replicate that.
@@ -479,8 +491,9 @@ binds {
     Mod+Shift+Ctrl+8 { move-column-to-workspace 8; }
     Mod+Shift+Ctrl+9 { move-column-to-workspace 9; }
     
-    Mod+1 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "google-chrome"; }
-    Mod+Ctrl+1 { spawn "google-chrome";}
+    Mod+1 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "zen" "flatpak run app.zen_browser.zen"; }
+    Mod+Shift+C { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "google-chrome"; }
+    Mod+Ctrl+1 { spawn "flatpak" "run" "app.zen_browser.zen";}
 
     Mod+2 { spawn "nu" "/home/doghouse/.config/niri/scripts/focus-window.nu" "idea"; }
     Mod+Ctrl+2 { spawn "idea";}
@@ -536,6 +549,8 @@ binds {
     Alt+Print { screenshot-window; }
 
     Mod+Shift+S { screenshot; }
+    
+    Mod+W { toggle-column-tabbed-display; }
 
     // The quit action will show a confirmation dialog to avoid accidental exits.
     Mod+Shift+E { spawn "wleave" "-p" "layer-shell"; }

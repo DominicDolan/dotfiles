@@ -1,5 +1,7 @@
 
 def main [type: string] {
+  $type | save --append temp.txt
+
   if $type == "up" {
     wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+
   } else if $type == "down" {
@@ -7,5 +9,5 @@ def main [type: string] {
   } else if $type == "mute" {
     wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
   }
-  gBar audio
+  astal audio
 }

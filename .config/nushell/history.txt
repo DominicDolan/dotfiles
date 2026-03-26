@@ -3087,3 +3087,2600 @@ niri completions --help
 sudo brightnessctl --device=intel_backlight set 100%
 ags quit
 dotfiles status
+pactl --help
+pactl --format=json get-sink-volume @DEFAULT_SINK@
+pactl --format=json get-default-sink
+"test" | save temp.txt
+nvim temp.txt 
+n
+git init
+git status
+git add .
+git commit -m "Initial Commit"
+ags quit
+mpv https://torrentio.strem.fun/realdebrid/K64PZK3UVRJSEQZJR4Y4VE3P3LIJFVEOT4PDZBJJC3LZLG557NRA/1a1eb78698c7625282d443effee6a449b3920a28/null/0/Star.Wars.Andor.S02E07.Messenger.2160p.DSNP.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+ipconfig -a
+ifconfig -a
+ip link
+ls /sys/class/net
+nmcli
+nmcli --help
+nmcli -t -f active,ssid dev wifi
+nmcli -t -f active,ssid
+nmcli device --help
+nmcli device wifi
+nmcli -s -t -f dev wifi list
+nmcli -t -f dev wifi list
+nmcli -t -f dev wifi
+nmcli -t -f device wifi
+nmcli -t -f device
+nmcli -t -f device --help
+nmcli -t device --help
+nmcli -t device wifi
+nmcli -s -t device wifi
+nmcli -s -t -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi
+nmcli -e --help
+nmcli -e yes -s -t -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi
+nmcli -e no -s -t -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi
+nmcli -e yes '|' -s -t -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi
+nmcli --help
+nmcli -t -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi list
+nmcli device wifi list
+nmcli device wifi list --help
+nmcli device wifi list --format=json
+nmcli -t device wifi list
+ags quit
+bun
+bun repl
+nmcli --help
+bun repl
+nmcli -m tabular -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi list
+nmcli -t -m tabular -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi list
+nmcli -t -m tabular -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device --help
+nmcli -t -m tabular -f SSID,BSSID,SIGNAL,SECURITY,IN-USE,FREQ,RATE device wifi --help
+nmcli -m tabular device wifi list
+nmcli --fields --help
+nmcli --help
+nmcli -t -m tabular -f all device wifi --help
+nmcli -t -m tabular -f all device wifi list
+nmcli -m tabular -f all device wifi list
+bun repl
+nmcli -m tabular -f all device status
+ags qui
+ags quit
+jj diff
+jj bookmark set color
+jj st
+jj git push
+jj git push --allow-new
+jj commit -m "Colour Scheme refactor"
+jj git push
+jj git push --allow-new
+gh --help
+gh api --help
+ls -al ~/.ssh
+jj st
+jj git push
+jj git push --allow-new
+jj log
+n
+jj st
+jj diff --help
+jj st
+jj diff
+jj commit -m "DukeUI changes"
+jj bookmark set dukeui
+jj git push
+jj bookmark set dukeui @-
+jj bookmark set dukeui -r @-
+jj bookmark set dukeui -r @- --allow-backwards
+jj git push
+gh --help
+gh auth
+gh auth login
+jj git push
+jj bookmark --help 
+jj bookmark forget @-@origin
+jj log
+jj bookmark forget @-
+n
+jj st
+jj diff
+jj describe -m "Updated build config"
+jj bookmark set main
+jj git push
+sudo brightnessctl --device=intel_backlight set 100%
+n
+./What-a-Legend.sh
+pactl --format=json get-default-sink
+pactl list sinks
+alsamixer
+sudo alsactl store
+sudo apt update; sudo apt upgrade
+n
+chmod a+x Bambu_Studio_ubuntu-24.04_PR-7292.AppImage 
+./Bambu_Studio_ubuntu-24.04_PR-7292.AppImage
+alsamixer
+sudo systemctl poweroff 
+sudo apt update; sudo apt upgrade
+sudo brightnessctl --device=intel_backlight set 10%
+cargo --version
+rustup --version
+rustup toolchain list 
+rustup target add thumbv8m.main-none-eabihf
+n
+cargo build --release
+cargo install --locked elf2uf2-rs
+elf2uf2-rs
+cargo run --release --bin blinky_wifi
+n
+ln -s ./Packages/picotool/picotool ~/.local/bin
+picotool
+n
+./picotool
+cp ~/Packages/picotool/picotool ~/.local/bin
+rm ~/.local/bin
+rm ~/.local/bin/picotool
+cp ~/Packages/picotool/picotool ~/.local/bin
+picotool
+sudo cargo run --release --bin blinky_wifi
+cargo run --release --bin blinky_wifi
+picotool load -u -v -x -t elf ./target/thumbv8m.main-none-eabihf/release/blinky_wifi
+sudo picotool load -u -v -x -t elf ./target/thumbv8m.main-none-eabihf/release/blinky_wifi
+cargo run --release --bin wifi_tcp_server
+jj git init --colocate
+jj st
+jj bookmark set master
+jj git push
+jj bookmark track master@origin
+jj git push
+jj describe -m "test"
+jj git push
+jj commit -m "Uncommented code"
+jj bookmark set master -r @-
+cargo run
+jj git push
+n
+jj st
+n
+jj st
+curl -v http://localhost:4221
+cargo run
+jj commit -m "Codecrafters" and jj bookmark set master
+jj log
+jj bookmark set master -r @-
+jj log
+jj git push
+jj squash
+jj commit -m "Codecrafters"; jj bookmark set master -r @-
+jj bookmark set master -r @-
+jj log
+jj git push
+curl -v http://localhost:4221
+cargo run
+curl -v http://localhost:4221
+curl -v http://localhost:4221/abcdef
+curl -v http://localhost:4221
+cargo run
+curl -v http://localhost:4221/absdef
+curl -v http://localhost:4221
+jj st
+jj commit -m "Codecrafters"
+jj bookmark set master -r @-
+jj git push
+cargo run
+curl -v http://localhost:4221
+curl -v http://localhost:4221/abc
+jj bookmark set master
+jj describe -m "Codecrafters"
+jj git push
+jj log
+jj bookmark set master
+jj git push
+jj describe -m "Codecrafters"
+jj git push
+cargo run
+curl -v http://localhost:4221/abc
+curl -v http://localhost:4221/echo/abc
+curl http://localhost:4221/echo/abc
+cargo run
+jj st
+jj bookmark set master
+jj describe -m "Codecrafters"
+jj git push
+jj log
+jj bookmark set master
+jj describe -m "Codecrafters"
+jj git push
+curl -v --header "User-Agent: foobar/1.2.3" http://localhost:4221/user-agent
+cargo run
+curl http://localhost:4221/echo/abc
+cargo run
+curl http://localhost:4221/echo/abc
+cargo run
+curl http://localhost:4221/user-agent
+curl -v --header "User-Agent: foobar/1.2.3" http://localhost:4221/user-agent
+jj st
+jj bookmark set master
+jj describe -m "Created request objects and added user-agent route"
+jj git push
+jj describe -m "Fixed bug with headers"
+jj bookmark set master
+jj git push
+nc
+nc http://localhost:4221/user-agent
+nc http://localhost:4221
+nc localhost 4221
+nc
+nc localhost 4221 "GET / HTTP/1.1\r\n\r\n"
+nc localhost 4221
+cargo run
+nc localhost 4221
+nc 192.168.0.19 1234
+sudo brightnessctl --device=intel_backlight set 100%
+nc localhost 4221
+nc localhost 4221
+jj st
+jj bookmark set master
+jj describe -m "Added concurrency"
+jj git push
+cargo run
+n
+./codecrafters-http-server
+./codecrafters-http-server --directory /temp/
+cd ../..
+ls
+cargo run
+cargo run -- --directory /tmp
+nc localhost 4221
+curl -v --header "User-Agent: foobar/1.2.3" http://localhost:4221/user-agent
+curl -v --header http://localhost:4221/file/test
+curl -v http://localhost:4221/file/test
+n
+echo Hello | save "test"
+ls
+nvim test
+cargo run -- --directory /tmp
+curl -v http://localhost:4221/file/test
+curl -v http://localhost:4221/file/test2
+curl -v http://localhost:4221/file/test
+jj bookmark set master
+jj describe -m "Added file handling"
+cargo run -- --directory /tmp
+jj git push
+jj log
+jj diff
+bun
+bun upgrade
+jj git push
+cargo build --release
+cargo build --release --bin wifi_tcp_server
+cargo run --release --bin wifi_tcp_server
+nc 192.168.0.19 1234
+curl http://192.168.0.19:1234/abc
+nc 192.168.0.19 1234
+curl http://192.168.0.19:1234/test
+curl http://192.168.0.19:1234
+curl http://localhost:4221/1234
+curl -v http://localhost:4221/1234
+curl -v http://192.168.0.19:1234/abc
+cargo run --release --bin wifi_tcp_server
+curl -v http://192.168.0.19:1234/abc
+curl http://192.168.0.19:1234/abc
+cargo run --release --bin wifi_tcp_server
+curl http://192.168.0.19:1234/motor/go
+curl http://192.168.0.19:1234/motor/stop
+curl http://192.168.0.19:1234/motor/go
+curl http://192.168.0.19:1234/motor/stop
+curl http://192.168.0.19:1234/motor/go
+curl http://192.168.0.19:1234/motor/stop
+curl http://192.168.0.19:1234/motor/go
+curl http://192.168.0.19:1234/motor/stop
+curl http://192.168.0.19:1234/motor/go
+curl http://192.168.0.19:1234/motor/stop
+cargo run --release --bin wifi_tcp_server
+curl http://192.168.0.19:1234/test
+jj st
+jj log
+jj bookmark set master
+jj describe -m "Added file handling"
+jj git push
+jj st
+curl -v --data "12345" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+cargo run
+cargo run -- --directory /tmp
+curl -v --data "12345" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+n
+nvim file_123 
+curl -v --data "12345" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+cargo run -- --directory /tmp
+curl -v --data "12345abc" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+cargo run -- --directory /tmp
+curl -v --data "12345abc" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+cargo run -- --directory /tmp
+curl -v --data "12345abc" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+cargo run -- --directory /tmp
+curl -v --data "testing testing testing" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+curl -v --data "testing testing testing testing" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+cargo run -- --directory /tmp
+curl -v http://192.168.0.19:1234/abc
+curl -v http://localhost:4221/1234
+curl -v http://localhost:4221/echo/abc
+curl -v http://localhost:4221/user-agent
+jj st
+jj bookmark set master
+jj describe -m "Added Response builder and added files endpoint"
+curl -v --data "testing testing testing testing" -H "Content-Type: application/octet-stream" http://localhost:4221/files/file_123
+cargo run -- --directory /tmp
+jj st
+jj git push
+curl -v http://localhost:4221/files/orange_apple_mango_mango
+cargo run -- --directory /tmp
+curl -v --data "testing testing testing testing" -H "Content-Type: application/octet-stream" http://localhost:4221/files/orange_apple_mango_mango
+curl -v http://localhost:4221/files/orange_apple_mango_mango
+jj st
+jj --help
+jj describe --help
+jj desc -m "Fixed bug with files GET"
+jj bookmark set master
+jj git push
+jj desc -m "Fixed issue with content type for files"
+jj bookmark set master
+jj git push
+curl -v http://localhost:4221/files/pear_pineapple_raspberry_orange
+curl -v --data "testing testing testing testing" -H "Content-Type: application/octet-stream" http://localhost:4221/files/pear_pineapple_raspberry_orange
+curl -v http://localhost:4221/files/pear_pineapple_raspberry_orange
+cargo run -- --directory /tmp
+curl -v http://localhost:4221/files/pear_pineapple_raspberry_orange
+ca
+cargo run -- --directory /tmp
+jj st
+jj desc -m "Fixed issue with content type for files"
+jj bookmark set master
+jj git push
+bun install
+jj st
+jj commit -m "Removed dist"
+bun run build
+bun upgrade
+bun run build
+jj st
+cargo run --release --bin wifi_tcp_server
+curl http://192.168.0.19:1234/test
+bun build.ts
+bun install unocss
+bun run dev
+bun add -D @unocss/preset-attributify
+bun run dev
+bun build.ts
+bun i vite-plugin-purgecss
+bun build.ts
+bun run dev
+jj st
+jj commit -m "Updated styling and created a controller web page"
+bun build.ts
+cargo run --release --bin wifi_tcp_server
+bun build.ts
+nc 192.168.0.19 1234
+nc 192.168.0.19 1234
+jj git init --colocate
+jj st
+jj commit -m "Initial commit"
+n
+jj st
+n
+cargo run --release --bin blinky_wifi
+jj st
+jj commit -m "Blinky working"
+cargo run --release --bin blinky_wifi
+nc 192.168.0.19 1234
+cargo run --release --bin blinky_wifi
+nc 192.168.0.19 1234
+cargo run --release --bin blinky_wifi
+nc 192.168.0.19 1234
+curl http://192.168.0.19:1234/test
+nc 192.168.0.19 1234
+cargo run --release --bin main
+cargo check
+cargo check -- bin main
+cargo check --bin main
+cargo check --help
+cargo check --release --bin main
+cargo run --release --bin main
+nc 192.168.0.19 1234
+dsf
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+nc 192.168.0.19 1234
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+nc 192.168.0.19 1234
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+nc 192.168.0.19 1234
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+nc --help
+nc 192.168.0.19 1234 test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+jj st
+jj commit -m "Started refactor [Not Working]"
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+nc 192.168.0.19 1234
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+jj st
+jj bookmark set concurrent-connections_attampt
+jj desc -m "Concurrent conections attempt [Not Working]"
+jj new
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+nc 192.168.0.19 1234
+jj st
+jj commit -m "Single connection server [Working]"
+nc localhost 4221
+cargo run
+nc localhost 4221
+cargo run
+nc localhost 4221
+jj st
+jj commit -m "Removed some comments, added some test lines"
+cargo run
+bun run dev
+kitty
+kitty
+cargo run
+cargo run --release --bin main
+bun build.ts
+curl http://192.168.0.19:1234/test
+curl http://192.168.0.199:1234/test
+cargo run --release --bin main
+curl http://192.168.0.199:1234/test
+bun build.ts
+cargo run --release --bin main
+bun build.ts
+cargo run --release --bin main
+kitty
+bun run build
+jj st
+jj commit --help
+jj descirbe --help
+jj describe --help
+jj c
+jj cm
+jj com
+jj cmt
+jj commit -m "Updated styling to use cascade layers"
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+bun run build
+cargo run --release --bin main
+sudo brightnessctl --device=intel_backlight set 100%
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+kitty
+cargo run --release --bin main
+curl http://localhost:4221/1234
+curl http://localhost:4221/echo/abc
+curl -v  http://localhost:4221/1234
+curl -v --data "testing testing testing testing" -H "Content-Type: application/octet-stream" http://localhost:4221/files/pear_pineapple_raspberry_orange
+curl -v http://localhost:4221/user-agent
+curl http://localhost:4221/user-agent
+jj st
+jj commit -m "Added a way of adding middleware and refactored the response builder"
+jj bookmark set master -r @-
+jj git push
+cargo run
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc
+jj set bookmark master
+jj bookmark set master
+jj describe -m "Added headers for content encoding"
+jj git push
+jj bookmark set master
+jj desc -m "Added support for multiple Accept-Encoding header values"
+jj git push
+hexdump -C
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc | hexdump -C
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc
+cargo run
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc | hexdump -C
+jj bookmark set master
+jj desc -m "Added gzip comression"
+jj git push
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+cargo run
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc | hexdump -C
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+cargo run
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+cargo run
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc | hexdump -C
+cargo run
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+cargo run
+jj set bookmark master
+jj desc -m "Persistent connections attempt 1"
+jj git push
+jj log
+jj bookmark set master
+jj git push
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+cargo run
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+cargo run
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+cargo run
+curl --http1.1 -v http://localhost:4221/echo/banana --next http://localhost:4221/user-agent -H "User-Agent: blueberry/apple-blueberry"
+curl -v -H "Accept-Encoding: gzip" http://localhost:4221/echo/abc | hexdump -C
+curl -v -H http://localhost:4221/echo/abc
+curl -v http://localhost:4221/echo/abc
+curl http://localhost:4221/echo/abc
+jj bookmark set master
+jj desc -m "Added persistent connections"
+jj git push
+jj bookmark set master
+jj desc -m "POtential fix for connection close"
+jj git push
+cargo run
+curl --http1.1 -v http://localhost:4221/ --next http://localhost:4221/user-agent -H "Connection: close" -H "User-Agent: banana/orange-mango" 
+cargo run
+jj bookmark set master
+jj desc -m "Fix for connection close"
+jj git push
+kitty
+jj git init --colocate
+jj git push
+jj git push --allow-new
+jj git push --allow-empty
+jj commit --allow-empty -m "test"
+jj commit -- --allow-empty -m "test"
+jj commit -m "test"
+jj bookmark set master -r @-
+jj git push
+jj bookmark track master@origin
+jj git push
+jj log
+jj desc -m "test" -r l
+jj log
+jj git push
+ls
+nvim sample.db 
+jj st
+jj commit -m "Added a way ti interpret motor controls"
+cargo run
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+cargo run --release --bin main
+curl http://192.168.0.19:1234/test
+curl http://192.168.0.199:1234/test
+cargo run --release --bin main
+curl http://192.168.0.199:1234/test
+nc 192.168.0.199 1234
+curl http://192.168.0.199:1234/test
+cargo run --release --bin main
+curl http://192.168.0.199:1234/test
+cargo run --release --bin main
+cargo run --release --bin main
+curl http://192.168.0.199:1234/test
+cargo run --release --bin main
+curl http://192.168.0.199:1234/test
+cargo run --release --bin main
+kitty
+sudo brightnessctl --device=intel_backlight set 100%
+sudo apt update; sudo apt upgrade
+cargo run --release --bin multiconnection
+cargo run --release --bin main
+cargo run --release --bin multiconnection
+nc 192.168.0.199 1234
+cargo run --release --bin multiconnection
+nc 192.168.0.199 1234
+aerggf
+kitty
+cargo run --release --bin multiconnection
+nc 192.168.0.199 1234
+nc 192.168.0.199 1234
+cargo run --release --bin main
+nc 192.168.0.199 1234
+curl http://192.168.0.199:1234/test
+cargo run --release --bin main
+curl http://192.168.0.199:1234/test
+curl --help
+curl --help connection
+curl -X POST http://192.168.0.199:1234/motor
+curl -d "L:50 R:50" -X POST http://192.168.0.199:1234/motor
+curl http://192.168.0.199:1234/test
+curl -d "L:50 R:50" -X POST http://192.168.0.199:1234/motor
+curl -v -d "L:50 R:50" -X POST http://192.168.0.199:1234/motor
+jj st
+jj commit -m "Added concurrent connections"
+jj log
+bun run build.ts 
+bun run build.ts --test
+bun run build.ts
+cargo run --release --bin main
+kitty
+zen
+zenity 
+zen-browser
+flatpak run app.zen_browser.zen
+n
+niri --help
+niri msg --help
+niri msg focus-window
+niri msg focused-window
+niri msg pick-window
+n
+cargo run --release --bin main
+jj st
+jj commit -m "Made the API calls more reliable"
+bun run build.ts
+jj st
+jj commit -m "Updated web app"
+kitty
+cargo run --release --bin main
+n
+chrome
+chrome-browser
+google-chrome --forc-device-scale-factor=1
+google-chrome --force-device-scale-factor=1
+google-chrome --force-device-scale-factor=1.0
+n
+node
+bun
+bun reple
+google-chrome --force-device-scale-factor=1.2
+google-chrome --force-device-scale-factor=1.11111111
+google-chrome --force-device-scale-factor=0.9
+google-chrome
+google-chrome --enable-features=UseOzonePlatform --ozone-platform=wayland
+xeyes 
+run_app_build
+jj git init --colocate
+bun install
+jj st
+jj commit -m "Added template with prima theme"
+jj st
+jj commit -m "Added basic template page"
+jj bookmark track main@origin
+jj bookmark set main
+jj bookmark set main -r @- --alow-backwards
+jj bookmark set main -r @- --allow-backwards
+jj git push
+jj log
+jj bookmarks
+jj bookmark ls
+jj bookmark l
+jj git fetch
+jj new windows
+jj new windows@origin
+ls
+ls -a
+n
+jj st
+n
+jj st
+jj git fetch
+jj new windows@origin
+n
+jj git fetch
+jj st
+jj commit -m "Made the repo more platform independent"
+jj bookmark l
+jj bookmark set develop -r @-
+jj desc -m "Made the repo more platform independent"
+jj b l
+jj b set develop
+jj git push
+jj git push
+ls
+mpv "./2025-09-03 22-59-34.mkv" 
+rm `./2025-09-03 22-59-34.mkv`
+rm `2025-09-03 22-58-34.mkv`
+ls
+rm `2024-12-08 23-40-57.mkv`
+rm `2024-12-24 11-49-44.mkv`
+mpv "2025-09-03 23-11-04.mkv" 
+gnome-extensions disable paperwm@paperwm.github.com 
+flatpak --help
+flatpak list
+npm --version
+bun --version
+nvm
+bun install -g @google/gemini-cli
+gemini 
+bun uninstall -g @google/gemini-cli
+brew --version
+brew update 
+brew install gemini-cli
+ps aux
+ps
+ps | grep intellij
+ps -a | grep intellij
+ps --help
+gemini 
+cargo run --release --bin main
+jj diff
+jj commit -m "Reorganised pins"
+jj git remote list 
+jj git remote help
+jj git remote add origin https://github.com/DominicDolan/RP-Pico.git
+jj bookmark set main -r @-
+jj git push
+jj git push --alow-new
+jj git push --allow-new
+mpv https://75-4.download.real-debrid.com/d/VOQDNAVWGFGNS/BoJack%20Horseman%20-%20S02.E04%20-%20After%20The%20Party%201080p%20BDRip%20x265%20DTS-HD%20MA%205.1%20Kira%20%5BSEV%5D.mkv
+mpv https://75-4.download.real-debrid.com/d/WMOOL3R3FBOPM/BoJack%20Horseman%20-%20S02.E05%20-%20Chickens%201080p%20BDRip%20x265%20DTS-HD%20MA%205.1%20Kira%20%5BSEV%5D.mkv
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt3045628/rd/550c888fb9e6326fba4889f24f3393c10b1559d6/0/Holland.2025.2160p.AMZN.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+mpv 'https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt3045628/rd/b21040b6fc87757b64efc503ed71927fac943a52/0/Holland.2025.1080p.WEBRip.x265.10bit.AAC5.1-[YTS.MX].mp4'
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt1751634:2:6/rd/c0e9985365a3ce1188f6821513165d807509ee37/-1/
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt1751634:2:6/rd/f3a5222908cb4d6350b4338286a018fabf5f02a6/5/The.Sandman.S02E06.Family.Blood.2160p.10bit.NF.WEB-DL.DDP5.1.HEVC-Vyndros.mkv
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt1751634:2:7/rd/c0e9985365a3ce1188f6821513165d807509ee37/7/The.Sandman.S02E07.2022.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.H.265-HHWEB.mkv
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt1751634:2:7/rd/442e60859dfe37f91480005874a962907db95a66/6/The.Sandman.S02E07.2160p.NF.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt3398228:2:6/rd/22ea8ad3fc77ad189896b0107006f35f6b3b1285/-1/
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt1751634:2:8/rd/442e60859dfe37f91480005874a962907db95a66/7/The.Sandman.S02E08.2160p.NF.WEB-DL.DV.HDR.H.265.RGzsRutracker.mkv
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt1751634:2:9/rd/ca2096943dc34bf9eedf86d25cb907941436a6e0/0/The%20Sandman%20S02E09%20The%20Kindly%20Ones%202160p%20NF%20WEB-DL%20DDP5%201%20Atmos%20H%20265-WADU.mkv
+jj st
+jj diff
+git init
+jj git export 
+git status
+jj git export 
+git log
+git branch 
+git branches
+git branch --help
+git branch --list
+jj git remote list 
+jj log
+git commit -m "Empty Commit"
+git log
+git commit --help
+git commit -m "Empty Commit" --allow-empty
+git log
+git add .
+jj st
+jj log
+cd ..
+nvim TrailerLevel.kt
+ls
+nvim AnimationSequence.kt
+ls
+mkdir VTess2
+cd VTess2/
+jj git clone https://github.com/DominicDolan/v-tess.git
+ls
+jj st
+cd v-tess/
+jj st
+git status
+jj git init --colocate 
+jj git init --repository .
+cd ..
+rm ./v-tess/
+rm ./v-tess/ --recursive
+ls
+git clone https://github.com/DominicDolan/v-tess.git
+cd v-tess/
+jj git init --colocate 
+jj st
+git status
+jj st
+git status
+cd ../v-tess/
+jj st
+ls ../
+n
+git clone https://github.com/DominicDolan/Mechanica.git
+mkdir mechanica2
+cd mechanica2/
+git clone https://github.com/DominicDolan/Mechanica.git
+jj git init --colocate 
+n
+files
+files .
+rm -rf ./Mechanica/
+ls
+n
+rm -rf ./mechanica2/
+jj st
+jj git init --colocate 
+jj st
+jj diff
+n
+jj diff 
+jj commit --help
+jj st
+jj commit -m "Added a way to change the camera in Levels" -i
+jj commit -m "Added levels for Trailer"
+jj bookmark set trailer -r @-
+jj log
+jj new -r v
+jj log
+jj bookmark set develop -r @-
+jj log
+jj git push --allow-new
+jj bookmark track develop@origin
+jj git push --allow-new
+jj log
+jj new -r q
+jj git push --allow-new
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt2866360/rd/da8a9777e3587503da36c54cab1504e83a78bf8e/6/00000.m2ts
+mpv https://stremthru.13377001.xyz/stremio/torz/eyJzdG9yZXMiOlt7ImMiOiJyZCIsInQiOiJLNjRQWkszVVZSSlNFUVpKUjRZNFZFM1AzTElKRlZFT1Q0UERaQkpKQzNMWkxHNTU3TlJBIn1dfQ==/_/strem/tt3322312:1:2/rd/37ae06c86bb27544cc9095af4194281a6581e7b8/0/Marvels.Daredevil.S01E02.Cut.Man.2160p.NF.WEBRip.DD5.1.x264-iON.mkv
+n
+jj st
+run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+jj log
+jj bookmark set master
+jj git push
+jj desc -m "Uncommented code"
+jj git push
+hexdump -C sample.db
+bun repl
+nvim sample.db
+bun repl
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+jj log
+jj desc -m "Added cell count"
+jj bookmark set master
+jj git push
+jj desc -m "Added cell count"
+jj bookmark set master
+jj git push
+hexdump --help
+hexdump -X sample.db
+hexdump -C sample.db
+hexdump -C --skip 112 sample.db
+hexdump -C --skip 108 sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+hexdump -Cv sample.db
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+hexdump -C sample.db | grep 1fa0
+hexdump -C sample.db | grep 1fa
+hexdump -Cv sample.db | grep 1fa
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+kitty
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+4000 | decode hex
+"4000" | decode hex
+0x4000
+0x1000
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .dbinfo
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+hexdump -C sample.db
+0x65
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+120 | format number
+format --help
+nu --help
+sudo apt update nushell
+sudo apt update --help
+sudo apt list
+sudo apt list | grep nu
+sudo apt list | grep nushell
+cargo install nu --locked
+nu --version
+kitty
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+120 | format number
+120 | format
+nu --version
+120 | fmt
+120 | format number
+exit
+nu
+nu which
+which nu
+chsh --help
+cargo uninstall nu
+which nu
+brew update nu
+brew upgrade nushell 
+nu --version
+version
+120 | format number
+config nu
+nvim ~/.config/nushell/env.nu
+kitty
+120 | format number
+hexdump -C sample.db
+hexdump -C sample.db | grep "65 78"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+116 | format number
+120 | format number
+hexdump -C sample.db | grep "65 78 74"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+10 | format number
+10 | format number | get lowerhex
+hexdump -C sample.db | grep "65 78 74 0a"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+3983 | format number | get lowerhex
+(3983 - 0x64) | format number | get lowerhex
+(3983 - 0x64 - 0x10) | format number | get lowerhex
+(3901 - 0x64 - 0x10) | format number | get lowerhex
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+99 | format number | get lowerhex
+111 | format number | get lowerhex
+[9, 99, 111, 108] | format number | get lowerhex
+[9, 99, 111, 108] | each |e| {format number $e} | get lowerhex
+[9, 99, 111, 108] | each {|e| format number $e} | get lowerhex
+[9, 99, 111, 108] | each {|e| $e | format number } | get lowerhex
+[9, 99, 111, 108] | each {|e| $e | format number --no-prefix  } | get lowerhex
+[9, 99, 111, 108] | each {|e| $e | format number --no-prefix  } | get lowerhex | join ' '
+[9, 99, 111, 108] | each {|e| $e | format number --no-prefix  } | get lowerhex | str join ' '
+hexdump -C sample.db | grep "09 63 6f 6c"
+hexdump -C sample.db
+0x4000 - 0x10
+0x1000 - 0x10
+0x1000 - 0x10 | number format
+0x1000 - 0x10 | fomrat number
+0x1000 - 0x10 | format number
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+[101, 32, 116, 101] | each {|e| $e | format number --no-prefix  } | get lowerhex | str join ' '
+hexdump -C sample.db | grep "65 20 74 65"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+[111, 1, 7, 23] | each {|e| $e | format number --no-prefix  } | get lowerhex | str join ' '
+hexdump -C sample.db | grep "6f 01 07 17"
+hexdump -C sample.db | grep "01 07"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+config nu
+brew upgrade carapace
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+sudo brightnessctl --device=intel_backlight set 100%
+sudo brightnessctl --device=intel_backlight set 10%
+sudo brightnessctl --device=intel_backlight set 50%
+mpv https://41-4.download.real-debrid.com/d/EHY7A3TSAIR5S/High%20Potential%20S02E01%201080p%20AMZN%20WEB-DL%20DDP5%201%20H%20264-FLUX.mkv
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+29 | number format
+29 | format number 
+0x29
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+0x81
+0x8147
+0x81 + 0x47
+0x81 | format number
+0x47 | format number
+0x47
+0b11000111
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+0x81 | format number
+0x47 | format number
+jj st
+jj bookmark set master
+jj desc -m "Added .tables command"
+jj git push
+sudo brightnessctl --device=intel_backlight set 100%
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+4067 | format number
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+8163 | format number
+0x1b
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+0x37
+37 | format number
+114 | format number
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+jj st
+jj set bookmark master
+jj desc -m "Added ability to count apples table"
+jj git push
+jj bookmark set master
+jj git push
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "select count(*) from pear"
+jj bookmark set master
+jj desc -m "Minor fixes"
+jj st
+jj git push
+jj bookmark set master
+jj desc -m "Minor fixes"
+jj git push
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "select count(*) from pear"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+jj bookmark set master
+jj desc -m "Added a table search"
+jj git push
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+jj bookmark set master
+jj desc -m "Added newlin"
+jj git push
+jj bookmarks
+jj bookmark list
+jj log
+jj bookmark set trailer
+jj desc -m "Small adjustments to levels and colours"
+jj git push
+jj log
+jj new
+cd ../Mechanica/
+jj st
+jj diff
+jj bookmark set develop
+jj desc -m "Added kotlin cave as a jar library"
+jj git push
+jj bookmark track develop@origin 
+jj git push
+jj st
+flatpak install flathub org.kde.kdenlive
+flatpak update org.kde.kdenlive
+flatpak update --help
+flatpak update flathub org.kde.kdenlive
+kdenlive
+n
+ffmpeg -version
+flatpak --help
+flatpak info org.kde.kdenlive 
+n
+mlt --version
+sudo apt install --reinstall ffmpeg melt
+mlt --version
+n
+cd ~
+mv ~/.var/app/org.kde.kdenlive ~/.var/app/org.kde.kdenlive.backup
+flatpak update
+flatpak repair
+flatpak uninstall org.kde.kdenlive
+flatpak install flathub org.kde.kdenlive
+flatpak uninstall org.kde.kdenlive
+~/.var/app/org.kde.kdenlive/config/<\n>~/.var/app/org.kde.kdenlive/cache/<\n>
+mv ~/.var/app/org.kde.kdenlive ~/.var/app/org.kde.kdenlive.backup<\n>
+flatpak install flathub org.kde.kdenlive
+flatpak run --command=ffprobe org.kde.kdenlive "/home/doghouse/Recordings/2025-09-08 23-47-13.mkv"
+flatpak uninstall org.kde.kdenlive
+n
+appimagelauncherd --help
+AppImageLauncher --help
+AppImageLauncher
+n
+AppImageLauncher ./kdenlive-25.08.1-x86_64_A.AppImage
+sudo brightnessctl --device=intel_backlight set 100%
+cs /home/doghouse/Applications/
+cd /home/doghouse/Applications/
+ls
+./zen-x86_64_095675f78e3cf37e5f6b9e87dbbb8c6e.AppImage
+flatpak list
+flatpak Zen
+flatpak --help
+flatpak run Zen
+flatpak run app.zen_browser.zen
+gemini
+sudo brightnessctl --device=intel_backlight set 100%
+flatpak list 
+flatpak update app.zen_browser.zen
+ags quit
+ags run
+n
+pactl list sinks
+systemctl poweroff 
+n
+mpv "Marvel's The Defenders S01E05 Take Shelter 2160p HDR Netflix WEBRip DD+ 5.1 x265-TrollUHD.mkv" 
+sudo systemctl poweroff 
+niri msg
+niri msg windows
+niri validate
+niri msg action
+niri msg action | grep scale
+mpv https://72-4.download.real-debrid.com/d/CNWBJO4KOX4UC/Daredevil.Born.Again.S01E02.MULTI.2160p.WEB-DL.HDR.H265-AOC.mkv
+mpv https://78-4.download.real-debrid.com/d/BIKXI26TWYEJC/Daredevil.Born.Again.S01E03.MULTI.2160p.WEB-DL.HDR.H265-AOC.mkv
+systemctl poweroff 
+sudo brightnessctl --device=intel_backlight set 100%
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT COUNT(*) FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+hexdump -C sample.db
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+37 -13
+37 - 13
+35 - 13
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+jj st
+jj bookmark set master
+jj commit -m "Added table schema parsing and selecting from columns"
+jj git push master
+jj git push --help
+jj git push -b master
+kitty
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name, color FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT color FROM apples"
+jj st
+jj bookmark set master
+jj commit -m "Added support for multiple columns"
+jj git push -b master
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT color FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "select pineapple, raspberry, strawberry from orange"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db .tables
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT color FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name FROM apples"
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name, color FROM apples"
+jj st
+jj bookmark set master
+jj commit -m "Created the concept of a DatabaseSchemaPage which returns DatabaseSchemaCells"
+jj git push -b master
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name, color FROM apples"
+gnome-control-center bluetooth
+sudo apt install blueman
+blueman-manager 
+pia
+piactl
+n
+./pia-linux-3.7-08412.run
+sh picotool-2.2.0-a4-x86_64-lin/
+sh pia-linux-3.7-08412.run 
+n
+mpv "2025-11-05 09-46-45.mkv" 
+mpv "2025-11-11 09-16-50.mkv" 
+mpv "2025-11-05 09-46-45.mkv" 
+jj st
+jj diff
+jj bookmark set master
+jj commit -m "Added error check"
+jj git push -b master
+nvim src/main.rs 
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name, color FROM apples"
+mpv "2025-11-04 09-56-26.mkv" 
+cargo run --package codecrafters-sqlite --bin codecrafters-sqlite -- sample.db "SELECT name, color FROM apples"
+jj bookmark set master
+jj commit -m "Temporary logging added"
+sudo apt-get purge blueman -y
+sudo brightnessctl --device=intel_backlight set 10%
+pactl list sinks
+pactl list short
+pactl --json list short
+pactl --format=json list short
+pactl --format=json list short | to json
+pactl --format=json list short | from json
+pactl --format=json list short | from json | get sinks
+pactl --format=json list short | from json | get sinks | filter |it| { it | str contains "PnP" }
+pactl --format=json list short | from json | get sinks | filter {|it| $it | str contains "PnP" }
+pactl --format=json list short | from json | get sinks | filter {|it| $it | get name | str contains "PnP" }
+pactl --format=json list short | from json | get sinks | filter {|it| $it.name | str contains "PnP" or $it.name | str contains "Z407" } | get name
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", <\n>"
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", "
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", " | prepend "pactl load-module module-combine-sink sink_name=my_combo slaves="
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", " | echo
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", " | $in
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", " | pactl load-module module-combine-sink sink_name=my_combo slaves=$in
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", " | prepend "pactl load-module module-combine-sink sink_name=my_combo slaves=" | str join | do
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", " | prepend "pactl load-module module-combine-sink sink_name=my_combo slaves=" | str join "" | do
+do --help
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join ", " | prepend "pactl load-module module-combine-sink sink_name=my_combo slaves=" | str join "" | do { $in }
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | get name | str join "," | pactl load-module module-combine-sink sink_name=my_combo slaves= $in
+pactl load-module module-combine-sink sink_name=my_combo slaves=alsa_output.usb-0c76_USB_PnP_Audio_Device-00.analog-stereo,alsa_output.usb-Logitech_Logi_Z407_00000000-01.analog-stereo
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | reverse | get name | str join "," | pactl load-module module-combine-sink sink_name=my_combo slaves= $in
+pactl set-default-sink combined
+pactl set-default-sink my_combo
+pactl list modules short | from csv -d ' ' | filter {|it| $it.3 == "module-combine-sink" and ($it.5 | str starts-with "sink_name=my_combo")} | select 0
+pactl list modules short
+pactl unload-module 536870913
+pactl unload-module 536870914
+pactl unload-module 536870915
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Z407") } | reverse | get name | str join "," | prepend "pactl load-module module-combine-sink sink_name=combined slaves=" | str join ""
+pactl load-module module-combine-sink sink_name=combined slaves=alsa_output.usb-Logitech_Logi_Z407_00000000-01.analog-stereo,alsa_output.usb-0c76_USB_PnP_Audio_Device-00.analog-stereo
+pactl unload-module 536870915
+pactl list modules short
+pactl list sinks short
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "PnP") or ($it.name | str contains "Dell") } | reverse | get name | str join "," | prepend "pactl load-module module-combine-sink sink_name=combined slaves=" | str join ""
+pactl load-module module-combine-sink sink_name=combined slaves=alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo,alsa_output.usb-0c76_USB_PnP_Audio_Device-00.analog-stereo
+pactl list sinks short
+pactl --format=json list
+pactl --format=json list | from json
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "bluez") or ($it.name | str contains "Dell") } | reverse | get name | str join "," | prepend "pactl load-module module-combine-sink sink_name=combined_portable slaves=" | str join ""
+pactl load-module module-combine-sink sink_name=combined_portable slaves=bluez_output.AC_80_0A_05_C3_AE.1,alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo
+n
+pactl load-module module-combine-sink sink_name=combined_portable slaves=bluez_output.AC_80_0A_05_C3_AE.1,alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo
+pactl set-default-sink combined_portable
+pactl unload-module 536870913
+pactl load-module module-combine-sink sink_name=combined_portable slaves=bluez_output.AC_80_0A_05_C3_AE.1,alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo
+pactl set-default-sink combined_portable
+brightnessctl --device=intel_backlight set 100%
+sudo brightnessctl --device=intel_backlight set 100%
+pactl unload-module 536870913
+pactl load-module module-combine-sink sink_name=combined_portable slaves=bluez_output.AC_80_0A_05_C3_AE.1,alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo
+pactl set-default-sink combined_portable
+blueman-manager 
+sudp apt-get install blueman
+sudo apt-get install blueman
+blueman-manager 
+pactl unload-module 536870913
+pactl list modules short
+pactl load-module module-combine-sink sink_name=combined_portable slaves=bluez_output.AC_80_0A_05_C3_AE.1,alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo
+pactl list modules short
+pactl --format=json list modules short
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "bluez") or ($it.name | str contains "Dell") } | reverse | get name | str join "," | prepend "pactl load-module module-combine-sink sink_name=combined_portable slaves=" | str join ""
+pactl load-module module-combine-sink sink_name=combined_portable slaves=alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo,bluez_output.AC_80_0A_05_C3_AE.1
+pactl set-default-sink combined_portable
+pactl unload-module 536870913
+pactl load-module module-combine-sink sink_name=combined_portable slaves=alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo,bluez_output.AC_80_0A_05_C3_AE.1
+pactl set-default-sink combined_portable
+pactl unload-module 536870913
+pactl load-module module-combine-sink sink_name=combined_portable slaves=alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo,bluez_output.AC_80_0A_05_C3_AE.1
+pactl --format=json list short | from json | get sinks | filter {|it| ($it.name | str contains "bluez") or ($it.name | str contains "Dell") } | reverse | get name | str join "," | prepend "pactl load-module module-combine-sink sink_name=combined_portable slaves=" | str join ""
+pactl load-module module-combine-sink sink_name=combined_portable slaves=alsa_output.usb-Dell_Dell_Adapter_-_USB-C_to_3.5mm_Headphone_Jack_SA1023_240229A0Z2-00.analog-stereo,bluez_output.AC_80_0A_05_C3_AE.1
+pactl unload-module 536870913
+n
+jj git clone https://github.com/DominicDolan/theme-builder.git
+n
+rm -rf ./theme-builder/
+git clone https://github.com/DominicDolan/theme-builder.git
+jj git init --colocate 
+jj sr
+jj st
+gsettings set org.blueman.plugins.powermanager 
+gsettings --help
+gsettings list-keys org.blueman.plugins.powermanager 
+jj st
+jj bookmark set main
+jj commit -m "Implemented Context Store"
+sudo brightnessctl --device=intel_backlight set 10%
+jj st
+kitty
+jj st
+jj bookmark set main
+jj commit -m "Added DeltaModelContextStore"
+jj git push
+jj bookmark track main@origin
+jj git push
+jj commit -m "Added example for useDeltaStore in DeltaModelContexts"
+jj squash --from s --to z
+jj log
+jj st
+jj bookmark set main
+jj commit -m "Implemented the DeltaModelContext in the ThemeEditor"
+jj git push
+sudo brightnessctl --device=intel_backlight set 100%
+ags run
+ags quit
+ags run
+npm i -D wrangler@latest
+wrangler d1 create my-db-name
+wrangler d1 create theme-builder-db
+npx wrangler dev
+npx wrangler pages dev --port 3000 --proxy 5173 -- npm run dev
+npx wrangler pages dev --port 3002 --proxy 3001 -- npm run dev
+npx wrangler d1 execute theme-builder-db --local --file=./storage/schema.sql
+npx wrangler pages dev --port 3002 --proxy 3001 -- npm run dev
+npx wrangler pages dev --help
+npx wrangler pages dev --port 3002 --proxy 3001 -- npm run dev
+lsof -i :5173
+npx wrangler pages dev --port 3002 --proxy 3001 -- npm run dev
+lsof -i :3001
+kill -9 1501710
+npm install -D concurrently
+npx wrangler pages dev --port 3002 --proxy 3001 -- npm run dev
+lsof -i :3001
+kill -9 1547093
+sudo apt-get update
+npx wrangler dev
+n
+npx create-cloudflare@latest theme-builder --existing-script theme-builder
+n
+npx wrangler setup
+npx wrangler dev
+npx wrangler deploy<\n>
+npx wrangler dev
+npx wrangler deploy
+n
+npm create cloudflare@latest -- my-solid-app --framework=solid
+n
+npx wrangler deploy
+npx wrangler dev
+n
+npx wrangler dev
+npm run build
+npx wrangler dev
+n
+npx wrangler dev
+vite dev
+vinxi dev
+npm run dev:vite
+jj st
+jj commit -m "Moved Model and setup compatibility with cloudflare"
+systemctl --user disable blueman-applet.service blueman-manager.service
+n
+nvim ags-astal.service 
+cd ..
+ls
+nvim ags-astal.service 
+gemini
+sudo apt-get update
+sudo apt-get upgrade 
+n
+sudo rm blueman.desktop 
+n
+jj st
+jj commit -m "Refactored the Model Deltas to have a payload attribute"
+npm i -D @cloudflare/workers-types
+jj st
+jj commit -m "Made it so that the ThemeEditor call the db"
+npm i -D tsx
+npx tsx generateSchema.ts
+npx tsx scripts/generateSchema.ts
+jj st
+jj commit -m "Started adding tooling for SQL queries"
+jj bookmark set main -r "@-"
+jj log
+jj git push
+kitty
+jj st
+jj commit -m "Implemented useDatabaseForModels"
+jj bookmark set main -r "@-"
+jj git push
+bun install --frozen-lockfile
+bun install
+bun install --frozen-lockfile
+jj bookmark set main
+jj git push
+jj commit -m "Commited bun.lock"
+jj git push
+jj bookmark set main
+jj commit -m "Removed getPlatformProxy to test production"
+jj git push
+jj bookmark set main
+jj desc -m "Changed how the getPlatformProxy works to hopefully get it working correctly when deployed" 
+jj git push
+jj st
+jj desc -m "Hopefully fixed getPlatformProxy issue"
+jj bookmark set main
+jj git push
+jj desc -m "Hopefully fixed getPlatformProxy issue"
+jj bookmark set main
+jj git push
+npx wrangler --cwd .output dev
+jj desc -m "Added error messages"
+jj bookmark set main
+jj git push
+n
+nvim qr-generator.ts
+npm init
+bun install --save qrcode
+bun run qrcode
+bun run qrcode -o out.png "http://www.google.com"
+n
+bun run qrcode -o voucher.png "https://www.voucherme.ie/card/680c278e796008c27fc10d912db635a1"
+n
+bun run qrcode -o voucher.svg --type=svg "https://www.voucherme.ie/card/680c278e796008c27fc10d912db635a1"
+jj st
+jj desc -m "Added a minimal theme"
+jj bookmark set main
+jj git push
+n
+nvim themebuilder.html 
+n
+nvim theme-builder-2.html
+nvim themebuilder.html 
+sudo brightnessctl --device=intel_backlight set 100%
+jj st
+jj desc -m "Changed the layout and added icons, lists and inputs to the minimal theme"
+jj bookmark set main
+jj git push
+2500/64
+2500 / 64
+(2500 / 64)*100
+(2500 / 64) * 100
+jj st
+jj desc -m "Reorganised the routing and added more layout css"
+jj bookmark set main
+jj git push
+bun install
+jj st
+jj desc -m "Fixed the themes to call the databasee"
+jj bookmark set main
+jj git push
+jj st
+jj diff
+jj desc -m "Fixed issue with going to the wrong url when refreshing"
+jj bookmark set main
+jj git push
+jj st
+jj desc -m "Added a way of passing custom props through the delta context store"
+jj bookmark set main
+jj git push
+jj st
+jj desc -m "Deleted files and tidied up the routing"
+jj bookmark set main
+jj git push
+kitty
+sudo systemctl poweroff 
+jj st
+jj desc -m "Added de;ete functinoality and a POpover component"
+jj bookmark set main
+jj git push
+jj st
+jj bookmark set delta-context
+jj desc -m "Created a deelta context provider (Not working)"
+jj new
+jj st
+jj log
+jj new
+jj squash --help
+jj squash -t @-
+jj edit @-
+jj st
+sudo apt-get upgrade 
+jj st
+jj commit -m "Created a delta adapter for context stores and refactored existing code"
+jj bookmark set main -r @-
+jj git push
+jj log
+npm run shema:build
+npm run shcema:build
+npm run schema:build
+npm run build:schema
+node -e "<\n>import('./src/models/ColorDefinition.ts').then(mod => {<\n>  const schema = mod.colorDefinitionSchema;<\n>  console.log('Schema type:', typeof schema);<\n>  console.log('Has _def:', npm run build:schemaschema._def);<\n>  console.log('_def keys:', Object.keys(schema._def || {}));<\n>  console.log('Metadata:', schema._def?.metadata);<\n>  console.log('Meta method:', typeof schema.meta);<\n>  console.log('Meta result:', schema.meta());<\n>})<\n>"
+node -e "<\n>import('./src/models/ColorDefinition.ts').then(mod => {<\n>  const schema = mod.colorDefinitionSchema;<\n>  console.log('Schema type:', typeof schema);<\n>  console.log('Has _def:', node -e "<\n>import('./src/models/ColorDefinition.ts').then(mod => {<\n>  const schema = mod.colorDefinitionSchema;<\n>  console.log('Schema type:', typeof schema);<\n>  console.log('Has _def:', npm run build:schemaschema._def);<\n>  console.log('_def keys:', Object.keys(schema._def || {}));<\n>  console.log('Metadata:', schema._def?.metadata);<\n>  console.log('Meta method:', typeof schema.meta);<\n>  console.log('Meta result:', schema.meta());<\n>})<\n>"schema._def);<\n>  console.log('_def keys:', Object.keys(schema._def || {}));<\n>  console.log('Metadata:', schema._def?.metadata);<\n>  console.log('Meta method:', typeof schema.meta);<\n>  console.log('Meta result:', schema.meta());<\n>})<\n>"
+node -e "<\n>import('./src/models/ColorDefinition.ts').then(mod => {<\n>  const schema = mod.colorDefinitionSchema;<\n>  console.log('Schema type:', typeof schema);<\n>  console.log('Has _def:', node -e "<\n>import('./src/models/ColorDefinition.ts').then(mod => {<\n>  const schema = mod.colorDefinitionSchema;<\n>  console.log('Schema type:', typeof schema);<\n>  console.log('Has _def:', node -e "<\n>import('./src/models/ColorDefinition.ts').then(mod => {<\n>  const schema = mod.colorDefinitionSchema;<\n>  console.log('Schema type:', typeof schema);<\n>  console.log('Has _def:', npm run build:schemaschema._def);<\n>  console.log('_def keys:', Object.keys(schema._def || {}));<\n>  console.log('Metadata:', schema._def?.metadata);<\n>  console.log('Meta method:', typeof schema.meta);<\n>  console.log('Meta result:', schema.meta());<\n>})<\n>"schema._def);<\n>  console.log('_def keys:', Object.keys(schema._def || {}));<\n>  console.log('Metadata:', schema._def?.metadata);<\n>  console.log('Meta method:', typeof schema.meta);<\n>  console.log('Meta result:', schema.meta());<\n>})<\n>"schema._def);<\n>  console.log('_def keys:', Object.keys(schema._def || {}));<\n>  console.log('Metadata:', schema._def?.metadata);<\n>  console.log('Meta method:', typeof schema.meta);<\n>  console.log('Meta result:', schema.meta());<\n>})<\n>"
+npm run build:schema
+jj st
+jj bookmark set main
+jj commit -m "Refactored useDatabaseForMode to useDatabaseTable"
+jj git push
+npm install
+jj bookmark set monorepo
+jj commit -m "Restructured app to be a monorepo"
+jj --help
+jj --version
+which jj
+# To install the latest release<\n>cargo install --locked --bin jj jj-cli
+jj --version
+jj log
+jj git remote list 
+kitty
+jj git remote list 
+jj git remote help
+jj git remote --help
+jj git remote remove origin
+jj git remote list
+jj git remote add origin https://github.com/DominicDolan/Web.git
+jj log
+jj git remote list
+jj config edit --repo
+jj git remote list
+jj git push
+jj bookmark track monorepo --remote=origin
+jj git push
+jj st
+jj commit -m "Added files to gitignore"
+jj bookmark set monorepo
+jj bookmark set monorepo -r @- --allow-backwards
+jj log
+jj git push
+npm install
+jj commit -m "Removed some unnecessary config files"
+jj commit -m "Renamed apps/web to apps/themeBuilder"
+sudo apt-get update
+sudo apt-get upgrade 
+n
+npm run generate:schema
+npm indtall
+npm install
+npm init -w .packages/lins
+npm init -w ./packages/lins
+npm install
+npm init -w ./packages/lins
+npm install
+jj commit -m "Added lins as a package"
+npm install
+jj file help
+jj file --help
+jj file seach customElements
+jj file search customElements
+jj file search --pattern customElements
+jj commit -m "Fixed import issues with lins"
+jj bookmark set monorepo -r @-
+jj git push
+npm init -w ./packages/delta
+npm install#
+npm install
+cd ../..
+npm  install
+npm install
+npm install zod
+npm i --save-dev @types/node
+npm init -w ./packages/utils
+npm init -w ./packages/components
+npm install
+jj log
+jj bookmark set monorepo
+jj commit -m "Restructured more packages for the monorepo"
+jj commit -m "Removed common package"
+flatpak update
+flatpak install flathub it.mijorus.gearlever
+./helium.appimage
+sudo ./helium.appimage
+google-chrome --force-device-scale-factor=1
+google-chrome --force-device-scale-factor=1.1111111
+google-chrome --ozone-platform=x11
+google-chrome --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations
+gemini
+flatpak run it.mijorus.gearlever --list-installed
+flatpak run it.mijorus.gearlever
+n
+git atatus
+git status
+n
+git status
+git pull
+cargo build --release
+n
+nvim put_files.nu 
+nu put_files.nu 
+niri --help
+niri --version
+n
+nu put_files.nu 
+sudo nu put_files.nu 
+n
+sudo nu put_files.nu 
+niri --version
+n
+./niri --version
+n
+git status
+git branch --list
+git checkout main
+git pull
+n
+cargo build --release
+n
+sudo nu put_files.nu 
+niri --version
+sudo apt-get update
+gemini
+sudo apt-get purge --auto-remove appimagelauncher
+flatpak run it.mijorus.gearlever
+jj st
+jj commit -m "Changed to use the base html popover api"
+jj log
+jj bookmark set monorepo -r @-
+jj new --help
+jj log --help
+jj log -r bookmarks(main)
+jj log -r bookmarks("main")
+jj log -r bookmarks([main])
+jj log -r bookmarks(main)
+jj help -k revsets
+jj log -r bookmarks("main")
+jj log -r 'bookmarks("main")'
+jj log -r 'bookmarks("main", monorepo)'
+jj log -r 'bookmarks("main", "monorepo")'
+jj log -r 'bookmarks("main")|bookmarks("monorepo")'
+jj new 'bookmarks("main")|bookmarks("monorepo")'
+jj log
+jj bookmark set main
+jj log
+jj git push
+n
+nvim modernx.conf 
+bun install -w=@web/theme-editor codemirror
+npm install -w=@web/theme-editor codemirror
+npm install -w=apps/themeEditor codemirror
+npm install -w=@web/theme-builder codemirror
+npm install -w=@web/theme-builder @codemirror/lang-css
+npm install -w=@web/theme-builder @codemirror/view 
+jj st
+jj commit -m "Added a way of creating tabs and added the Elements editor"
+jj bookmark set main -r @-
+jj git push
+jj bookmark track main --remote=origin
+jj git push
+jj git pull
+jj git --help
+jj git fetch
+jj git push
+npm install
+npm init -w ./packages/schema
+nopm install
+npm inst
+jj st
+npm install
+npm i
+n
+./Eternum.sh
+jj st
+jj commit -m "Reorganised the Monorepo to fix generateSchema issue"
+jj bookmark set main -r @-
+jj git push
+jj st
+jj commit -m "Added a way to edit the CSS of inputs"
+jj bookmark set main -r @-
+jj git push
+npm install tailwindcss @tailwindcss/vite
+npm i lucide-react
+jj git init --colocate
+jj st
+jj git commit -m "Initial commit"
+jj commit -m "Initial commit"
+n
+find eturnum
+echo eturnum | find
+ls -a **/*xxx* | where ($it.name | path basename) =~ 'eturnum'
+ls -a **/*xxx* | where ($it.name | path basename) =~ 'renpy'
+n
+nvim log
+n
+nvim ./renpy_version 
+./Eternum.sh
+jj commit -m "Tabs with underlines"
+jj st
+jj commit -m "Fixed some issues with the element editor and updated styling"
+jj st
+jj commit -m "Fixed some styling and made the CSS editor functional"
+jj st
+jj commit -m "Fixed the nav menu for the elements page and added more elements"
+jj bookmark set main -r @-
+jj git push
+kitty
+gemini
+libinput debug-events
+jj st
+jj commit -m "Updated the Trailer Level"
+jj git init --colocate
+jj st
+jj commit -m "Updated gradle settings"
+jj st
+jj diif
+jj diff
+git status
+n
+jj st
+jj commit -m "Testing animation frames"
+sudo apt-get install libevent-2.1-7t64\                                                          ║<\n>║         libavif16
+sudo apt-get install libevent-2.1-7t64
+sudo apt-get install libavif16
+sudo apt-get update
+sudo apt-get upgrade
+ags run
+ags --help
+ags quit
+ags --help
+ags run
+sudo systemctl poweroff 
+mpv https://torrentio.strem.fun/resolve/realdebrid/RU55A7KCH6NM6DMLORCU6QNXX5EBZNM6JQ5OEACB3HUQZ4567BKQ/c8d9203fa91b596969df6735dd29f036f25a25b4/null/0/One%20Battle%20After%20Another%202025.mkv
+mpv https://45-4.download.real-debrid.com/d/HFVRQMXTKILMQ/One%20Battle%20After%20Another%202025.mkv
+niri msg action --help
+niri msg action --help | grep tab
+niri msg action --help | grep column
+niri msg action --help | grep top
+niri msg action --help | grep focus-window
+sudo systemctl restart 
+sudo systemctl restart --help
+sudo systemctl reboot 
+jj st
+jj log
+jj commit -m "Added better animations for jumping"
+jj bookmark set trailer -r @-
+jj git push
+docker
+curl https://repo.jellyfin.org/install-debuntu.sh | sudo bash
+which guide.xml
+cwd
+pwd
+n
+sudo n
+sudo nnn
+n
+sudo cp ./guide.xml /snap/
+n
+npm run grab --- --site=freeview.co.uk --maxConnections=10
+cd /snap
+sudo cp ./guide.xml /snap/
+cd ~/Source/repos/epg/
+sudo cp ./guide.xml /snap/
+n
+nim ie.m3u
+nvim guide.xml 
+webstorm ./guide.xml
+libinput debug-events
+sudo libinput debug-events
+niri 
+niri --help
+niri validate
+n
+cd ¬
+cd ~
+sudo libinput debug-events
+sudo libinput debug-events
+wev
+nvim ~/.config/niri/config.kdl 
+jj st
+jj commit -m "Added a way of parsing svg paths"
+jj log
+jj bookmark set master -r @-
+jj git push
+jj bookmark track master --remote=origin
+jj git push
+jj st
+jj commit -m "Created a jump dust effect"
+jj log
+jj bookmark set trailer -r @-
+jj git push
+nvim .
+nvim
+nvim temp.txt 
+jj commit -m "Added more particle effects to the jump"
+cd ../Mechanica/
+jj st
+jj commit -m "Updated the Kotlin Cave package"
+jj log
+jj bookmark set develop -r @-
+jj log
+jj git push
+cd ../v-tess/
+jj st
+jj commit -m "Edited the SVG files"
+jj log
+jj bookmark set master -r @-
+jj git push
+n
+xeyes
+niri msg action --help
+niri --help
+niri msg --help
+niri msg outputs
+niri msg windows
+1440/0.9
+1440 / 0.9
+gemini
+kdenlive
+FindFiles '**/*kdenlive*.AppImage'
+lines '**/*kdenlive*.AppImage'
+FindFiles '**/*kdenlive*.AppImage' | bash
+"FindFiles '**/*kdenlive*.AppImage'" | bash
+flatpak list 
+n
+flatpak list 
+flatpak update 
+sudo apt-get update
+mpv https://40-4.download.real-debrid.com/d/4EAACRMH2UZSC/Encanto.2021.1080p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv
+ssh raspberrypi@192.168.0.106
+ssh doghousepi@192.168.0.106
+ping 192.168.0.106
+ssh doghousepi@192.168.0.106
+ssh doghousepi@192.168.0.98
+ssh doghouse@192.168.0.98
+docker
+jellyfin --help
+which jellyfin 
+jellyfin
+n
+bun apps/cli/src/index.ts testBench
+jj st
+jj commit -m "Added a CLI tool to create new apps in the monorepo"
+npm install
+cd ../..
+npm install
+jj st
+jj commit -m "Renamed/Refactored Context Store to Scope and created a testBench To do item list"
+cd ../..
+bun apps/cli/src/index.ts tailwindTest
+jj st
+jj commit -m "Added support for tailwind in the CLI"
+npm install -w packages/unoLayout
+npm init -w packages/unoLayout
+jj st
+jj commit -m "Extracted uno css layout preset to its own package and added add and edit oprations to todo list"
+jj st
+jj commit -m "Created a delta scope and updated the todo list to use it"
+npm audit fix
+npm install
+npm audit fix
+npm init -w packages/solidScope
+npm install
+jj st
+jj commit -m "Reorganised the scope code into its own package"
+npm install
+jj st
+jj commit -m "Added a use props to ScopeProvider"
+jj log
+jj bookmark set main -r @-
+jj git push
+jj commit -m "Removed old Delta Provider and refactored code that used it"
+jj bookmark set main -r @-
+jj git push
+n
+niri --help
+niri
+jj st
+jj commit -m "Added Todo pages to the test bench and fixed some async loading"
+jj st
+jj commit -m "Added tests for the Scopes, the delta scope can now hydrate based on prop changes"
+mpv https://106-4.download.real-debrid.com/d/Z6ZQCBI7N762G/Shrinking.S02E09.Full.Grown.Dude.Face.2160p.ATVP.WEB-DL.DDP5.1.DV.HDR.H.265-NTb.mkv
+mpv https://106-4.download.real-debrid.com/d/ZMRWGV3UF5S76/Shrinking.S02E10.Changing.Patterns.2160p.ATVP.WEB-DL.DDP5.1.DV.HDR.H.265-NTb.mkv
+jj st
+jj commit -m "Added tests for the DeltaStoreTimestampMarker"
+jj st
+jj commit -m "Renamed ModelStore to DeltaMachine"
+jj st
+jj commit -m "Refactored DeltaMachine with new API"
+mpv https://129-4.download.real-debrid.com/d/33R6FVQID2ITE/Last%20Week%20Tonight%20with%20John%20Oliver%20S13E02%201080p%20AMZN%20WEB-DL%20DDP2%200%20H%20264-NTb.mkv
+http get "https://watchsomuch.to/Movies/ajMovieTorrents.aspx?mid=22695080"
+http get "https://watchsomuch.to/Movie/22695080-HQ-WebRip/Download-2494625/Encanto-at-the-Hollywood-Bowl-2022-1080p-WEB-h264-KOGi"
+http get "https://watchsomuch.to/Movie/22695080-HQ-WebRip/Download-2494625/Encanto-at-the-Hollywood-Bowl-2022-1080p-WEB-h264-KOGi" | find "magnet"
+cd /home/doghouse/Source/SolidJS/web
+n
+npm run dev
+cd ../..
+jj st
+jj commit -m "Added tests for debounce and fixed some issues with saving to the DB"
+jj st
+jj log
+jj bookmark set main -r @-
+jj git push
+libinput debug-events
+sudo libinput debug-events
+sudo apt install input-remapper
+input-remapper-gtk 
+jj st
+jj log
+kitty
+lsblk
+n
+df -h
+sudo mkdir /mnt/myssd
+sudo mount /dev/sda1 /mnt/myssd
+n
+nvim testfile.txt
+n
+df -h
+lxd --version
+lxc storage create --help
+lxc storage create ssd-pool dir source=/mnt/myssd/lxd-storage
+sudo lxc storage create ssd-pool dir source=/mnt/myssd/lxd-storage
+mk dir /mnt/myssd/lxd-storage
+mkdir /mnt/myssd/lxd-storage
+sudo lxc storage create ssd-pool dir source=/mnt/myssd/lxd-storage
+n
+cp X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso
+cp X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso /mnt/myssd/window.iso
+n
+lxc storage volume create ssd-pool win-iso --type=custom content-type=iso
+sudo lxc storage volume create ssd-pool win-iso --type=custom content-type=iso
+lxd-imagebuilder --version
+n
+sudo lxd-imagebuilder repack-windows ./window.iso windows.lxd.iso
+ls
+lxc init windows --vm --empty
+sudo lxc init windows --vm --empty
+df -h
+sudo lxc config device override windows root size=210GiB
+sudo lxc config set windows limits.cpu=4 limits.memory=8GiB
+lxc config device add windows vtpm tpm path=/dev/tpm0
+sudo lxc config device add windows vtpm tpm path=/dev/tpm0
+sudo lxc config device override windows root pool=ssd-pool
+lxc config device remove windows root
+sudo lxc config device remove windows root
+sudo lxc config device add windows root disk pool=ssd-pool path=/
+lxc config device show windows
+sudo lxc config device show windows
+lxc stop windows
+sudo lxc stop windows
+lxc config device remove windows root
+sudo lxc config device remove windows root
+sudo lxc delete windows
+sudo lxc init windows --vm --empty --storage ssd-pool
+sudo lxc config device override windows root size=210GiB
+sudo lxc config device set windows root size=210GiB
+sudo lxc config device show windows
+sudo lxc config device add windows vtpm tpm path=/dev/tpm0
+sudo lxc config device show windows
+sudo lxc config set windows limits.cpu=4 limits.memory=8GiB
+sudo lxc config device add windows install disk source=/mnt/myssd/windows.lxd.iso boot.priority=10
+sudo lxc start windows --console=vga
+sudo lxc stop windows --console=vga
+sudo lxc start windows --console=vga
+sudo lxc info --show-log windows
+lxc console win11 --type=vga
+sudo lxc console win11 --type=vga
+sudo lxc console windows --type=vga
+sudo mount /dev/sda1 /mnt/myssd
+fuser --help
+sudo lxc stop windows --force
+sudo mount /dev/sda1 /mnt/myssd
+fuser /mnt/myssd
+fuser /dev/sda1
+fuser -m /dev/sda1
+sudo fuser /dev/sda1
+sudo fuser -k /dev/sda1
+sudo mount /dev/sda1 /mnt/myssd
+sudo lxc storage --help
+sudo lxc storage show ssd-pool
+sudo lxc storage delete ssd-pool
+sudo lxc storage --help
+sudo lxc --help
+sudo lxc list
+sudo lxc delete win11
+sudo lxc delete win11old
+sudo lxc list
+sudo lxc delete windows
+sudo lxc storage delete ssd-pool
+sudo lxc storage delete ssd-pool --force
+sudo lxc storage delete --help
+lxc storage info ssd-pool
+sudo lxc storage info ssd-pool
+lxc delete windows --force
+sudo lxc delete windows --force
+lxc storage volume list
+sudo lxc storage volume list
+sudo lxc storage volume list ssd-pool
+sudo lxc delete windows
+sudo lxc storage delete ssd-pool --force
+sudo lxc storage delete ssd-pool
+n
+nvim testfile.txt
+df -h
+sudo mount /dev/sdb1 /mnt/myssd
+sudo unmount --help
+sudo umount --help
+sudo umount /dev/sdb1
+sudo umount /dev/sdb1 "/media/doghouse/Netac New"
+sudo umount "/media/doghouse/Netac New"
+sudo umount /dev/sda1
+sudo mount /dev/sda1 /mnt/myssd
+n
+sudo mv ./windows.lxd.iso /home/doghouse/Packages/
+sudo lxc storage create ssd-pool dir source=/mnt/myssd/lxd-storage
+n
+cd ..
+n
+sudo lxc storage create ssd-pool dir source=/mnt/myssd/lxd-storage
+lxc init windows --vm --empty
+sudo lxc init windows --vm --empty --storage ssd-pool
+sudo lxc config device show windows
+lxc config device override windows root size=210GiB
+sudo lxc config device override windows root size=210GiB
+sudo lxc config device set windows root size=210GiB
+sudo lxc config device show windows
+lxc config set windows limits.cpu=4 limits.memory=8GiB
+sudo lxc config set windows limits.cpu=4 limits.memory=8GiB
+lxc config device add window install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=1
+sudo lxc config device add window install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=1
+sudo lxc config device add windows install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=1
+sudo lxc config device show windows
+sudo lxc device add windows vtpm tpm path=/dev/tpm0
+sudo lxc config device add windows vtpm tpm path=/dev/tpm0
+xhost +local:
+n
+sudo lxc config device show windows
+sudo lxc start windows --console=vga
+sudo lxc list
+sudo lxc stop windows --force
+sudo lxc list
+n
+sudo lxc config device set windows install boot.priority=10
+sudo lxc list
+sudo lxc config device show windows
+ls -lh /home/doghouse/Packages/windows.lxd.iso
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc info windows --show-log
+sudo cat /var/snap/lxd/common/lxd/logs/windows/qemu.log
+file /home/doghouse/Packages/windows.lxd.iso
+sudo apt list --installed | grep -i ovmf
+sudo apt install ovmf
+lxc config show windows
+sudo lxc config show windows
+sudo lxc start windows --console=vga
+sudo lxc list
+sudo lxc console windows --type=vga
+sudo lxc stop windows --force
+n
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc start windows --console=vga
+sudo apt install qemu-system-x86 ovmf -y
+sudo lxc stop windows --force
+sudo lxc delete windows
+sudo lxc init windows --vm --empty --storage ssd-pool
+lxc config device override win11 root size=210GiB
+sudo lxc config device override win11 root size=210GiB
+sudo lxc config device override windows root size=210GiB
+sudo lxc config device set windows root size=210GiB
+sudo lxc config set windows limits.cpu=4 limits.memory=8GiB
+sudo lxc config device add windows vtpm tpm path=/dev/tpm0
+lxc config device add window install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=10
+sudo lxc config device add window install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=10
+sudo lxc config device add windows install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=10
+sudo journalctl -u snap.lxd.daemon --no-pager | tail -50
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo journalctl -u snap.lxd.daemon --no-pager | tail -50
+sudo lxc profile show default
+sudo lxc config set windows security.secureboot=false
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc config unset windows security.secureboot
+sudo lxc start windows --console=vga
+sudo lxc config set windows security.secureboot=false
+sudo lxc stop windows --force
+sudo mount /dev/sda1 /mnt/myssd
+n
+sudo snap restart lxd
+lxc storage info ssd-pool
+sudo lxc storage info ssd-pool
+sudo lxc profile remove windows default
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc config unset windows security.secureboot
+sudo lxc start windows --console=vga
+sudo lxc config set windows security.secureboot=false
+sudo lxc start windows --console=vga
+sudo lxc console windows --type=vga
+sudo lxc stop windows --force
+ls -lh ./Downloads/X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc config device remove windows install
+lxc config device add windows install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=10 readonly=true
+sudo lxc config device add windows install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=10 readonly=true
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+lxc config device remove windows install
+sudo lxc config device remove windows install
+n
+sudo cp /mnt/myssd/window.iso /home/doghouse/Packages/
+sudo lxc config device add windows install disk source=/home/doghouse/Packages/window.iso boot.priority=10 readonly=true
+sudo lxc start windows --console=vga
+sudo lxc config device remove windows install
+sudo lxc stop windows --force
+n
+sudo lxc config device add windows install disk source=/home/doghouse/Packages/windows.lxd.iso boot.priority=10 readonly=true
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc config set windows boot.autostart=true
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+which wimlib-imagex
+sudo lxc start windows --console=vga
+mkdir --help
+n
+mkdir WindowsShare
+sudo lxc config device add windows my-share disk source=/home/doghouse/Documents/WindowsShare path=share
+sudo lxc console windows --type=vga
+sudo lxc list
+sudo lxc start windows --console=vga
+sudo lxc list
+jj git pull
+jj git --help
+jj git pull
+jj git fetch
+jj log
+jj new bookmarks(main)
+jj new 'bookmarks(main)'
+sudo lxc console windows --type=vga
+sudo lxc list
+sudo lxc start windows --console=vga
+sudo lxc storage info ssd-pool
+sudo lxc storage volume list
+n
+sudo mount /dev/sda1 /mnt/myssd
+sudo umount /dev/sda1
+sudo mount /dev/sda1 /mnt/myssd
+sudo lxc start windows --console=vga
+sudo lxc stop windows --force
+sudo lxc start windows --console=vga
+xhost +local:
+ip addr show lxdbr0 | grep "inet "
+ip addr
+ip addr --help
+ip addr help
+sudo lxc network list
+sudo lxc network list --help
+sudo lxc network list -f json | from json
+sudo lxc network list -f json | from json | get name
+sudo lxc network list -f json | from json | get name | string join
+sudo lxc network list -f json | from json | get name | str join
+sudo lxc network list -f json | from json | get name | str join ' '
+sudo lxc network list -f json | from json | get name | str join ', '
+hostname -I
+sudo lxc list
+sudo lxc list --help
+sudo lxc list --help -c 4
+sudo lxc list -c 4
+sudo lxc list -c n46
+sudo lxc list -f json
+sudo lxc list -f json | from json
+sudo lxc network create lxdbr0 ipv4.address=auto ipv4.nat=true ipv6.address=none ipv6.nat=false
+sudo lxc config device remove winvm eth0
+sudo lxc config device remove windows eth0
+sudo lxc config device add windows eth0 nic nictype=bridged parent=lxdbr0 name=eth0
+sudo lxc console windows --type=vga
+sudo lxc list
+n
+nvim server.ts
+"Test file" | write example-file.txt
+"Test file" | save example-file.txt
+n
+bun run server.ts
+sudo lxc start windows --console=vga
+n
+n -a
+nnn -help
+nnn -i
+ls -a
+sudo qemu-img info root.img 
+sudo lxc list
+modprobe --help
+df -h
+sudo modprobe nbd
+df -h
+sudo fdisk -l
+lsblk
+sudo qemu-nbd -c /dev/nbd0 ./root.img 
+lsblk
+sudo fdisk -l /dev/nbd0 
+sudo umount /dev/sdb
+sudo umount /dev/sdb1
+sudo umount /dev/sdb5
+lsblk
+sudo wipefs -a /dev/sdb
+lsblk
+lsblk -o NAME,SIZE,MOUNTPOINTS /dev/sdb
+sudo dd if=/dev/nbd0 of=/dev/sdb bs=4M status=progress conv=fsync
+ssh doghouse@192.168.0.98
+jellyfin
+dpkg -l | grep linux-image-generic-hwe
+sudo add-apt-repository ppa:b-rad/kernel+mediatree+hauppauge
+sudo apt-get update
+sudo apt-get install linux-hwe-mediatree
+ls /dev/serial
+ls /dev/serial/
+cd /dev/
+ls
+lsblk
+ls -1 /dev
+ls /dev
+ls /dev | get name
+cd ~
+ls /dev | get name | save temp.txt
+ls /dev | get name | save temp.txt -f
+nvim temp.txt 
+ls /dev | get name | save temp.txt -f
+ls /dev | get name | save temp2.txt -f
+diff --help
+diff temp.txt temp1.txt
+n
+diff temp.txt temp2.txt
+ls /dev/dvb
+sudo usermod -aG video jellyfin<\n>sudo usermod -aG render jellyfin
+sudo systemctl restart jellyfin
+dmesg | grep dvb
+sudo dmesg | grep dvb
+sudo apt update<\n>sudo apt install tvheadend
+sudo snap install tvheadend
+sudo systemctl restart jellyfin
+sudo apt install w-scan
+w_scan -ft -c IE
+sudo apt install w-scan_cpp
+sudo apt install w-scan-cpp
+w_scan_cpp
+w_scan_cpp --help
+w_scan_cpp -c ?
+w_scan_cpp -c ? | find ireland
+w_scan_cpp -c ? | find IRELAND
+w_scan_cpp -c IE
+w_scan_cpp -ft -c IE
+sudo lsof /dev/dvb/adapter0/frontend0
+sudo systemctl stop tvheadend
+sudo lsof /dev/dvb/adapter0/frontend0
+sudo service tvheadend stop
+sudo lsof /dev/dvb/adapter0/frontend0
+w_scan_cpp -ft -c IE
+w_scan -ft -c IE
+w_scan -ft -c IE --help
+n
+mpv 5dcab2e158cc74481825c091d2854f8e.m3u 
+sudo wget https://github.com/CoreELEC/dvb-firmware/raw/master/firmware/dvb-demod-si2168-d60-01.fw -P /lib/firmware/<\n>sudo wget https://github.com/CoreELEC/dvb-firmware/raw/master/firmware/dvb-tuner-si2141-a10-01.fw -P /lib/firmware/
+ssh doghouse@192.168.0.98
+jj st
+which kitty
+which kitty | get path
+which kitty | get path.0
+/home/linuxbrew/.linuxbrew/bin/nu /home/doghouse/.local/bin/kitty
+sudo brightnessctl --device=intel_backlight set 100%
+dmesg | grep -i dvb
+dmesg | grep dvb
+dmesg
+sudo dmesg | grep -i dvb
+nu --version
+"clipboard" | clip copy 
+use std-rfc/clip
+"clipboard" | clip copy 
+use std/clip
+"clipboard" | clip copy 
+config nu
+"clipboard test" | clip copy 
+sudo dmesg | grep -i dvb | clip copy
+sudo dmesg | grep -i dvb | save temp.txt
+sudo dmesg | grep -i dvb | save temp.txt -f
+sudo usermod -aG video hts<\n>sudo usermod -aG render hts
+dvbv5-scan -c IRELAND -f DVB-T2 /usr/share/dvb/dvb-t/ie-ThreeRock
+ls
+cd /tmp
+ls
+wget https://github.com/CoreELEC/dvb-firmware/raw/master/firmware/dvb-demod-si2168-b40-01.fw<\n>wget https://github.com/CoreELEC/dvb-firmware/raw/master/firmware/dvb-demod-si2168-d60-01.fw
+ls
+sudo cp dvb-demod-si2168-* /lib/firmware/
+dmesg | grep dvb
+sudo dmesg | grep dvb
+n
+mpv 6878dc4bde742c0f46bf95b5d42d19f8.m3u 
+n
+mpv f4af35910497461e82029ca115648e75.m3u 
+sudo service jellyfin status
+sudo systemctl restart jellyfin
+n
+chown jellyfin /media/doghouse/FILES\ BN/jellyfinrecord/
+n
+which jellyfin
+n
+pwd
+pwd | clip copy
+n
+mpv "Tell Me Everything.ts" 
+mpv EuroNews-1.ts 
+pwd | clip copy
+ls
+mpv EuroNews-2.ts 
+/home/linuxbrew/.linuxbrew/bin/nu /home/doghouse/.local/bin/kitty
+which bash
+which bash | get path.0 | clip copy
+/usr/bin/bash /home/doghouse/.local/bin/kitty
+bash kitty
+kitty
+jj st
+jj bookmark set old-delta -r @-
+jj st
+jj commit -m "Started redesigning delta machine"
+jj commit -m "Added tests for new DeltaMachine design"
+jj commit -m "Refactored the DeltaMachine to pass the tests"
+./heaper.appimage
+ssh doghouse@192.168.0.98
+n
+mpv b41f62b6d83b8949e983a2032f5e5b7e.m3u 
+bun apps/cli/src/index.ts liveTvPlayer
+npm install
+jj st
+jj bookmark set solid2
+jj commit -m "Added a solid 2.0 live tv example"
+n
+mpv 39a1d943403de55d7cd3f81e2fb23f0e.m3u 
+jj st
+jj commit -m "Started making API requests to TV Headend"
+n
+mpv b9dd3dcb1919d99f32bbac80f61e3607.m3u 
+ssh doghouse@192.168.0.98
+jj st
+jj commit -m "Started re-implementing the UI based on LINS Style"
+jj st
+jj commit -m "Added a new lumina theme with design doc"
+jj log
+jj bookmark set solid2 -r @-
+jj git push
+jj bookmark track solid2 --remote=origin
+jj git push
+sudo brightnessctl --device=intel_backlight set 10%
+jj bookmark set containerTest
+jj edit -r @-
+jj log
+jj new
+systemctl reboot 
+jj log
+jj bookmark set main -r mv
+jj log
+jj git push
+jj git push main
+jj git push --help
+jj git push -bmain
+jj new 'bookmarks(main)'
+jj log
+jj desc -m "Made another TodoExample"
+jj new @ solid2
+jj st
+bun apps/cli/src/index.ts solid2Example
+jj st
+jj commit -m "Added a new TodoList for SOlid 2.0"
+npm install
+kitty
+npm install
+npm ins
+npm install
+node --version
+nvm use 22
+nvm --version
+which node
+fnm --version
+fnm --help
+fnm list
+fnm i 22
+fnm use 22
+node --version
+fnm use system
+n
+unzip ./github-evfywxxk-bmgpgugm.zip ./solid-bug
+n
+unzip ./github-evfywxxk-bmgpgugm.zip
+n
+unzip ./github-evfywxxk-bmgpgugm.zip 
+n
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+pnpm --version
+source /home/doghouse/.config/nushell/env.nu
+pnpm --version
+pnpm run dev
+pnpm install
+pnpm run dev
+pnpm --filter=solid2example dev
+cd ./apps/solid2Example/
+pnpm run dev
+n
+pnpm install
+pnpm run dev
+n
+rm -rf ./node_modules
+n
+rm -rf pnpm-lock.yaml
+n
+nvim vite.config.ts 
+pnpm install
+pnpm run dev
+n
+pnpm run dev
+nvim tsconfig.json 
+pnpm run dev
+nvim tsconfig.json 
+pnpm run dev
+nvim tsconfig.json 
+n
+pnpm run dev
+n
+rm -rf pnpm-lock.yaml
+rm -rf ./node_modules
+cd ..
+nvim package.json 
+n
+pnpm install
+pnpm run dev
+nvim package.json 
+rm -rf ./node_modules pnpm-lock.yaml
+pnpm install 
+pnpm run dev
+nvim pnpm-lock.yaml 
+n
+nvim tsconfig.json 
+rm -rf ./node_modules pnpm-lock.yaml
+n
+nvim vite.config.ts 
+pnpm install
+pnpm run dev
+rm -rf ./node_modules pnpm-lock.yaml
+nvim package.json 
+pnpm install
+pnpm run dev
+rm -rf ./node_modules pnpm-lock.yaml
+nvim src/app.tsx 
+pnpm install
+pnpm run dev
+nvim src/data.ts 
+n
+rm -rf ./node_modules pnpm-lock.yaml ./dist/
+pnpm install
+pnpm run dev
+n
+nvim vite.config.ts 
+pnpm run dev
+jj init --colocate
+jj git init --colocate
+jj st
+nvim .gitignore
+jj st
+nvim .gitignore
+jj st
+jj commit --help
+jj commit -m "Added gitignore" ./.gitignore
+jj st
+nvim .gitignore
+jj st
+jj c
+jj commit -m "Added gitignore" ./.gitignore
+jj log
+jj squash --help
+jj log
+jj squash -f x -t u
+jj log
+jj st
+rm -rf ./node_modules pnpm-lock.yaml ./dist/
+jj st
+n
+jj commit -m "Solid bug present"
+pnpm install
+jj st
+pnpm install
+pnpm run dev
+nvim ./src/app.tsx 
+n
+rm -rf ./node_modules pnpm-lock.yaml ./dist/
+n
+cd solid2Example/
+jj st
+rm -rf ./node_modules pnpm-lock.yaml ./dist/
+pnpm install
+pnpm run dev
+jj revert --help
+webstorm .
+jj st
+rm -rf ./node_modules pnpm-lock.yaml ./dist/
+pnpm install
+pnpm run dev
+jj st
+rm -rf ./.idea/
+jj st
+jj commit -m "Solid bug reproducable"
+rm -rf ./node_modules pnpm-lock.yaml ./dist/; pnpm install
+pnpm run dev
+jj edit -r @-
+rm -rf ./node_modules pnpm-lock.yaml ./dist/; pnpm install; pnpm run dev
+jj log
+jj log
+jj commit -m "Solid bug reproducable more minimal"
+rm -rf ./node_modules pnpm-lock.yaml ./dist/; pnpm install; pnpm run dev
+jj st
+jj commit -m "Solid bug 407 repeat bug"
+jj edit -r @-
+rm -rf ./node_modules pnpm-lock.yaml ./dist/; pnpm install; pnpm run dev
+jj log
+jj log @::
+jj log '@::'
+jj help -k filesets
+# macOS or Linux<\n>brew install glow
+# macOS or Linux<\n>brew install glow | glow
+jj help -k filesets | glow
+echo "[Glow](https://github.com/charmbracelet/glow)" | glow -
+glow github.com/charmbracelet/glow
+jj help -k filesets | glow -w 120
+jj log -r '@::'
+jj log -r '::@'
+jj new -r t
+rm -rf ./node_modules pnpm-lock.yaml ./dist/; pnpm install; pnpm run dev
+kitty
+jj st
+jj commit -m "Created new DeltaStore for Solid 2"
+jj bookmark set solid2 -r @-
+jj git push
+sudo apt-get install kubuntu-desktop
+jj st
+jj commit -m "Added a DeltaMarker and added tests"
+jj log
+jj bookmark set solid2 -r @-
+jj git push
+kitty
+n
+./helium.appimage
+./helium.appimage --ozone-platform=x11
+$env.DISPLAY=:0
+$env.DISPLAY=':0'
+toolbox
+jetbrains-toolbox 
+sudo apt update
+apt list --upgradable
+apt list upgrade
+sudo apt upgrade
+do-release-upgrade --help
+echo $DISPLAY
+echo $env.distor-proposed
+echo $env.distro-proposed
+echo $env
+cls
+clear
+do-release-upgrade --help
+jj log
+jj bookmark set trailer -r @-
+jj git push
+dotfiles status

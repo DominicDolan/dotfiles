@@ -38,7 +38,8 @@ export function useAudioDeviceRepository() {
         const deviceJson = await execAsync(`pactl --format=json list ${commandArgs ?? ""}`)
         const devices = JSON.parse(deviceJson) as AudioDevice[]
 
-        const usedDevices = loadedUsedAudioDevices.get() ?? await loadUsedAudioDevices().catch(() => [])
+        let usedDevices = loadedUsedAudioDevices.get() ?? await loadUsedAudioDevices().catch(() => [])
+        usedDevices = usedDevices.sort((a, b) => b.usages - a.usages)
 
         const sortedDevices = [] as AudioDevice[]
         for (const usedDevice of usedDevices) {
@@ -199,6 +200,16 @@ export function useAudioDeviceRepository() {
         await setDefaultAudioDevice(mostUsed.name)
     }
 
+    async function getDefaultDeviceVolume() {
+        const volumeString = await execAsync("pactl --format=json get-sink-volume @DEFAULT_SINK@")
+        const rx = /\/\s+(\d+)%\s+\//g
+        const [leftVolumeString, rightVolumeString] = [rx.exec(volumeString)?.at(1) ?? "0", rx.exec(volumeString)?.at(1) ?? "0"]
+        const leftVolume = parseInt(leftVolumeString)
+        const rightVolume = parseInt(rightVolumeString)
+
+        return (leftVolume + rightVolume) / 2
+    }
+
     return {
         loadedAudioDevices,
         loadAllDevices,
@@ -208,6 +219,7 @@ export function useAudioDeviceRepository() {
         getDefaultAudioDevice,
         setDefaultAudioDevice,
         setDefaultAudioDeviceToMostUsed,
+        getDefaultDeviceVolume,
         toggleMute,
         isMuted
     }

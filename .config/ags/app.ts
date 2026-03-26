@@ -1,10 +1,11 @@
 import { App, Gtk, Gdk } from "astal/gtk3"
 import style from "./style.scss"
-import Bar from "./widget/Bar"
-import {NiriEvent} from "./widget/NiriEvent";
+import Bar from "./widget/TaskBar/Bar"
+import {NiriEvent} from "./service/NiriEvent";
 import { execAsync } from "astal/process"
 import {NiriWindow} from "./models/NiriWindow";
 import {Variable} from "astal";
+import {AudioOSD} from "./widget/AudioOSD/AudioOSD";
 
 export const windows = Variable([] as Array<NiriWindow>)
 export const windowFocusedId = Variable(-1)
@@ -15,6 +16,7 @@ export const focusedWindow = Variable.derive([windows, windowFocusedId], (window
 App.start({
     css: style,
     main() {
+        console.log("Hello, world!")
         const bars = new Map<Gdk.Monitor, Gtk.Widget>()
 
         // initialize
@@ -39,11 +41,34 @@ App.start({
         switch (args[0].toLowerCase()) {
             case "event":
                 handleNiriEvent(args[1])
+                break
+            case "audio":
+                handleAudioEvent()
         }
 
-        res("Hello from astal")
+        res(null)
     }
 })
+
+const audioOsds = new Map<Gdk.Monitor, Gtk.Widget>()
+let timeoutId: any
+function handleAudioEvent() {
+    if (timeoutId != null) {
+        clearTimeout(timeoutId)
+    }
+
+    for (const gdkmonitor of App.get_monitors()) {
+        if (!audioOsds.has(gdkmonitor)) {
+            audioOsds.set(gdkmonitor, AudioOSD({ monitor: gdkmonitor}))
+        }
+    }
+
+    timeoutId = setTimeout(() => {
+        audioOsds.forEach((o) => o.destroy())
+        audioOsds.clear()
+        timeoutId = null
+    }, 3000)
+}
 
 function handleNiriEvent(eventString: string) {
     const event = JSON.parse(eventString) as NiriEvent

@@ -3,7 +3,7 @@
 # version = "0.99.1"
 
 def create_left_prompt [] {
-    let dir = match (do --ignore-shell-errors { $env.PWD | path relative-to $nu.home-path }) {
+    let dir = match (do -i { $env.PWD | path relative-to $nu.home-path }) {
         null => $env.PWD
         '' => '~'
         $relative_pwd => ([~ $relative_pwd] | path join)
@@ -139,3 +139,8 @@ if ($nvm_script | path exists) and (not ($nvm_script | is-empty)) {
     nu -c $'cat ($nvm_script) | bash -c "$in"'
 }
 
+
+# pnpm
+$env.PNPM_HOME = "/home/doghouse/.local/share/pnpm"
+$env.PATH = ($env.PATH | split row (char esep) | prepend $env.PNPM_HOME )
+# pnpm end
